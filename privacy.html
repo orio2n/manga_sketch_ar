@@ -3,171 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy & Terms - Manga Sketch AR</title>
+    <title>Privacy Policy - Manga Sketch AR</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
+        .legal-wrapper {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background-color: #ffffff;
+            margin: 40px auto;
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background: var(--white, #ffffff);
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            color: var(--dark-gray, #1e293b);
         }
         .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #22c55e; /* Vert assorti au site principal */
-            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--fresh-green, #22c55e);
             font-weight: 600;
+            margin-bottom: 20px;
+            transition: opacity 0.2s;
         }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            margin-top: 0;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-            border-left: 4px solid #3498db;
-            padding-left: 15px;
-        }
-        h3 {
-            color: #2980b9;
-            margin-top: 20px;
-        }
-        hr {
-            border: 0;
-            height: 1px;
-            background: #eee;
-            margin: 40px 0;
-        }
-        .last-updated {
-            font-style: italic;
-            color: #7f8c8d;
-            font-size: 0.9em;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.8em;
-            color: #95a5a6;
-        }
-        .contact-box {
-            background-color: #ecf0f1;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+        .back-link:hover { opacity: 0.8; }
+        .legal-wrapper h1 { font-size: 2rem; margin-bottom: 10px; font-weight: 800; }
+        .legal-wrapper h2 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 700; color: var(--dark-gray); }
+        .legal-wrapper h3 { font-size: 1.1rem; margin-top: 20px; margin-bottom: 10px; font-weight: 600; }
+        .legal-wrapper p, .legal-wrapper li { color: var(--medium-gray, #64748b); margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; }
+        .legal-wrapper ul { margin-left: 20px; margin-bottom: 20px; }
+        .legal-wrapper a { color: var(--fresh-green, #22c55e); font-weight: 600; }
+        .legal-wrapper a:hover { text-decoration: underline; }
+        .last-updated { font-size: 0.85rem; color: #94a3b8; margin-bottom: 30px; }
+        hr { border: none; border-top: 1px solid #e2e8f0; margin: 30px 0; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <!-- Lien de retour vers la page d'accueil -->
-    <a href="index.html" class="back-link">← Back to Home</a>
+    <header class="header">
+        <div class="logo-container">
+            <img src="ic_logo.png" alt="Manga Sketch AR Logo" class="app-logo">
+            <span class="app-name">Manga Sketch AR</span>
+        </div>
+    </header>
 
-    <h1>Manga Sketch AR</h1>
-    <p><strong>Privacy Policy & Terms of Service</strong></p>
-    <p>Welcome to <strong>Manga Sketch AR</strong>, an Android application designed to help artists of all levels master manga drawing through Augmented Reality (AR) tracing.</p>
+    <div class="legal-wrapper fade-in">
+        <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+        
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: 23 March 2026</p>
 
-    <hr>
+        <p>This privacy policy describes the collection and processing of information about you that can directly or indirectly identify you ("Personal Data") carried out by the "Manga Sketch AR" app, available on Google Play.</p>
 
-    <h2>1. Privacy Policy</h2>
-    <p class="last-updated">Last Updated: October 2023</p>
-    <p>We value your privacy and aim for total transparency. Our policy is "Sober": we only ask for the permissions necessary to make the app work.</p>
+        <h2>1. Core Functionality: Camera Access</h2>
+        <p><strong>Strict Privacy:</strong> The App requires access to your device's camera strictly to project AR sketches onto your physical drawing surface. <strong>We do not record, save, or transmit your camera feed.</strong> All Augmented Reality (AR) processing happens locally on your device in real-time.</p>
 
-    <h3>Camera Access (Core Functionality)</h3>
-    <ul>
-        <li><strong>Purpose:</strong> The app requires access to your camera to project manga sketches onto your physical drawing surface using AR.</li>
-        <li><strong>Privacy:</strong> We <strong>do not</strong> record, save, or transmit your camera feed. The AR processing happens locally on your device hardware in real-time.</li>
-    </ul>
+        <h2>2. Which Data Do We Collect and Why?</h2>
+        <p>We respect your privacy and aim to limit the data we collect to what is strictly necessary to maintain and improve the App. Because our App does not require a user account, we do not collect your name, email, or phone number.</p>
+        
+        <h3>A. Analytics and App Performance</h3>
+        <p>To help us improve our App, fix bugs, and understand which features are most popular, we automatically collect anonymous data using <strong>Google Analytics</strong> and <strong>Firebase</strong>. The data collected includes:</p>
+        <ul>
+            <li><strong>Device Information:</strong> Manufacturer, model, operating system, and unique device identifiers.</li>
+            <li><strong>Usage Information:</strong> Time, frequency, and duration of activities, and interactions with App features.</li>
+            <li><strong>Crash Reports:</strong> Diagnostic data to help us fix bugs and prevent future crashes.</li>
+        </ul>
 
-    <h3>Data Collection & Usage</h3>
-    <ul>
-        <li><strong>No Personal Data:</strong> We do not collect names, email addresses, or phone numbers.</li>
-        <li><strong>Usage Analytics:</strong> We collect anonymous technical data (e.g., which categories like <em>Hair</em> or <em>Eyes</em> are most used) to improve the app experience.</li>
-        <li><strong>Crash Reporting:</strong> Technical logs are sent in the event of a crash to help us provide a stable experience.</li>
-    </ul>
+        <h3>B. Payments and Subscriptions</h3>
+        <p>If you purchase paid features or subscriptions, your payment is processed directly by the respective platform (Google Play Store). <strong>We do not collect, process, or store your bank, debit, credit card, or personal billing details.</strong></p>
+        <p>To manage your subscription status, validate purchases, and ensure you have access to premium content, we use <strong>RevenueCat</strong>. RevenueCat receives anonymous App User IDs and purchase history metadata directly from the App Stores.</p>
 
-    <h3>Storage</h3>
-    <p>The app may request permission to save images to your device if you choose to export your progress or save a specific sketch for offline use.</p>
+        <h2>3. Third-Party Service Providers</h2>
+        <p>We share your data with the following service providers strictly for analytics, operational, and subscription management purposes:</p>
+        <ul>
+            <li><strong>Google Analytics / Firebase:</strong> Used for crash reporting and tracking user engagement. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>RevenueCat:</strong> Used to securely manage and validate in-app purchases and subscriptions. (<a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a>)</li>
+        </ul>
 
-    <hr>
+        <h2>4. Your Data Rights & Deletion</h2>
+        <p>Because Manga Sketch AR does not require you to create an account, all analytics and usage data collected by our third-party services is tied to anonymous, randomly generated device identifiers.</p>
+        <p><strong>As we do not possess your name, email, or direct contact info, we cannot link this anonymous data to you personally, nor can we locate it in our databases to fulfill manual deletion requests via email.</strong></p>
+        <p>If you wish to stop all data collection and clear your local data, you simply need to:</p>
+        <ul>
+            <li><strong>Uninstall the App</strong> from your device.</li>
+        </ul>
 
-    <h2>2. Terms of Service</h2>
-    <p class="last-updated">Last Updated: October 2023</p>
-    <p>By using Manga Sketch AR, you agree to the following terms:</p>
+        <h2>5. Children's Privacy</h2>
+        <p>Use of our App is limited to users aged 13 and above (or 16 depending on your local jurisdiction). We do not intentionally target children or knowingly collect personally identifiable information from children. However, our analytics tools collect anonymous device data automatically upon opening the App.</p>
+        <p>If you are a parent or guardian and realize your child is using the App without your permission, please <strong>uninstall the App from their device</strong> to instantly cease any local analytics data collection.</p>
 
-    <h3>License to Learn</h3>
-    <p>We provide a curated catalog of manga sketches (Hair, Pose, Pets, Clothes, Eyes, Mouth, etc.) for your personal use to learn and improve your drawing skills.</p>
-
-    <h3>Intellectual Property</h3>
-    <ul>
-        <li><strong>App Content:</strong> The digital sketches, UI, and AR implementation within the app are the property of Manga Sketch AR. You may not repackage or resell the digital catalog.</li>
-        <li><strong>Your Artwork:</strong> You own 100% of the physical or digital art you create while using the app as a guide. We claim no rights over your creations.</li>
-    </ul>
-
-    <h3>User Responsibility</h3>
-    <ul>
-        <li><strong>Safety:</strong> Please be aware of your physical surroundings while using AR technology to avoid accidents.</li>
-        <li><strong>Device Compatibility:</strong> AR performance varies by device. We provide the service "as is" and are not responsible for hardware limitations.</li>
-    </ul>
-
-    <h3>Age Limit</h3>
-    <p>This app is suitable for all ages. Users under the age of 13 should use the app under parental supervision.</p>
-
-    <hr>
-
-    <h2>3. Features At a Glance</h2>
-    <ul>
-        <li><strong>AR Tracing:</strong> Use your phone as a digital light box to trace sketches onto paper.</li>
-        <li><strong>Learning Catalog:</strong> Specialized categories for:
-            <ul>
-                <li>Hair & Eyes</li>
-                <li>Poses & Anatomy</li>
-                <li>Clothing & Pets</li>
-                <li>Mouths & Expressions</li>
-            </ul>
-        </li>
-        <li><strong>Progressive Difficulty:</strong> Sketches ranging from beginner to advanced levels.</li>
-    </ul>
-
-    <hr>
-
-    <h2>4. Contact & Support</h2>
-    <div class="contact-box">
-        <p>If you have any questions regarding these terms or your privacy, please contact:</p>
-        <p><strong>Support Email:</strong> <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a></p>
+        <h2>6. Contact Us</h2>
+        <p>If you have any general questions regarding this Privacy Policy, please contact our support team at:</p>
+        <p><strong>Email:</strong> <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a></p>
     </div>
 
-    <footer>
-        <p>Created with ❤️ for the Manga Artist Community.</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="ic_logo.png" alt="Manga Sketch AR Logo" width="40" height="40">
+                <span>Manga Sketch AR</span>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Manga Sketch AR. All rights reserved.
+            </div>
+            <div class="footer-links">
+                <a href="tos.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
     </footer>
-</div>
 
+    <script src="script.js"></script>
 </body>
 </html>
