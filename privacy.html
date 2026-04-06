@@ -21,16 +21,41 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.03);
             color: var(--dark-gray, #1e293b);
         }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
         .back-link {
             display: inline-flex;
             align-items: center;
             gap: 8px;
             color: var(--fresh-green, #22c55e);
             font-weight: 600;
-            margin-bottom: 20px;
             transition: opacity 0.2s;
         }
         .back-link:hover { opacity: 0.8; }
+        
+        .btn-link {
+            background: #f0fdf4;
+            color: var(--fresh-green, #22c55e);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+        .btn-link:hover {
+            background: var(--fresh-green, #22c55e);
+            color: #ffffff;
+            text-decoration: none !important;
+        }
+
         .legal-wrapper h1 { font-size: 2rem; margin-bottom: 10px; font-weight: 800; }
         .legal-wrapper h2 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 700; color: var(--dark-gray); }
         .legal-wrapper h3 { font-size: 1.1rem; margin-top: 20px; margin-bottom: 10px; font-weight: 600; }
@@ -52,7 +77,10 @@
     </header>
 
     <div class="legal-wrapper fade-in">
-        <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+        <div class="top-nav">
+            <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+            <a href="tos.html" class="btn-link"><i class="fa-solid fa-file-contract"></i> Terms of Service</a>
+        </div>
         
         <h1>Privacy Policy</h1>
         <p class="last-updated">Last Updated: 23 March 2026</p>
