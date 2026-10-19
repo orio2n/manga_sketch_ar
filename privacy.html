@@ -1,150 +1,398 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Manga Sketch AR</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-
-    <style>
-        .legal-wrapper {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 40px;
-            background: var(--white, #ffffff);
-            border-radius: 24px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-            color: var(--dark-gray, #1e293b);
-        }
-        .top-nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--fresh-green, #22c55e);
-            font-weight: 600;
-            transition: opacity 0.2s;
-        }
-        .back-link:hover { opacity: 0.8; }
-        
-        .btn-link {
-            background: #f0fdf4;
-            color: var(--fresh-green, #22c55e);
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.2s;
-        }
-        .btn-link:hover {
-            background: var(--fresh-green, #22c55e);
-            color: #ffffff;
-            text-decoration: none !important;
-        }
-
-        .legal-wrapper h1 { font-size: 2rem; margin-bottom: 10px; font-weight: 800; }
-        .legal-wrapper h2 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 700; color: var(--dark-gray); }
-        .legal-wrapper h3 { font-size: 1.1rem; margin-top: 20px; margin-bottom: 10px; font-weight: 600; }
-        .legal-wrapper p, .legal-wrapper li { color: var(--medium-gray, #64748b); margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; }
-        .legal-wrapper ul { margin-left: 20px; margin-bottom: 20px; }
-        .legal-wrapper a { color: var(--fresh-green, #22c55e); font-weight: 600; }
-        .legal-wrapper a:hover { text-decoration: underline; }
-        .last-updated { font-size: 0.85rem; color: #94a3b8; margin-bottom: 30px; }
-        hr { border: none; border-top: 1px solid #e2e8f0; margin: 30px 0; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-i18n="meta.privacy">Politique de confidentialité – SketchAI</title>
+  <meta name="description" content="Comment SketchAI collecte, utilise et protège tes données." data-i18n-attr="content:meta.privacyDesc">
+  <meta name="theme-color" content="#5c34ec">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/lang.js"></script>
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></symbol>
+  </svg>
 
-    <header class="header">
-        <div class="logo-container">
-            <img src="ic_logo.png" alt="Manga Sketch AR Logo" class="app-logo">
-            <span class="app-name">Manga Sketch AR</span>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+
+  <header class="site-header" id="header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="SketchAI">
+        <img src="assets/img/logo.webp" alt="" width="36" height="36">
+        <span>SketchAI</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale" data-i18n-attr="aria-label:nav.label">
+        <a href="index.html" data-i18n="nav.home">Accueil</a>
+        <a href="index.html#fonctionnalites" data-i18n="nav.features">Fonctionnalités</a>
+        <a href="index.html#programme" data-i18n="nav.program">Programme</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Langue / Language">
+          <button type="button" data-set-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
         </div>
-    </header>
-
-    <div class="legal-wrapper fade-in">
-        <div class="top-nav">
-            <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
-            <a href="tos.html" class="btn-link"><i class="fa-solid fa-file-contract"></i> Terms of Service</a>
-        </div>
-        
-        <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: 23 March 2026</p>
-
-        <p>This privacy policy describes the collection and processing of information about you that can directly or indirectly identify you ("Personal Data") carried out by the "Manga Sketch AR" app, available on Google Play.</p>
-
-        <h2>1. Core Functionality: Camera Access</h2>
-        <p><strong>Strict Privacy:</strong> The App requires access to your device's camera strictly to project AR sketches onto your physical drawing surface. <strong>We do not record, save, or transmit your camera feed.</strong> All Augmented Reality (AR) processing happens locally on your device in real-time.</p>
-
-        <h2>2. Which Data Do We Collect and Why?</h2>
-        <p>We respect your privacy and aim to limit the data we collect to what is strictly necessary to maintain and improve the App. Because our App does not require a user account, we do not collect your name, email, or phone number.</p>
-        
-        <h3>A. Analytics and App Performance</h3>
-        <p>To help us improve our App, fix bugs, and understand which features are most popular, we automatically collect anonymous data using <strong>Google Analytics</strong> and <strong>Firebase</strong>. The data collected includes:</p>
-        <ul>
-            <li><strong>Device Information:</strong> Manufacturer, model, operating system, and unique device identifiers.</li>
-            <li><strong>Usage Information:</strong> Time, frequency, and duration of activities, and interactions with App features.</li>
-            <li><strong>Crash Reports:</strong> Diagnostic data to help us fix bugs and prevent future crashes.</li>
-        </ul>
-
-        <h3>B. Payments and Subscriptions</h3>
-        <p>If you purchase paid features or subscriptions, your payment is processed directly by the respective platform (Google Play Store). <strong>We do not collect, process, or store your bank, debit, credit card, or personal billing details.</strong></p>
-        <p>To manage your subscription status, validate purchases, and ensure you have access to premium content, we use <strong>RevenueCat</strong>. RevenueCat receives anonymous App User IDs and purchase history metadata directly from the App Stores.</p>
-
-        <h2>3. Third-Party Service Providers</h2>
-        <p>We share your data with the following service providers strictly for analytics, operational, and subscription management purposes:</p>
-        <ul>
-            <li><strong>Google Analytics / Firebase:</strong> Used for crash reporting and tracking user engagement. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>RevenueCat:</strong> Used to securely manage and validate in-app purchases and subscriptions. (<a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a>)</li>
-        </ul>
-
-        <h2>4. Your Data Rights & Deletion</h2>
-        <p>Because Manga Sketch AR does not require you to create an account, all analytics and usage data collected by our third-party services is tied to anonymous, randomly generated device identifiers.</p>
-        <p><strong>As we do not possess your name, email, or direct contact info, we cannot link this anonymous data to you personally, nor can we locate it in our databases to fulfill manual deletion requests via email.</strong></p>
-        <p>If you wish to stop all data collection and clear your local data, you simply need to:</p>
-        <ul>
-            <li><strong>Uninstall the App</strong> from your device.</li>
-        </ul>
-
-        <h2>5. Children's Privacy</h2>
-        <p>Use of our App is limited to users aged 13 and above (or 16 depending on your local jurisdiction). We do not intentionally target children or knowingly collect personally identifiable information from children. However, our analytics tools collect anonymous device data automatically upon opening the App.</p>
-        <p>If you are a parent or guardian and realize your child is using the App without your permission, please <strong>uninstall the App from their device</strong> to instantly cease any local analytics data collection.</p>
-
-        <h2>6. Contact Us</h2>
-        <p>If you have any general questions regarding this Privacy Policy, please contact our support team at:</p>
-        <p><strong>Email:</strong> <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a></p>
+        <a class="btn-yellow small" href="https://play.google.com/store/apps/details?id=com.orion.mangasketchar" target="_blank" rel="noopener">
+          <span data-i18n="cta.download">Télécharger</span>
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
     </div>
+  </header>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="ic_logo.png" alt="Manga Sketch AR Logo" width="40" height="40">
-                <span>Manga Sketch AR</span>
-            </div>
-            <div class="footer-copyright">
-                &copy; 2026 Manga Sketch AR. All rights reserved.
-            </div>
-            <div class="footer-links">
-                <a href="tos.html">Terms of Service</a>
-                <a href="privacy.html">Privacy Policy</a>
-            </div>
+  <main id="main">
+    <section class="legal-hero store-bg">
+      <div class="wrap">
+        <h1 class="hl" data-i18n="legal.privacyTitle">Politique de <em>confidentialité</em></h1>
+        <p data-i18n="legal.updated">Dernière mise à jour : 19 octobre 2026</p>
+      </div>
+    </section>
+
+    <div class="pastel">
+      <div class="wrap legal-layout">
+        <aside class="toc" aria-labelledby="toc-title">
+          <strong id="toc-title" data-i18n="legal.toc">Sommaire</strong>
+          <ol data-lang="fr">
+            <li><a href="#fr-essentiel">L'essentiel</a></li>
+            <li><a href="#fr-responsable">Responsable du traitement</a></li>
+            <li><a href="#fr-donnees">Les données traitées</a></li>
+            <li><a href="#fr-finalites">Finalités et bases légales</a></li>
+            <li><a href="#fr-destinataires">Destinataires</a></li>
+            <li><a href="#fr-transferts">Transferts hors de l'UE</a></li>
+            <li><a href="#fr-conservation">Durées de conservation</a></li>
+            <li><a href="#fr-droits">Tes droits</a></li>
+            <li><a href="#fr-enfants">Enfants</a></li>
+            <li><a href="#fr-securite">Sécurité</a></li>
+            <li><a href="#fr-site">Ce site web</a></li>
+            <li><a href="#fr-modifications">Modifications</a></li>
+            <li><a href="#fr-contact">Contact</a></li>
+          </ol>
+          <ol data-lang="en">
+            <li><a href="#en-summary">Summary</a></li>
+            <li><a href="#en-controller">Data controller</a></li>
+            <li><a href="#en-data">The data we process</a></li>
+            <li><a href="#en-purposes">Purposes and legal bases</a></li>
+            <li><a href="#en-recipients">Recipients</a></li>
+            <li><a href="#en-transfers">Transfers outside the EU</a></li>
+            <li><a href="#en-retention">Retention</a></li>
+            <li><a href="#en-rights">Your rights</a></li>
+            <li><a href="#en-children">Children</a></li>
+            <li><a href="#en-security">Security</a></li>
+            <li><a href="#en-website">This website</a></li>
+            <li><a href="#en-changes">Changes</a></li>
+            <li><a href="#en-contact">Contact</a></li>
+          </ol>
+        </aside>
+
+        <!-- ===================== FRANÇAIS ===================== -->
+        <article class="legal" data-lang="fr" lang="fr">
+          <p>Cette politique explique quelles données l'application <strong>SketchAI</strong> pour Android (« l'Appli », disponible sur Google Play sous l'identifiant <code>com.orion.mangasketchar</code>) et ce site web traitent, pourquoi, avec qui elles sont partagées et quels sont tes droits. « Nous » désigne l'éditeur de SketchAI.</p>
+
+          <h2 id="fr-essentiel">1. L'essentiel</h2>
+          <div class="summary">
+            <ul>
+              <li>Pas de compte, pas d'e-mail, pas de mot de passe : ta progression est liée à un identifiant technique de ton appareil, pas à ton nom.</li>
+              <li>L'image de la caméra et les photos de tes dessins restent sur ton téléphone : elles ne sont jamais envoyées à nos serveurs.</li>
+              <li>Le pseudo que tu choisis peut apparaître dans le classement, visible des autres utilisateurs.</li>
+              <li>Dans la version gratuite, des publicités sont affichées par Google AdMob. Nous mesurons nos campagnes publicitaires avec TikTok.</li>
+              <li>Nous ne vendons pas tes données.</li>
+              <li>Tu peux nous écrire à tout moment pour accéder à tes données ou les faire supprimer.</li>
+            </ul>
+          </div>
+
+          <h2 id="fr-responsable">2. Responsable du traitement</h2>
+          <p>L'éditeur de SketchAI est responsable du traitement des données décrites dans cette politique. Tu peux le contacter à l'adresse <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+
+          <h2 id="fr-donnees">3. Les données que nous traitons</h2>
+
+          <h3>3.1 L'identifiant de ton appareil</h3>
+          <p>Au premier lancement, l'Appli lit l'identifiant Android de ton appareil (« Android ID »). Il sert d'identifiant à ton profil : il relie ta progression à ton téléphone sans que tu aies à créer de compte. Il n'est associé ni à ton nom, ni à ton adresse e-mail, ni à ton numéro de téléphone.</p>
+
+          <h3>3.2 Ton profil et ta progression</h3>
+          <p>Pour sauvegarder ta progression, nous enregistrons dans notre base de données (Google Firebase Cloud Firestore), avec cet identifiant :</p>
+          <ul>
+            <li>les dates auxquelles tu ouvres l'Appli, ta série de jours de dessin et la date de première installation ;</li>
+            <li>les croquis que tu as terminés, le temps passé sur chacun et ton temps de dessin total ;</li>
+            <li>les notes de difficulté que tu donnes aux croquis et les croquis que tu aimes ;</li>
+            <li>ta progression dans le programme de dessin (séances terminées, semaine de départ) ;</li>
+            <li>les informations de profil que tu choisis de renseigner : mangas préférés, niveau en dessin, genre et pseudo.</li>
+          </ul>
+
+          <h3>3.3 Ton pseudo et le classement</h3>
+          <p>Si tu choisis un pseudo, il s'affiche dans le classement du jour et de la semaine, avec le nombre de dessins que tu as photographiés et ton temps de dessin. Ces informations sont visibles des autres utilisateurs de l'Appli. Si tu ne choisis pas de pseudo, un nom par défaut est affiché à la place. Les pseudos sont filtrés pour écarter les contenus offensants. N'utilise pas ton vrai nom ni d'information personnelle comme pseudo.</p>
+
+          <h3>3.4 Les sondages et les demandes de personnages</h3>
+          <p>Quand tu votes au sondage du jour, nous enregistrons ton vote avec ton identifiant, pour ne compter qu'un vote par jour et par personne.</p>
+
+          <h3>3.5 Les statistiques d'utilisation</h3>
+          <p>L'Appli enregistre dans notre base de données des événements d'utilisation, liés à ton identifiant : ouverture de l'Appli, étapes de l'onboarding, croquis ouverts et terminés avec leur durée, séances du programme, affichage des écrans PRO, début d'un essai ou achat (produit concerné), choix faits dans ton profil. Chaque événement est horodaté et indique la plateforme (Android). Ces données nous servent à comprendre comment l'Appli est utilisée, à l'améliorer et à corriger les problèmes.</p>
+
+          <h3>3.6 La caméra et les photos de tes dessins</h3>
+          <p>L'Appli te demande l'accès à la caméra pour le mode RA (afficher ta feuille avec le croquis en transparence) et pour prendre en photo ton dessin terminé. L'image de la caméra est traitée en temps réel sur ton téléphone : elle n'est ni enregistrée ni transmise. Les photos de tes dessins sont enregistrées dans l'espace privé de l'Appli, sur ton téléphone, et ne sont pas envoyées à nos serveurs. Si tu utilises le bouton « Partager », la photo est transmise à l'application que tu choisis, selon ses propres règles.</p>
+
+          <h3>3.7 Les achats et l'abonnement SketchAI PRO</h3>
+          <p>Les paiements sont traités par Google Play : nous ne recevons jamais tes coordonnées bancaires. Pour vérifier tes achats et gérer ton accès à PRO, nous utilisons le service RevenueCat, qui reçoit ton identifiant d'appareil et l'historique de tes achats sur Google Play (produit, dates, période d'essai, renouvellements, pays de la boutique).</p>
+
+          <h3>3.8 Les publicités (version gratuite)</h3>
+          <p>La version gratuite affiche des bannières publicitaires fournies par Google AdMob. Le SDK Google Mobile Ads peut collecter ton identifiant publicitaire, ton adresse IP, des informations sur ton appareil et tes interactions avec les publicités, afin de diffuser les annonces, d'en mesurer les performances et de prévenir la fraude. Lorsque la loi l'exige, ces données ne sont utilisées pour personnaliser les annonces qu'avec ton consentement. Pour en savoir plus : <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">comment Google utilise les données des applications partenaires</a>. Tu peux réinitialiser ou supprimer ton identifiant publicitaire dans les paramètres de ton téléphone (Paramètres › Google › Annonces, ou Paramètres › Confidentialité › Annonces). Avec SketchAI PRO, aucune publicité n'est affichée.</p>
+
+          <h3>3.9 La mesure de nos campagnes publicitaires</h3>
+          <p>Nous faisons la promotion de SketchAI sur TikTok. Le SDK TikTok Business intégré à l'Appli transmet à TikTok l'installation et l'ouverture de l'Appli ainsi que certains événements (par exemple le début d'un essai ou un achat), avec des informations sur ton appareil, ton identifiant publicitaire et ton adresse IP. Ces données nous permettent de savoir si nos publicités fonctionnent ; nous ne recevons de TikTok que des statistiques agrégées.</p>
+
+          <h3>3.10 Les rappels</h3>
+          <p>Si tu l'autorises, l'Appli t'envoie des notifications : le rappel quotidien pour garder ta série, et un rappel deux jours avant la fin de ton essai gratuit. Ces rappels sont programmés sur ton téléphone ; tu peux les désactiver à tout moment dans les paramètres de ton téléphone.</p>
+
+          <h3>3.11 Le chargement des croquis</h3>
+          <p>Les images des croquis et des leçons sont chargées depuis nos serveurs et ceux de notre service de diffusion d'images (Cloudinary). Comme pour toute requête sur Internet, ces serveurs reçoivent ton adresse IP et des informations techniques (type d'appareil, date et heure).</p>
+
+          <h3>3.12 Quand tu nous écris</h3>
+          <p>Si tu nous contactes par e-mail, nous utilisons ton adresse e-mail et le contenu de ton message uniquement pour te répondre.</p>
+
+          <h2 id="fr-finalites">4. Finalités et bases légales</h2>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Pourquoi</th><th>Base légale (RGPD)</th></tr></thead>
+              <tbody>
+                <tr><td>Fournir l'Appli : sauvegarder ta progression, ta série, ton programme et ton profil</td><td>Exécution du contrat (nos <a href="tos.html">conditions d'utilisation</a>)</td></tr>
+                <tr><td>Le classement, les sondages et les « j'aime »</td><td>Exécution du contrat</td></tr>
+                <tr><td>Vendre et gérer l'abonnement SketchAI PRO</td><td>Exécution du contrat ; obligations légales (comptabilité, fiscalité)</td></tr>
+                <tr><td>Statistiques d'utilisation, amélioration de l'Appli, correction des bugs, équité du classement</td><td>Intérêt légitime à faire fonctionner et améliorer l'Appli</td></tr>
+                <tr><td>Publicités dans la version gratuite</td><td>Consentement lorsqu'il est requis (publicités personnalisées) ; sinon intérêt légitime à financer la version gratuite</td></tr>
+                <tr><td>Mesure de nos campagnes publicitaires sur TikTok</td><td>Consentement lorsqu'il est requis ; sinon intérêt légitime</td></tr>
+                <tr><td>Rappels par notification</td><td>Consentement (autorisation des notifications sur ton téléphone)</td></tr>
+                <tr><td>Répondre à tes messages et à tes demandes d'exercice de droits</td><td>Intérêt légitime ; obligation légale</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Tu peux retirer ton consentement à tout moment, sans que cela remette en cause les traitements déjà effectués.</p>
+
+          <h2 id="fr-destinataires">5. Destinataires</h2>
+          <p>Tes données sont accessibles à l'éditeur de SketchAI et aux prestataires qui nous aident à faire fonctionner l'Appli, chacun pour ce qui le concerne :</p>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Prestataire</th><th>Rôle</th><th>Politique de confidentialité</th></tr></thead>
+              <tbody>
+                <tr><td>Google (Firebase Cloud Firestore)</td><td>Hébergement de notre base de données</td><td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com</a></td></tr>
+                <tr><td>Google (Google Play)</td><td>Distribution de l'Appli et paiements</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com</a></td></tr>
+                <tr><td>Google (AdMob)</td><td>Publicités de la version gratuite</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com</a></td></tr>
+                <tr><td>RevenueCat, Inc.</td><td>Vérification des achats et gestion des abonnements</td><td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com</a></td></tr>
+                <tr><td>TikTok</td><td>Mesure de nos campagnes publicitaires</td><td><a href="https://www.tiktok.com/legal/privacy-policy" target="_blank" rel="noopener">tiktok.com</a></td></tr>
+                <tr><td>Cloudinary</td><td>Diffusion des images des croquis</td><td><a href="https://cloudinary.com/privacy" target="_blank" rel="noopener">cloudinary.com</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Ton pseudo et tes statistiques de classement sont visibles des autres utilisateurs (voir 3.3). Nous pouvons aussi communiquer des données aux autorités lorsque la loi l'impose. Nous ne vendons pas tes données et ne les louons à personne.</p>
+
+          <h2 id="fr-transferts">6. Transferts hors de l'Union européenne</h2>
+          <p>Certains de ces prestataires traitent des données en dehors de l'Union européenne, notamment aux États-Unis. Ces transferts sont encadrés par la décision d'adéquation de la Commission européenne pour les entreprises certifiées au Data Privacy Framework UE–États-Unis, ou par les clauses contractuelles types adoptées par la Commission européenne.</p>
+
+          <h2 id="fr-conservation">7. Durées de conservation</h2>
+          <ul>
+            <li><strong>Profil et progression</strong> : tant que tu utilises l'Appli, puis jusqu'à ta demande de suppression.</li>
+            <li><strong>Statistiques d'utilisation</strong> : le temps nécessaire à leur analyse, puis elles sont supprimées ou rendues anonymes.</li>
+            <li><strong>Classements</strong> : chaque classement est remis à zéro chaque jour et chaque semaine ; les anciens classements sont conservés pour l'historique et la prévention de la triche.</li>
+            <li><strong>Achats</strong> : pendant la durée imposée par la loi (jusqu'à 10 ans pour les pièces comptables).</li>
+            <li><strong>Photos de tes dessins</strong> : sur ton téléphone uniquement, jusqu'à ce que tu les supprimes ou désinstalles l'Appli.</li>
+            <li><strong>E-mails</strong> : le temps de traiter ta demande, puis au plus 3 ans après notre dernier échange.</li>
+          </ul>
+
+          <h2 id="fr-droits">8. Tes droits</h2>
+          <p>Conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés, tu disposes des droits suivants : accès à tes données, rectification, effacement, limitation du traitement, opposition (notamment aux traitements fondés sur notre intérêt légitime), portabilité, retrait de ton consentement, et le droit de définir des directives sur le sort de tes données après ton décès.</p>
+          <p>Pour exercer ces droits, écris-nous à <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>. Comme nous ne connaissons ni ton nom ni ton e-mail, indique-nous ton pseudo si tu en as un et le modèle de ton téléphone ; nous pourrons te demander une information complémentaire pour retrouver ton profil. Nous te répondons dans un délai d'un mois.</p>
+          <p>Tu peux aussi agir directement depuis ton téléphone :</p>
+          <ul>
+            <li>désinstaller l'Appli supprime les photos de tes dessins et les données enregistrées localement ;</li>
+            <li>retirer l'accès à la caméra ou aux notifications dans les paramètres de ton téléphone ;</li>
+            <li>réinitialiser ou supprimer ton identifiant publicitaire, ou refuser la personnalisation des annonces ;</li>
+            <li>gérer ou résilier ton abonnement dans Google Play.</li>
+          </ul>
+          <p>Si tu estimes que tes droits ne sont pas respectés, tu peux introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>) ou de l'autorité de protection des données de ton pays.</p>
+
+          <h2 id="fr-enfants">9. Enfants</h2>
+          <p>SketchAI s'adresse aux personnes de 13 ans et plus. Si tu as moins que l'âge du consentement numérique dans ton pays (15 ans en France), tu dois avoir l'accord d'un parent ou d'un tuteur pour utiliser l'Appli. Nous ne collectons pas sciemment de données concernant des enfants de moins de 13 ans. Si tu penses qu'un enfant de moins de 13 ans nous a transmis des données, contacte-nous et nous les supprimerons.</p>
+
+          <h2 id="fr-securite">10. Sécurité</h2>
+          <p>Les échanges entre l'Appli et nos serveurs sont chiffrés (HTTPS/TLS) et l'accès à notre base de données est restreint. Aucun système n'étant parfaitement sûr, nous ne pouvons pas garantir une sécurité absolue, mais nous prenons des mesures raisonnables pour protéger tes données.</p>
+
+          <h2 id="fr-site">11. Ce site web</h2>
+          <p>Ce site n'utilise ni cookies, ni outil de mesure d'audience, ni publicité, et ses polices sont hébergées avec le site. Ta préférence de langue est enregistrée dans ton navigateur (stockage local) et n'est jamais envoyée. Notre hébergeur peut conserver des journaux techniques (adresse IP, date, page consultée) pour assurer la sécurité et le bon fonctionnement du site.</p>
+
+          <h2 id="fr-modifications">12. Modifications</h2>
+          <p>Nous pouvons modifier cette politique, par exemple quand l'Appli évolue. La date de dernière mise à jour figure en haut de cette page. En cas de changement important, nous t'en informerons dans l'Appli ou sur ce site.</p>
+
+          <h2 id="fr-contact">13. Contact</h2>
+          <p>Une question sur cette politique ou sur tes données ? Écris-nous à <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+        </article>
+
+        <!-- ===================== ENGLISH ===================== -->
+        <article class="legal" data-lang="en" lang="en">
+          <p>This policy explains what data the <strong>SketchAI</strong> Android app (the "App", available on Google Play as <code>com.orion.mangasketchar</code>) and this website process, why, who it is shared with and what your rights are. "We" means the publisher of SketchAI.</p>
+
+          <h2 id="en-summary">1. Summary</h2>
+          <div class="summary">
+            <ul>
+              <li>No account, no email, no password: your progress is tied to a technical identifier of your device, not to your name.</li>
+              <li>The camera image and the photos of your drawings stay on your phone: they are never sent to our servers.</li>
+              <li>The username you pick may appear on the leaderboard, visible to other users.</li>
+              <li>The free version shows ads served by Google AdMob. We measure our ad campaigns with TikTok.</li>
+              <li>We do not sell your data.</li>
+              <li>You can write to us at any time to access your data or have it deleted.</li>
+            </ul>
+          </div>
+
+          <h2 id="en-controller">2. Data controller</h2>
+          <p>The publisher of SketchAI is the controller of the data described in this policy. You can reach us at <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+
+          <h2 id="en-data">3. The data we process</h2>
+
+          <h3>3.1 Your device identifier</h3>
+          <p>On first launch, the App reads your device's Android identifier ("Android ID"). It is used as the identifier of your profile: it ties your progress to your phone without you having to create an account. It is not associated with your name, email address or phone number.</p>
+
+          <h3>3.2 Your profile and progress</h3>
+          <p>To save your progress, we store in our database (Google Firebase Cloud Firestore), together with that identifier:</p>
+          <ul>
+            <li>the days you open the App, your drawing streak and the date of first install;</li>
+            <li>the sketches you completed, the time spent on each and your total drawing time;</li>
+            <li>the difficulty ratings you give to sketches and the sketches you like;</li>
+            <li>your progress in the drawing program (sessions completed, starting week);</li>
+            <li>the profile information you choose to fill in: favorite manga, drawing level, gender and username.</li>
+          </ul>
+
+          <h3>3.3 Your username and the leaderboard</h3>
+          <p>If you pick a username, it is shown on the daily and weekly leaderboard, with the number of drawings you photographed and your drawing time. This information is visible to other users of the App. If you don't pick a username, a default name is shown instead. Usernames are filtered to keep offensive content out. Don't use your real name or any personal information as your username.</p>
+
+          <h3>3.4 Polls and character requests</h3>
+          <p>When you vote in the daily poll, we store your vote with your identifier, so that only one vote per person per day is counted.</p>
+
+          <h3>3.5 Usage statistics</h3>
+          <p>The App records usage events in our database, tied to your identifier: opening the App, onboarding steps, sketches opened and completed with their duration, program sessions, PRO screens shown, the start of a trial or a purchase (which product), and the choices made in your profile. Each event has a timestamp and the platform (Android). We use this data to understand how the App is used, improve it and fix problems.</p>
+
+          <h3>3.6 The camera and the photos of your drawings</h3>
+          <p>The App asks for camera access for the AR mode (showing your paper with the sketch overlaid) and to take a photo of your finished drawing. The camera image is processed in real time on your phone: it is neither recorded nor transmitted. The photos of your drawings are saved in the App's private storage on your phone and are not sent to our servers. If you use the "Share" button, the photo is passed to the app you choose, under that app's own rules.</p>
+
+          <h3>3.7 Purchases and the SketchAI PRO subscription</h3>
+          <p>Payments are processed by Google Play: we never receive your payment details. To verify your purchases and manage your access to PRO, we use RevenueCat, which receives your device identifier and your Google Play purchase history (product, dates, trial period, renewals, store country).</p>
+
+          <h3>3.8 Ads (free version)</h3>
+          <p>The free version shows banner ads served by Google AdMob. The Google Mobile Ads SDK may collect your advertising ID, IP address, information about your device and your interactions with ads, to serve ads, measure their performance and prevent fraud. Where the law requires it, this data is only used to personalize ads with your consent. Learn more: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from partner apps</a>. You can reset or delete your advertising ID in your phone's settings (Settings › Google › Ads, or Settings › Privacy › Ads). With SketchAI PRO, no ads are shown.</p>
+
+          <h3>3.9 Measuring our ad campaigns</h3>
+          <p>We promote SketchAI on TikTok. The TikTok Business SDK built into the App sends TikTok the installation and launches of the App as well as certain events (for example the start of a trial or a purchase), with information about your device, your advertising ID and your IP address. This tells us whether our ads work; we only receive aggregated statistics from TikTok.</p>
+
+          <h3>3.10 Reminders</h3>
+          <p>If you allow it, the App sends you notifications: the daily reminder to keep your streak, and a reminder two days before your free trial ends. These reminders are scheduled on your phone; you can turn them off at any time in your phone's settings.</p>
+
+          <h3>3.11 Loading the sketches</h3>
+          <p>The images of sketches and lessons are loaded from our servers and those of our image delivery service (Cloudinary). As with any request on the Internet, these servers receive your IP address and technical information (device type, date and time).</p>
+
+          <h3>3.12 When you write to us</h3>
+          <p>If you contact us by email, we use your email address and the content of your message only to reply to you.</p>
+
+          <h2 id="en-purposes">4. Purposes and legal bases</h2>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Why</th><th>Legal basis (GDPR)</th></tr></thead>
+              <tbody>
+                <tr><td>Providing the App: saving your progress, streak, program and profile</td><td>Performance of a contract (our <a href="tos.html">terms of use</a>)</td></tr>
+                <tr><td>The leaderboard, polls and likes</td><td>Performance of a contract</td></tr>
+                <tr><td>Selling and managing the SketchAI PRO subscription</td><td>Performance of a contract; legal obligations (accounting, tax)</td></tr>
+                <tr><td>Usage statistics, improving the App, fixing bugs, fairness of the leaderboard</td><td>Legitimate interest in running and improving the App</td></tr>
+                <tr><td>Ads in the free version</td><td>Consent where required (personalized ads); otherwise legitimate interest in funding the free version</td></tr>
+                <tr><td>Measuring our ad campaigns on TikTok</td><td>Consent where required; otherwise legitimate interest</td></tr>
+                <tr><td>Notification reminders</td><td>Consent (notification permission on your phone)</td></tr>
+                <tr><td>Answering your messages and your requests to exercise your rights</td><td>Legitimate interest; legal obligation</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>You can withdraw your consent at any time, without affecting processing already carried out.</p>
+
+          <h2 id="en-recipients">5. Recipients</h2>
+          <p>Your data is accessible to the publisher of SketchAI and to the providers who help us run the App, each for their own part:</p>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Provider</th><th>Role</th><th>Privacy policy</th></tr></thead>
+              <tbody>
+                <tr><td>Google (Firebase Cloud Firestore)</td><td>Hosting our database</td><td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com</a></td></tr>
+                <tr><td>Google (Google Play)</td><td>Distributing the App and payments</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com</a></td></tr>
+                <tr><td>Google (AdMob)</td><td>Ads in the free version</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com</a></td></tr>
+                <tr><td>RevenueCat, Inc.</td><td>Verifying purchases and managing subscriptions</td><td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com</a></td></tr>
+                <tr><td>TikTok</td><td>Measuring our ad campaigns</td><td><a href="https://www.tiktok.com/legal/privacy-policy" target="_blank" rel="noopener">tiktok.com</a></td></tr>
+                <tr><td>Cloudinary</td><td>Delivering sketch images</td><td><a href="https://cloudinary.com/privacy" target="_blank" rel="noopener">cloudinary.com</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Your username and leaderboard statistics are visible to other users (see 3.3). We may also disclose data to authorities when required by law. We do not sell or rent your data to anyone.</p>
+
+          <h2 id="en-transfers">6. Transfers outside the European Union</h2>
+          <p>Some of these providers process data outside the European Union, notably in the United States. These transfers rely on the European Commission's adequacy decision for companies certified under the EU–U.S. Data Privacy Framework, or on the standard contractual clauses adopted by the European Commission.</p>
+
+          <h2 id="en-retention">7. Retention</h2>
+          <ul>
+            <li><strong>Profile and progress</strong>: as long as you use the App, then until you ask for deletion.</li>
+            <li><strong>Usage statistics</strong>: as long as needed for their analysis, then deleted or anonymized.</li>
+            <li><strong>Leaderboards</strong>: each leaderboard resets every day and every week; past leaderboards are kept for history and to prevent cheating.</li>
+            <li><strong>Purchases</strong>: for as long as the law requires (up to 10 years for accounting records).</li>
+            <li><strong>Photos of your drawings</strong>: on your phone only, until you delete them or uninstall the App.</li>
+            <li><strong>Emails</strong>: as long as needed to handle your request, then no more than 3 years after our last exchange.</li>
+          </ul>
+
+          <h2 id="en-rights">8. Your rights</h2>
+          <p>Under the General Data Protection Regulation (GDPR) and applicable data protection laws, you have the right to access your data, to rectification, to erasure, to restriction of processing, to object (in particular to processing based on our legitimate interest), to data portability, to withdraw your consent, and, under French law, to set instructions regarding your data after your death. Depending on where you live (for example in California), you may have similar rights under local law.</p>
+          <p>To exercise these rights, write to us at <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>. Since we know neither your name nor your email, tell us your username if you have one and your phone model; we may ask you for additional information to find your profile. We reply within one month.</p>
+          <p>You can also act directly from your phone:</p>
+          <ul>
+            <li>uninstalling the App deletes the photos of your drawings and the data stored locally;</li>
+            <li>revoke camera or notification access in your phone's settings;</li>
+            <li>reset or delete your advertising ID, or opt out of ad personalization;</li>
+            <li>manage or cancel your subscription in Google Play.</li>
+          </ul>
+          <p>If you believe your rights are not respected, you can lodge a complaint with the French data protection authority, the CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>), or with the data protection authority of your country.</p>
+
+          <h2 id="en-children">9. Children</h2>
+          <p>SketchAI is intended for people aged 13 and over. If you are under the age of digital consent in your country (15 in France, 16 in some EU countries), you need the permission of a parent or guardian to use the App. We do not knowingly collect data from children under 13. If you believe a child under 13 has given us data, contact us and we will delete it.</p>
+
+          <h2 id="en-security">10. Security</h2>
+          <p>Communications between the App and our servers are encrypted (HTTPS/TLS) and access to our database is restricted. Since no system is perfectly secure, we cannot guarantee absolute security, but we take reasonable measures to protect your data.</p>
+
+          <h2 id="en-website">11. This website</h2>
+          <p>This website uses no cookies, no audience measurement and no ads, and its fonts are hosted with the site. Your language preference is stored in your browser (local storage) and is never sent anywhere. Our hosting provider may keep technical logs (IP address, date, page viewed) for the security and proper operation of the site.</p>
+
+          <h2 id="en-changes">12. Changes</h2>
+          <p>We may update this policy, for example when the App changes. The date of the last update is shown at the top of this page. If we make significant changes, we will let you know in the App or on this website.</p>
+
+          <h2 id="en-contact">13. Contact</h2>
+          <p>A question about this policy or your data? Write to us at <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html"><img src="assets/img/logo.webp" alt="" width="36" height="36" loading="lazy"><span>SketchAI</span></a>
+          <p data-i18n="footer.tagline">Apprends à dessiner anime et manga, un croquis après l'autre.</p>
         </div>
-    </footer>
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="privacy.html" aria-current="page" data-i18n="footer.privacy">Confidentialité</a></li>
+          <li><a href="tos.html" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+          <li><a href="mailto:orion.extensions@gmail.com" data-i18n="footer.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2026 SketchAI. Tous droits réservés.</span>
+        <span data-i18n="footer.google">Google Play et le logo Google Play sont des marques de Google LLC.</span>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

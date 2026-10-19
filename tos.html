@@ -1,150 +1,262 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Manga Sketch AR</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-
-    <style>
-        .legal-wrapper {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 40px;
-            background: var(--white, #ffffff);
-            border-radius: 24px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-            color: var(--dark-gray, #1e293b);
-        }
-        .top-nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--fresh-green, #22c55e);
-            font-weight: 600;
-            transition: opacity 0.2s;
-        }
-        .back-link:hover { opacity: 0.8; }
-
-        .btn-link {
-            background: #f0fdf4;
-            color: var(--fresh-green, #22c55e);
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.2s;
-        }
-        .btn-link:hover {
-            background: var(--fresh-green, #22c55e);
-            color: #ffffff;
-            text-decoration: none !important;
-        }
-
-        .legal-wrapper h1 { font-size: 2rem; margin-bottom: 10px; font-weight: 800; }
-        .legal-wrapper h2 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 700; color: var(--dark-gray); }
-        .legal-wrapper h3 { font-size: 1.1rem; margin-top: 20px; margin-bottom: 10px; font-weight: 600; }
-        .legal-wrapper p, .legal-wrapper li { color: var(--medium-gray, #64748b); margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; }
-        .legal-wrapper ul { margin-left: 20px; margin-bottom: 20px; }
-        .legal-wrapper a { color: var(--fresh-green, #22c55e); font-weight: 600; }
-        .legal-wrapper a:hover { text-decoration: underline; }
-        .last-updated { font-size: 0.85rem; color: #94a3b8; margin-bottom: 30px; }
-        hr { border: none; border-top: 1px solid #e2e8f0; margin: 30px 0; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-i18n="meta.terms">Conditions d'utilisation – SketchAI</title>
+  <meta name="description" content="Les conditions d'utilisation de l'application SketchAI et de SketchAI PRO." data-i18n-attr="content:meta.termsDesc">
+  <meta name="theme-color" content="#5c34ec">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/lang.js"></script>
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></symbol>
+  </svg>
 
-    <header class="header">
-        <div class="logo-container">
-            <img src="ic_logo.png" alt="Manga Sketch AR Logo" class="app-logo">
-            <span class="app-name">Manga Sketch AR</span>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+
+  <header class="site-header" id="header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="SketchAI">
+        <img src="assets/img/logo.webp" alt="" width="36" height="36">
+        <span>SketchAI</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale" data-i18n-attr="aria-label:nav.label">
+        <a href="index.html" data-i18n="nav.home">Accueil</a>
+        <a href="index.html#fonctionnalites" data-i18n="nav.features">Fonctionnalités</a>
+        <a href="index.html#programme" data-i18n="nav.program">Programme</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Langue / Language">
+          <button type="button" data-set-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
         </div>
-    </header>
-
-    <div class="legal-wrapper fade-in">
-        <div class="top-nav">
-            <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
-            <a href="privacy.html" class="btn-link"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a>
-        </div>
-        
-        <h1>Terms of Service & EULA</h1>
-        <p class="last-updated">Last Updated: 23 March 2026</p>
-
-        <p>Please read this License Agreement carefully before using the Manga Sketch AR app. If you do not agree to be bound by these Terms, you must not use the App.</p>
-
-        <h2>1. Acceptance of the Agreement</h2>
-        <p>By downloading, installing, or using the App, or by purchasing a subscription or in-app purchase, you are agreeing to be bound by the terms and conditions of this Agreement.</p>
-
-        <h2>2. Age Requirements</h2>
-        <p>You must be at least 13 years old to use this App. By using the App, you warrant that you meet this age requirement.</p>
-
-        <h2>3. Intellectual Property</h2>
-        <ul>
-            <li><strong>App Content:</strong> The App, including its code, design, UI, AR implementation, and the curated catalog of reference sketches (Hair, Eyes, Poses, etc.), are the intellectual property of Manga Sketch AR. You may not extract, repackage, sell, or distribute our digital catalog.</li>
-            <li><strong>Your Artwork:</strong> You own 100% of the physical or digital art you create while using the App as a tracing guide. We claim no rights over your final physical creations.</li>
-        </ul>
-
-        <h2>4. Restrictions</h2>
-        <p>You agree not to, and you will not permit others to:</p>
-        <ul>
-            <li>Decompile, reverse engineer, disassemble, attempt to derive the source code of, or decrypt the App.</li>
-            <li>Make any modification, adaptation, improvement, translation, or derivative work from the App.</li>
-            <li>Remove, alter, or obscure any proprietary notice (including any copyright or trademark notice) of Manga Sketch AR.</li>
-        </ul>
-
-        <h2>5. Fees and Payment</h2>
-        <p>If you choose to use the premium features of the App, you may do so through subscriptions. Subscriptions and payments are billed directly by the respective Marketplace (Google Play Store).</p>
-        <p>We utilize third-party services, specifically <strong>RevenueCat</strong>, to validate your purchases and manage your subscription entitlements securely within the App. However, the actual billing, payment terms, cancellations, and refund policies are dictated entirely by the respective Marketplace operator.</p>
-        <p>We cannot directly issue refunds for purchases made through these marketplaces; you must contact Google support directly to request a refund.</p>
-
-        <h2>6. User Responsibility and Safety</h2>
-        <p>The App uses Augmented Reality (AR) technology. You agree to be aware of your physical surroundings while using the App to avoid trips, falls, or accidents. Manga Sketch AR is not liable for any physical injury or property damage resulting from distraction while using the App.</p>
-
-        <h2>7. Disclaimer of Warranties</h2>
-        <p>The App is provided "as is" and "as available" without warranties of any kind. AR performance varies by device camera quality and processing power. We do not guarantee that the App will function perfectly on older or unsupported devices.</p>
-
-        <h2>8. App Store & Google Play Terms</h2>
-        <p>If you downloaded the App from the Google Play Store, you acknowledge that this Agreement is between you and Manga Sketch AR only, and not with Google LLC. Google are not responsible for the App, its content, or providing support/maintenance services. However, Google is third-party beneficiaries of this Agreement and have the right to enforce it against you.</p>
-
-        <h2>9. Changes to this Agreement</h2>
-        <p>We reserve the right to modify or replace this Agreement at any time. We will notify you of any changes by posting the new Agreement on this page or within the App.</p>
-
-        <h2>10. Contact Us</h2>
-        <p>If you have any questions about these Terms, please contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a></p>
+        <a class="btn-yellow small" href="https://play.google.com/store/apps/details?id=com.orion.mangasketchar" target="_blank" rel="noopener">
+          <span data-i18n="cta.download">Télécharger</span>
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
     </div>
+  </header>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="ic_logo.png" alt="Manga Sketch AR Logo" width="40" height="40">
-                <span>Manga Sketch AR</span>
-            </div>
-            <div class="footer-copyright">
-                &copy; 2026 Manga Sketch AR. All rights reserved.
-            </div>
-            <div class="footer-links">
-                <a href="tos.html">Terms of Service</a>
-                <a href="privacy.html">Privacy Policy</a>
-            </div>
+  <main id="main">
+    <section class="legal-hero store-bg">
+      <div class="wrap">
+        <h1 class="hl" data-i18n="legal.termsTitle">Conditions <em>d'utilisation</em></h1>
+        <p data-i18n="legal.updated">Dernière mise à jour : 19 octobre 2026</p>
+      </div>
+    </section>
+
+    <div class="pastel">
+      <div class="wrap legal-layout">
+        <aside class="toc" aria-labelledby="toc-title">
+          <strong id="toc-title" data-i18n="legal.toc">Sommaire</strong>
+          <ol data-lang="fr">
+            <li><a href="#fr-service">Le service</a></li>
+            <li><a href="#fr-acces">Accès et âge</a></li>
+            <li><a href="#fr-licence">Licence d'utilisation</a></li>
+            <li><a href="#fr-contenu">Croquis et propriété intellectuelle</a></li>
+            <li><a href="#fr-communaute">Pseudo, classement et sondages</a></li>
+            <li><a href="#fr-pro">SketchAI PRO</a></li>
+            <li><a href="#fr-pub">Publicités</a></li>
+            <li><a href="#fr-securite">Mode RA et sécurité</a></li>
+            <li><a href="#fr-disponibilite">Disponibilité</a></li>
+            <li><a href="#fr-responsabilite">Responsabilité</a></li>
+            <li><a href="#fr-resiliation">Suspension et résiliation</a></li>
+            <li><a href="#fr-donnees">Données personnelles</a></li>
+            <li><a href="#fr-modifications">Modifications</a></li>
+            <li><a href="#fr-droit">Droit applicable et litiges</a></li>
+            <li><a href="#fr-contact">Contact</a></li>
+          </ol>
+          <ol data-lang="en">
+            <li><a href="#en-service">The service</a></li>
+            <li><a href="#en-access">Access and age</a></li>
+            <li><a href="#en-license">License</a></li>
+            <li><a href="#en-content">Sketches and intellectual property</a></li>
+            <li><a href="#en-community">Username, leaderboard and polls</a></li>
+            <li><a href="#en-pro">SketchAI PRO</a></li>
+            <li><a href="#en-ads">Ads</a></li>
+            <li><a href="#en-safety">AR mode and safety</a></li>
+            <li><a href="#en-availability">Availability</a></li>
+            <li><a href="#en-liability">Liability</a></li>
+            <li><a href="#en-termination">Suspension and termination</a></li>
+            <li><a href="#en-privacy">Personal data</a></li>
+            <li><a href="#en-changes">Changes</a></li>
+            <li><a href="#en-law">Governing law and disputes</a></li>
+            <li><a href="#en-contact">Contact</a></li>
+          </ol>
+        </aside>
+
+        <!-- ===================== FRANÇAIS ===================== -->
+        <article class="legal" data-lang="fr" lang="fr">
+          <p>Les présentes conditions d'utilisation (les « Conditions ») encadrent l'utilisation de l'application <strong>SketchAI</strong> pour Android (« l'Appli ») et de l'abonnement <strong>SketchAI PRO</strong>. « Nous » désigne l'éditeur de SketchAI. En téléchargeant ou en utilisant l'Appli, tu acceptes ces Conditions. Si tu ne les acceptes pas, n'utilise pas l'Appli.</p>
+
+          <h2 id="fr-service">1. Le service</h2>
+          <p>SketchAI t'apprend à dessiner des personnages d'anime et de manga au crayon, sur papier. L'Appli propose notamment une bibliothèque de croquis, des leçons de dessin, un programme d'exercices de 9 semaines, un mode RA qui affiche le croquis par-dessus l'image de la caméra, la comparaison entre ton dessin et le modèle, un classement et un sondage quotidien. Certaines fonctionnalités nécessitent une connexion à Internet.</p>
+
+          <h2 id="fr-acces">2. Accès et âge</h2>
+          <p>L'Appli se télécharge gratuitement sur Google Play et fonctionne sur les appareils Android compatibles (Android 7.0 ou plus récent). Elle s'adresse aux personnes de 13 ans et plus. Si tu es mineur, tu dois avoir l'accord d'un parent ou d'un tuteur, qui accepte ces Conditions pour toi et reste responsable de tes achats.</p>
+
+          <h2 id="fr-licence">3. Licence d'utilisation</h2>
+          <p>Nous t'accordons une licence personnelle, non exclusive, non transférable et révocable pour utiliser l'Appli sur tes appareils, à des fins privées et non commerciales, dans le respect de ces Conditions et des conditions de Google Play. Tu t'engages à ne pas :</p>
+          <ul>
+            <li>copier, extraire, revendre ou redistribuer les croquis, les leçons, les images du programme ou tout autre contenu de l'Appli ;</li>
+            <li>décompiler, modifier ou contourner les protections de l'Appli, sauf dans les cas autorisés par la loi ;</li>
+            <li>accéder à nos serveurs par un moyen automatisé ou perturber le fonctionnement de l'Appli ;</li>
+            <li>utiliser l'Appli d'une manière contraire à la loi ou aux droits d'autrui.</li>
+          </ul>
+
+          <h2 id="fr-contenu">4. Croquis et propriété intellectuelle</h2>
+          <p>L'Appli, son code, son design, ses textes, ses leçons, son programme et la sélection de ses croquis sont protégés par le droit de la propriété intellectuelle et nous appartiennent ou nous sont concédés.</p>
+          <p>Les personnages d'anime et de manga représentés dans les croquis appartiennent à leurs ayants droit respectifs. SketchAI n'est ni affilié à ces ayants droit, ni approuvé par eux. Les croquis te sont proposés uniquement pour t'entraîner au dessin, à titre personnel.</p>
+          <p>Les dessins que tu réalises t'appartiennent. Lorsqu'ils représentent des personnages protégés, il s'agit de fan arts : tu peux les garder et les partager à titre personnel, mais leur exploitation commerciale peut porter atteinte aux droits de leurs ayants droit. C'est à toi de respecter ces droits.</p>
+
+          <h2 id="fr-communaute">5. Pseudo, classement et sondages</h2>
+          <p>Ton pseudo est visible des autres utilisateurs. Il ne doit pas être injurieux, haineux, sexuel ou discriminatoire, usurper l'identité de quelqu'un, ni contenir d'informations personnelles (nom complet, adresse, numéro de téléphone…). Nous pouvons refuser, masquer ou réinitialiser un pseudo qui ne respecte pas ces règles.</p>
+          <p>Le classement récompense les dessins réellement réalisés. Il est interdit de tricher, par exemple en photographiant des dessins que tu n'as pas faits, en manipulant les durées de dessin ou en automatisant l'Appli. Nous pouvons écarter du classement les résultats qui nous semblent frauduleux. Le sondage du jour permet un vote par jour et par personne ; ses résultats nous aident à choisir les prochains croquis, sans obligation de notre part.</p>
+
+          <h2 id="fr-pro">6. SketchAI PRO</h2>
+          <h3>6.1 Ce que comprend PRO</h3>
+          <p>SketchAI PRO débloque tous les croquis et toutes les leçons marqués PRO, l'ensemble du programme de dessin sans attendre l'ouverture des semaines, et retire les publicités. Le contenu de PRO peut évoluer, notamment avec l'ajout de nouveaux croquis.</p>
+          <h3>6.2 Prix et paiement</h3>
+          <p>L'abonnement est vendu par l'intermédiaire de Google Play. Son prix, sa durée et les taxes applicables sont affichés dans l'Appli et sur Google Play avant l'achat. Le paiement est débité sur le moyen de paiement associé à ton compte Google.</p>
+          <h3>6.3 Essai gratuit</h3>
+          <p>Lorsqu'un essai gratuit est proposé, sa durée est indiquée avant que tu ne le démarres. Le paiement commence à la fin de l'essai, sauf si tu annules avant sa fin : dans ce cas, tu ne paies rien. Nous t'envoyons un rappel avant la fin de l'essai si tu as autorisé les notifications. Un essai gratuit n'est proposé qu'une fois par personne.</p>
+          <h3>6.4 Renouvellement et résiliation</h3>
+          <p>L'abonnement se renouvelle automatiquement pour la même durée, au prix en vigueur, sauf si tu le résilies au moins 24 heures avant la fin de la période en cours. Tu peux le résilier à tout moment dans Google Play (Profil › Paiements et abonnements › Abonnements). Tu gardes l'accès à PRO jusqu'à la fin de la période déjà payée. Désinstaller l'Appli ne résilie pas l'abonnement.</p>
+          <h3>6.5 Remboursements et changements de prix</h3>
+          <p>Les demandes de remboursement sont traitées selon les règles de Google Play. Si tu es un consommateur, tu bénéficies en outre des droits que te reconnaît la loi, notamment en matière de rétractation, dans les conditions prévues par celle-ci et par les conditions de Google Play. En cas de changement de prix, tu en es informé selon les règles de Google Play et tu peux résilier ton abonnement avant que le nouveau prix ne s'applique.</p>
+          <h3>6.6 Restaurer tes achats</h3>
+          <p>Ton abonnement est lié à ton compte Google Play. Sur un nouvel appareil, utilise la fonction « Restaurer » de l'Appli avec le même compte Google.</p>
+
+          <h2 id="fr-pub">7. Publicités</h2>
+          <p>La version gratuite de l'Appli affiche des publicités fournies par des tiers (Google AdMob). Nous ne sommes pas responsables du contenu de ces publicités ni des produits ou services qu'elles présentent. Si une publicité te semble inappropriée, signale-la-nous.</p>
+
+          <h2 id="fr-securite">8. Mode RA et sécurité</h2>
+          <p>Utilise l'Appli dans un environnement sûr : pose ton téléphone sur un support stable, ne l'utilise pas en marchant ou en conduisant, et fais des pauses régulières pour reposer tes yeux et ta main. Les jeunes enfants doivent être accompagnés d'un adulte.</p>
+
+          <h2 id="fr-disponibilite">9. Disponibilité et évolution de l'Appli</h2>
+          <p>Nous faisons de notre mieux pour que l'Appli fonctionne correctement, mais nous ne garantissons pas qu'elle sera disponible en permanence ni exempte d'erreurs. Nous pouvons la faire évoluer, ajouter, modifier ou retirer des fonctionnalités ou des croquis, ou l'interrompre temporairement pour maintenance. Si nous décidions d'arrêter l'Appli, nous t'en informerions à l'avance et les abonnements en cours ne seraient plus renouvelés.</p>
+
+          <h2 id="fr-responsabilite">10. Responsabilité</h2>
+          <p>Tu bénéficies de la garantie légale de conformité applicable aux contenus et services numériques. Dans les limites permises par la loi, nous ne sommes pas responsables des dommages indirects, des pertes de données enregistrées uniquement sur ton appareil (comme les photos de tes dessins), ni des problèmes causés par ton appareil, ta connexion ou des services tiers (Google Play, publicités). Rien dans ces Conditions ne limite les droits que la loi t'accorde en tant que consommateur ni notre responsabilité en cas de faute lourde ou de dommage corporel.</p>
+
+          <h2 id="fr-resiliation">11. Suspension et résiliation</h2>
+          <p>Tu peux arrêter d'utiliser l'Appli à tout moment en la désinstallant (pense à résilier ton abonnement séparément dans Google Play). En cas de manquement grave à ces Conditions, notamment de triche ou de pseudo inapproprié, nous pouvons suspendre ton accès aux fonctionnalités communautaires (classement, sondages), après t'en avoir informé lorsque c'est possible.</p>
+
+          <h2 id="fr-donnees">12. Données personnelles</h2>
+          <p>Le traitement de tes données est décrit dans notre <a href="privacy.html">politique de confidentialité</a>.</p>
+
+          <h2 id="fr-modifications">13. Modification des Conditions</h2>
+          <p>Nous pouvons modifier ces Conditions, par exemple pour suivre l'évolution de l'Appli ou de la loi. La date de dernière mise à jour figure en haut de cette page. En cas de changement important, nous t'en informerons dans l'Appli ou sur ce site avant qu'il ne s'applique. Si tu continues à utiliser l'Appli après cette date, tu acceptes les nouvelles Conditions.</p>
+
+          <h2 id="fr-droit">14. Droit applicable et litiges</h2>
+          <p>Ces Conditions sont soumises au droit français. Si tu es un consommateur résidant dans un autre pays, tu conserves la protection des dispositions impératives du droit de ton pays de résidence. En cas de difficulté, écris-nous d'abord : nous chercherons une solution amiable. Si tu es un consommateur, tu peux aussi recourir gratuitement à un médiateur de la consommation, conformément aux articles L.611-1 et suivants du Code de la consommation. À défaut d'accord, le litige sera porté devant les tribunaux compétents selon les règles de droit commun.</p>
+
+          <h2 id="fr-contact">15. Contact</h2>
+          <p>Une question sur ces Conditions ? Écris-nous à <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+        </article>
+
+        <!-- ===================== ENGLISH ===================== -->
+        <article class="legal" data-lang="en" lang="en">
+          <p>These terms of use (the "Terms") govern the use of the <strong>SketchAI</strong> Android app (the "App") and of the <strong>SketchAI PRO</strong> subscription. "We" means the publisher of SketchAI. By downloading or using the App, you accept these Terms. If you do not accept them, do not use the App.</p>
+
+          <h2 id="en-service">1. The service</h2>
+          <p>SketchAI teaches you to draw anime and manga characters with a pencil, on paper. The App offers in particular a library of sketches, drawing lessons, a 9-week exercise program, an AR mode that shows the sketch over the camera image, a comparison between your drawing and the model, a leaderboard and a daily poll. Some features require an Internet connection.</p>
+
+          <h2 id="en-access">2. Access and age</h2>
+          <p>The App is free to download on Google Play and runs on compatible Android devices (Android 7.0 or later). It is intended for people aged 13 and over. If you are a minor, you need the permission of a parent or guardian, who accepts these Terms on your behalf and remains responsible for your purchases.</p>
+
+          <h2 id="en-license">3. License</h2>
+          <p>We grant you a personal, non-exclusive, non-transferable and revocable license to use the App on your devices, for private and non-commercial purposes, in accordance with these Terms and Google Play's terms. You agree not to:</p>
+          <ul>
+            <li>copy, extract, resell or redistribute the sketches, lessons, program images or any other content of the App;</li>
+            <li>decompile, modify or circumvent the App's protections, except where the law allows it;</li>
+            <li>access our servers by automated means or disrupt the operation of the App;</li>
+            <li>use the App in a way that breaks the law or infringes the rights of others.</li>
+          </ul>
+
+          <h2 id="en-content">4. Sketches and intellectual property</h2>
+          <p>The App, its code, design, texts, lessons, program and selection of sketches are protected by intellectual property law and belong to us or are licensed to us.</p>
+          <p>The anime and manga characters shown in the sketches belong to their respective rights holders. SketchAI is neither affiliated with nor endorsed by them. The sketches are provided only for your personal drawing practice.</p>
+          <p>The drawings you make are yours. When they depict protected characters, they are fan art: you can keep and share them personally, but using them commercially may infringe the rights of their rights holders. It is up to you to respect those rights.</p>
+
+          <h2 id="en-community">5. Username, leaderboard and polls</h2>
+          <p>Your username is visible to other users. It must not be insulting, hateful, sexual or discriminatory, impersonate anyone, or contain personal information (full name, address, phone number…). We may refuse, hide or reset a username that breaks these rules.</p>
+          <p>The leaderboard rewards drawings that were actually made. Cheating is forbidden, for example photographing drawings you did not make, manipulating drawing times or automating the App. We may remove results that seem fraudulent to us from the leaderboard. The daily poll allows one vote per person per day; its results help us choose the next sketches, with no obligation on our part.</p>
+
+          <h2 id="en-pro">6. SketchAI PRO</h2>
+          <h3>6.1 What PRO includes</h3>
+          <p>SketchAI PRO unlocks every sketch and lesson marked PRO, the whole drawing program without waiting for weeks to open, and removes ads. The content of PRO may change, in particular as new sketches are added.</p>
+          <h3>6.2 Price and payment</h3>
+          <p>The subscription is sold through Google Play. Its price, duration and applicable taxes are shown in the App and on Google Play before purchase. Payment is charged to the payment method linked to your Google account.</p>
+          <h3>6.3 Free trial</h3>
+          <p>When a free trial is offered, its length is shown before you start it. Payment starts at the end of the trial unless you cancel before it ends, in which case you pay nothing. We send you a reminder before the trial ends if you allowed notifications. A free trial is offered only once per person.</p>
+          <h3>6.4 Renewal and cancellation</h3>
+          <p>The subscription renews automatically for the same duration, at the current price, unless you cancel it at least 24 hours before the end of the current period. You can cancel at any time in Google Play (Profile › Payments &amp; subscriptions › Subscriptions). You keep access to PRO until the end of the period already paid. Uninstalling the App does not cancel the subscription.</p>
+          <h3>6.5 Refunds and price changes</h3>
+          <p>Refund requests are handled under Google Play's rules. If you are a consumer, you also have the rights granted to you by law, including withdrawal rights, under the conditions set by the law and by Google Play's terms. If the price changes, you are informed according to Google Play's rules and you can cancel your subscription before the new price applies.</p>
+          <h3>6.6 Restoring your purchases</h3>
+          <p>Your subscription is tied to your Google Play account. On a new device, use the App's "Restore" feature with the same Google account.</p>
+
+          <h2 id="en-ads">7. Ads</h2>
+          <p>The free version of the App shows ads provided by third parties (Google AdMob). We are not responsible for the content of these ads or for the products or services they promote. If an ad seems inappropriate to you, let us know.</p>
+
+          <h2 id="en-safety">8. AR mode and safety</h2>
+          <p>Use the App in a safe environment: set your phone on a steady stand, don't use it while walking or driving, and take regular breaks to rest your eyes and hand. Young children should be accompanied by an adult.</p>
+
+          <h2 id="en-availability">9. Availability and changes to the App</h2>
+          <p>We do our best to keep the App working properly, but we do not guarantee that it will always be available or free of errors. We may change the App, add, modify or remove features or sketches, or interrupt it temporarily for maintenance. If we decided to shut the App down, we would let you know in advance and ongoing subscriptions would no longer renew.</p>
+
+          <h2 id="en-liability">10. Liability</h2>
+          <p>You benefit from the legal guarantee of conformity that applies to digital content and services. To the extent permitted by law, we are not liable for indirect damages, for the loss of data stored only on your device (such as the photos of your drawings), or for problems caused by your device, your connection or third-party services (Google Play, ads). Nothing in these Terms limits the rights you have as a consumer under the law, or our liability for gross negligence or personal injury.</p>
+
+          <h2 id="en-termination">11. Suspension and termination</h2>
+          <p>You can stop using the App at any time by uninstalling it (remember to cancel your subscription separately in Google Play). In the event of a serious breach of these Terms, in particular cheating or an inappropriate username, we may suspend your access to the community features (leaderboard, polls), after informing you where possible.</p>
+
+          <h2 id="en-privacy">12. Personal data</h2>
+          <p>How we process your data is described in our <a href="privacy.html">privacy policy</a>.</p>
+
+          <h2 id="en-changes">13. Changes to the Terms</h2>
+          <p>We may change these Terms, for example to keep up with changes to the App or to the law. The date of the last update is shown at the top of this page. If we make significant changes, we will let you know in the App or on this website before they apply. If you keep using the App after that date, you accept the new Terms.</p>
+
+          <h2 id="en-law">14. Governing law and disputes</h2>
+          <p>These Terms are governed by French law. If you are a consumer living in another country, you keep the protection of the mandatory provisions of the law of your country of residence. If a problem arises, write to us first: we will look for an amicable solution. If you are a consumer, you may also use a consumer mediator free of charge, under Articles L.611-1 et seq. of the French Consumer Code. Failing an agreement, the dispute will be brought before the competent courts under the ordinary rules.</p>
+
+          <h2 id="en-contact">15. Contact</h2>
+          <p>A question about these Terms? Write to us at <a href="mailto:orion.extensions@gmail.com">orion.extensions@gmail.com</a>.</p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html"><img src="assets/img/logo.webp" alt="" width="36" height="36" loading="lazy"><span>SketchAI</span></a>
+          <p data-i18n="footer.tagline">Apprends à dessiner anime et manga, un croquis après l'autre.</p>
         </div>
-    </footer>
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="privacy.html" data-i18n="footer.privacy">Confidentialité</a></li>
+          <li><a href="tos.html" aria-current="page" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+          <li><a href="mailto:orion.extensions@gmail.com" data-i18n="footer.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2026 SketchAI. Tous droits réservés.</span>
+        <span data-i18n="footer.google">Google Play et le logo Google Play sont des marques de Google LLC.</span>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
