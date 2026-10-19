@@ -1,4 +1,4 @@
-/* Picks the language before the first paint: ?lang=, then the visitor's last choice, then the browser's. */
+/* Picks the language before the first paint: ?lang=, then the visitor's last choice, otherwise English. */
 (function () {
   var root = document.documentElement;
   root.classList.remove("no-js");
@@ -8,6 +8,5 @@
     param = new URLSearchParams(location.search).get("lang");
     saved = localStorage.getItem("sketchai-lang");
   } catch (e) { /* private mode */ }
-  var browser = /^fr\b/i.test(navigator.language || "") ? "fr" : "en";
-  root.lang = param === "fr" || param === "en" ? param : saved === "fr" || saved === "en" ? saved : browser;
+  root.lang = param === "fr" || param === "en" ? param : saved === "fr" || saved === "en" ? saved : "en";
 })();
