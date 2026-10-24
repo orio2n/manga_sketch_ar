@@ -1,0 +1,19 @@
+{
+  "_doc": "Images pages may use besides the coach's illustrations (seo/data/coach.json). To add one: put the file under assets/img/ and add an entry: id -> src, small (optional smaller copy for cards), width, height and title (what the image shows: it is the alt text). An image narrower than 720 px is shown at its width. The eye-* diagrams are drawn by tools/eye_steps.py. See seo/WRITING.md.",
+  "images": {
+    "lesson-eyes": { "src": "/assets/img/onboarding/skill-3.webp", "width": 480, "height": 480, "title": "A detailed, semi-realistic pair of eyes inked with lashes and hatching, a guided sketch from the SketchAI Eyes lessons" },
+    "lesson-hair": { "src": "/assets/img/onboarding/skill-6.webp", "width": 480, "height": 480, "title": "A swept-back anime hairstyle drawn in strands, a guided sketch from the SketchAI Hair lessons" },
+    "lesson-mouth": { "src": "/assets/img/onboarding/skill-5.webp", "width": 480, "height": 480, "title": "Stylized lips in profile, a guided sketch from the SketchAI Mouth lessons" },
+    "lesson-pose": { "src": "/assets/img/onboarding/skill-1.webp", "width": 480, "height": 480, "title": "A standing figure with crossed arms, a guided sketch from the SketchAI Pose lessons" },
+    "lesson-clothes": { "src": "/assets/img/onboarding/skill-4.webp", "width": 480, "height": 480, "title": "A turtleneck sweater with folds at the sleeves and hem, a guided sketch from the SketchAI Clothes lessons" },
+    "lesson-pets": { "src": "/assets/img/onboarding/skill-2.webp", "width": 480, "height": 480, "title": "A sitting puppy, a guided sketch from the SketchAI Pets lessons" },
+    "eye-step-1": { "src": "/assets/img/tutorials/eye-step-1.svg", "width": 600, "height": 338, "title": "Anime eye, step 1: a horizontal eye line and a vertical line through the center of the iris" },
+    "eye-step-2": { "src": "/assets/img/tutorials/eye-step-2.svg", "width": 600, "height": 338, "title": "Anime eye, step 2: the thick upper lid, from the inner corner to a small flick at the outer corner" },
+    "eye-step-3": { "src": "/assets/img/tutorials/eye-step-3.svg", "width": 600, "height": 338, "title": "Anime eye, step 3: a short, thin lower lid under the eye" },
+    "eye-step-4": { "src": "/assets/img/tutorials/eye-step-4.svg", "width": 600, "height": 338, "title": "Anime eye, step 4: a tall oval iris with its top hidden under the upper lid" },
+    "eye-step-5": { "src": "/assets/img/tutorials/eye-step-5.svg", "width": 600, "height": 338, "title": "Anime eye, step 5: a dark oval pupil, a big highlight and a small one" },
+    "eye-step-6": { "src": "/assets/img/tutorials/eye-step-6.svg", "width": 600, "height": 338, "title": "Anime eye, step 6: the shadow of the lid darkening the top of the iris" },
+    "eye-step-7": { "src": "/assets/img/tutorials/eye-step-7.svg", "width": 600, "height": 338, "title": "Anime eye, step 7: lashes at the outer corner, the lid crease and the eyebrow" },
+    "eye-final": { "src": "/assets/img/tutorials/eye-final.svg", "width": 600, "height": 338, "title": "A finished anime eye with its guidelines erased" }
+  }
+}

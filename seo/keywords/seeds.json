@@ -1,0 +1,113 @@
+{
+  "_doc": "Seed topics for plan.mjs. Each cluster maps to a content type (tutorial or guide). 'topics' are the pages we want: keyword, slug, hub topic (see TOPICS in seo/config.mjs), searches to cover, the illustrations picked for it (ids from `npm run seo:brief -- --images`) and the week of the app's program that teaches it (0 if none). 'expand' are prefixes sent to Google Autocomplete by discover.mjs to find real long-tail searches (new pages are proposed only for clusters with allowNew). The topics follow what the most-watched manga drawing tutorials on YouTube teach (faces, eyes, hair, hands, bodies, poses, foreshortening, perspective, roadmaps, practice plans) and what the SketchAI program covers week by week.",
+  "clusters": [
+    {
+      "id": "faces",
+      "type": "tutorial",
+      "priority": 3,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to draw anime eyes", "slug": "how-to-draw-anime-eyes", "topic": "eyes", "secondary": ["anime eyes drawing", "how to draw manga eyes", "anime eyes step by step", "male anime eyes", "female anime eyes"], "images": ["w5d1", "lesson-eyes", "head-4", "w5", "w5d4"], "week": 5 },
+        { "keyword": "how to draw an anime face", "slug": "how-to-draw-an-anime-face", "topic": "heads", "secondary": ["anime face drawing", "how to draw a manga face", "anime face proportions", "anime face step by step"], "images": ["head-1", "head-2", "head-3", "head-4", "head-5", "w4d3", "w5d3", "w5d5"], "week": 4 },
+        { "keyword": "how to draw anime hair", "slug": "how-to-draw-anime-hair", "topic": "hair", "secondary": ["anime hair drawing", "how to draw manga hair", "spiky anime hair", "long anime hair", "anime hairstyles"], "images": ["w5d5", "lesson-hair", "w5d3", "w6d1", "w4d3"], "week": 5 },
+        { "keyword": "how to draw anime expressions", "slug": "how-to-draw-anime-expressions", "topic": "expressions", "secondary": ["anime facial expressions", "anime emotions drawing", "angry anime face", "crying anime face", "surprised anime face"], "images": ["w5d4", "w6d4", "w5d1"], "week": 5 },
+        { "keyword": "how to draw anime mouths", "slug": "how-to-draw-anime-mouths", "topic": "expressions", "secondary": ["anime mouth drawing", "how to draw an anime smile", "anime lips", "open anime mouth"], "images": ["w5d2", "lesson-mouth", "w5d4", "w6d4"], "week": 5 },
+        { "keyword": "how to draw anime noses", "slug": "how-to-draw-anime-noses", "topic": "expressions", "secondary": ["anime nose drawing", "anime nose side view", "manga nose"], "images": ["w5d2", "w4d3", "w5d3"], "week": 5 },
+        { "keyword": "how to draw an anime head from any angle", "slug": "how-to-draw-an-anime-head-from-any-angle", "topic": "heads", "secondary": ["anime head angles", "three quarter view anime face", "anime head looking up", "loomis method anime", "head construction drawing"], "images": ["head-rotation", "w4d1", "w4d2", "w4d4", "w6d1", "w6d2", "w6d3", "w6d5", "w4"], "week": 6 },
+        { "keyword": "how to draw an anime side profile", "slug": "how-to-draw-an-anime-side-profile", "topic": "heads", "secondary": ["anime side view face", "anime profile drawing", "manga side profile"], "images": ["w4d3", "w4d5", "w5d3", "w6d5"], "week": 4 }
+      ],
+      "expand": ["how to draw anime eyes", "how to draw anime face", "how to draw anime hair", "how to draw anime mouth", "anime expressions drawing", "how to draw anime nose", "how to draw anime side profile"]
+    },
+    {
+      "id": "bodies",
+      "type": "tutorial",
+      "priority": 3,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to draw an anime body", "slug": "how-to-draw-an-anime-body", "topic": "bodies", "secondary": ["anime body drawing", "how to draw a manga body", "anime body step by step", "male anime body", "female anime body", "mannequin drawing"], "images": ["w3d2", "mannequin-1", "mannequin-2", "mannequin-3", "w3", "w7", "w8d5"], "week": 3 },
+        { "keyword": "how to draw anime poses", "slug": "how-to-draw-anime-poses", "topic": "poses", "secondary": ["dynamic anime poses", "anime action poses", "how to draw manga poses", "anime fighting poses", "anime pose ideas"], "images": ["dynamic-1", "dynamic-2", "dynamic-3", "dynamic-4", "w9", "w9d2", "w3d4"], "week": 9 },
+        { "keyword": "how to draw anime hands", "slug": "how-to-draw-anime-hands", "topic": "limbs", "secondary": ["anime hands drawing", "how to draw manga hands", "anime hand poses", "how to draw a fist"], "images": ["limbs-3", "w8d4", "cylinder-3"], "week": 8 },
+        { "keyword": "anime body proportions", "slug": "anime-body-proportions", "topic": "bodies", "secondary": ["how many heads tall is an anime character", "anime proportions chart", "manga proportions", "chibi proportions"], "images": ["w3d2", "mannequin-3", "w8d5", "w4d3"], "week": 3 },
+        { "keyword": "how to draw anime legs", "slug": "how-to-draw-anime-legs", "topic": "limbs", "secondary": ["anime legs drawing", "how to draw anime feet", "anime legs sitting", "how to draw legs from the front"], "images": ["w8d2", "limbs-2", "limbs-4", "cylinder-2"], "week": 8 },
+        { "keyword": "how to draw anime arms", "slug": "how-to-draw-anime-arms", "topic": "limbs", "secondary": ["anime arms drawing", "how to draw bent arms", "how to draw muscular arms anime"], "images": ["w8d1", "limbs-1", "w8d3", "cylinder-1", "cylinder-2", "cylinder-3"], "week": 8 },
+        { "keyword": "how to draw an anime torso", "slug": "how-to-draw-an-anime-torso", "topic": "bodies", "secondary": ["anime torso drawing", "how to draw a twisting torso", "anime chest drawing", "rib cage and pelvis drawing"], "images": ["torso-1", "torso-2", "torso-3", "w7d1", "w7d2", "w7d3", "w7d4"], "week": 7 },
+        { "keyword": "how to draw foreshortening", "slug": "how-to-draw-foreshortening", "topic": "poses", "secondary": ["foreshortening anime", "foreshortening arm drawing", "foreshortening for beginners"], "images": ["w9d4", "dynamic-3", "cylinder-2"], "week": 9 }
+      ],
+      "expand": ["how to draw anime body", "how to draw anime poses", "how to draw anime hands", "anime body proportions", "how to draw anime legs", "how to draw anime arms", "foreshortening drawing"]
+    },
+    {
+      "id": "basics",
+      "type": "tutorial",
+      "priority": 2,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to draw a box in perspective", "slug": "how-to-draw-a-box-in-perspective", "topic": "basics", "secondary": ["box method drawing", "how to draw a cube", "drawing boxes exercise", "perspective drawing for beginners"], "images": ["box-1", "box-2", "box-3", "box-rotation", "w2d1", "w2d2", "w2d3", "w2d5", "w2"], "week": 2 },
+        { "keyword": "gesture drawing for beginners", "slug": "gesture-drawing-for-beginners", "topic": "poses", "secondary": ["line of action drawing", "quick gesture drawing", "gesture drawing exercises"], "images": ["w9d1", "w9d2", "dynamic-1", "w9"], "week": 9 },
+        { "keyword": "how to draw 3d shapes", "slug": "how-to-draw-3d-shapes", "topic": "basics", "secondary": ["how to draw a cylinder", "how to draw a sphere", "drawing basic forms", "how to draw anything with basic shapes"], "images": ["w1d5", "w3d1", "block-volumes", "w1", "w3", "cylinder-2"], "week": 1 }
+      ],
+      "expand": ["how to draw a box", "loomis method", "gesture drawing", "how to draw 3d shapes", "perspective drawing"]
+    },
+    {
+      "id": "styles",
+      "type": "tutorial",
+      "priority": 2,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to draw anime", "slug": "how-to-draw-anime", "topic": "styles", "secondary": ["how to draw anime for beginners", "how to draw manga", "how to draw an anime character", "anime drawing step by step", "easy anime drawing"], "images": ["w5d5", "head-5", "w5", "w3d2", "w9"], "week": 0 },
+        { "keyword": "how to draw an anime boy", "slug": "how-to-draw-an-anime-boy", "topic": "styles", "secondary": ["anime boy drawing", "how to draw a manga boy", "anime boy face", "cool anime boy drawing"], "images": ["w5d5", "w4d5", "w9d5", "w5d4"], "week": 0 },
+        { "keyword": "how to draw an anime girl", "slug": "how-to-draw-an-anime-girl", "topic": "styles", "secondary": ["anime girl drawing", "how to draw a manga girl", "anime girl face", "cute anime girl drawing"], "images": ["w6d1", "w6d3", "w4d3", "lesson-pose"], "week": 0 },
+        { "keyword": "how to draw anime clothes", "slug": "how-to-draw-anime-clothes", "topic": "clothes", "secondary": ["how to draw clothes folds", "anime clothes drawing", "how to draw a hoodie", "anime outfits drawing"], "images": ["lesson-clothes", "w9d5", "dynamic-2", "dynamic-4", "w7"], "week": 0 }
+      ],
+      "expand": ["how to draw anime", "how to draw manga", "how to draw an anime boy", "how to draw an anime girl", "how to draw anime clothes"]
+    },
+    {
+      "id": "learn",
+      "type": "guide",
+      "priority": 3,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to learn to draw anime", "slug": "how-to-learn-to-draw-anime", "topic": "start", "secondary": ["learn to draw anime", "how to start drawing anime", "how to get better at drawing anime", "learning to draw manga", "anime drawing roadmap"], "images": ["w1", "w2", "w4", "w9", "block-exercise"], "week": 0 },
+        { "keyword": "how long does it take to learn to draw anime", "slug": "how-long-does-it-take-to-learn-to-draw-anime", "topic": "start", "secondary": ["how long to learn to draw", "how long does it take to get good at drawing", "can you learn to draw in a month"], "images": ["w1", "w9"], "week": 0 },
+        { "keyword": "how to find your art style", "slug": "how-to-find-your-art-style", "topic": "start", "secondary": ["how to develop your own anime art style", "how to make your own art style", "art style ideas"], "images": ["w5d5", "w4d3"], "week": 0 }
+      ],
+      "expand": ["how to learn to draw anime", "learn to draw manga", "how to get better at drawing", "how long does it take to learn to draw", "how to find your art style"]
+    },
+    {
+      "id": "practice",
+      "type": "guide",
+      "priority": 2,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "drawing exercises for beginners", "slug": "drawing-exercises-for-beginners", "topic": "practice", "secondary": ["daily drawing exercises", "drawing warm up exercises", "drawing practice for beginners", "anime drawing practice"], "images": ["w1d1", "w1d2", "w1d4", "w2d1", "block-warmup", "w3d4", "w9d1"], "week": 1 },
+        { "keyword": "how to practice drawing every day", "slug": "how-to-practice-drawing-every-day", "topic": "practice", "secondary": ["daily drawing routine", "how long should i practice drawing a day", "drawing practice schedule", "20 minute drawing practice"], "images": ["block-warmup", "block-volumes", "block-exercise", "block-reference"], "week": 0 },
+        { "keyword": "is tracing bad", "slug": "is-tracing-bad", "topic": "practice", "secondary": ["does tracing help you learn to draw", "tracing to learn drawing", "how to trace drawings", "is tracing cheating"], "images": ["block-reference", "w3d5"], "week": 0 },
+        { "keyword": "how to draw from reference", "slug": "how-to-draw-from-reference", "topic": "practice", "secondary": ["drawing from reference vs imagination", "how to use references for drawing", "anime pose reference"], "images": ["block-reference", "w3d5", "w9d5"], "week": 3 },
+        { "keyword": "same face syndrome", "slug": "same-face-syndrome", "topic": "practice", "secondary": ["how to fix same face syndrome", "how to draw different faces", "anime face shapes"], "images": ["w5d5", "w5d1", "w4d3"], "week": 5 },
+        { "keyword": "common anime drawing mistakes", "slug": "common-anime-drawing-mistakes", "topic": "practice", "secondary": ["beginner drawing mistakes", "manga drawing mistakes", "why do my drawings look flat"], "images": ["w2d3", "head-5", "w3d5"], "week": 0 }
+      ],
+      "expand": ["drawing exercises", "drawing practice", "is tracing", "drawing from reference", "same face syndrome", "drawing mistakes"]
+    },
+    {
+      "id": "tools",
+      "type": "guide",
+      "priority": 2,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "manga drawing supplies for beginners", "slug": "manga-drawing-supplies-for-beginners", "topic": "tools", "secondary": ["best pencils for drawing anime", "what pencil to use for drawing", "manga drawing kit", "sketchbook for drawing anime"], "images": ["w1", "block-exercise"], "week": 0 }
+      ],
+      "expand": ["drawing supplies for beginners", "best pencils for drawing"]
+    },
+    {
+      "id": "manga",
+      "type": "guide",
+      "priority": 1,
+      "allowNew": true,
+      "topics": [
+        { "keyword": "how to make a manga", "slug": "how-to-make-a-manga", "topic": "manga", "secondary": ["how to draw a manga page", "manga panels", "how to start a manga", "how to create a manga"], "images": [], "week": 0 },
+        { "keyword": "shonen vs shojo art style", "slug": "shonen-vs-shojo-art-style", "topic": "manga", "secondary": ["shonen art style", "shojo art style", "seinen vs shonen"], "images": ["w5d5"], "week": 0 },
+        { "keyword": "how to ink manga", "slug": "how-to-ink-manga", "topic": "manga", "secondary": ["manga inking", "line weight drawing", "clean lineart"], "images": [], "week": 0 }
+      ],
+      "expand": ["how to make a manga", "manga panels", "shonen vs shojo", "how to ink manga"]
+    }
+  ]
+}

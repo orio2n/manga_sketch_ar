@@ -17,6 +17,7 @@ window.SKETCHAI_EN = {
   "nav.how": "How it works",
   "nav.features": "Features",
   "nav.program": "Program",
+  "nav.tutorials": "Tutorials",
   "nav.home": "Home",
   "cta.download": "Download",
   "cta.start": "Start drawing",

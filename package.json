@@ -1,0 +1,17 @@
+{
+  "name": "sketchai-site",
+  "private": true,
+  "description": "SketchAI website: static pages plus the SEO pipeline that writes the tutorials (see seo/README.md).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "seo:gsc": "node seo/gsc-pull.mjs",
+    "seo:discover": "node seo/discover.mjs",
+    "seo:plan": "node seo/plan.mjs",
+    "seo:brief": "node seo/brief.mjs",
+    "seo:build": "node seo/build.mjs",
+    "seo:refresh": "node seo/gsc-pull.mjs && node seo/discover.mjs && node seo/plan.mjs"
+  }
+}

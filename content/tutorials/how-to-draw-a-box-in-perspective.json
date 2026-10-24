@@ -1,0 +1,152 @@
+{
+  "type": "tutorial",
+  "slug": "how-to-draw-a-box-in-perspective",
+  "topic": "basics",
+  "keyword": "how to draw a box in perspective",
+  "secondaryKeywords": ["box method drawing", "how to draw a cube", "drawing boxes exercise", "perspective drawing for beginners", "how to draw a 3d box"],
+  "title": "How to Draw a Box in Perspective (The Box Method)",
+  "metaDescription": "Learn to draw a box in perspective step by step: one face, then depth, then the hidden edges, construction lines and boxes turned in every direction.",
+  "h1": "How to draw a box in perspective, step by step",
+  "navLabel": "Box in perspective",
+  "cardText": "The box method: one face, then depth, then the full volume, turned in every direction.",
+  "summary": "To draw a box in perspective, draw one face, then add the edges that show depth, all going in a consistent direction, and close the volume with the remaining faces. Draw the hidden edges lightly to see the whole structure, and extend the edges to check that they converge. Then practice turning boxes in every direction.",
+  "level": "beginner",
+  "minutes": 25,
+  "materials": ["HB pencil", "Eraser", "Printer paper or a sketchbook"],
+  "heroImage": "w2",
+  "heroCaption": "A page of boxes turned in every direction, the classic exercise behind every solid drawing.",
+  "keyTakeaways": [
+    "Start with **one face**, add **depth** in a consistent direction, then **close the volume**.",
+    "Draw the **hidden edges** lightly, as if the box were made of glass.",
+    "Edges that are parallel on the real box **converge** toward the same point: extend them to check.",
+    "Do not chase a perfect perspective at first: watch how the faces change as the box turns."
+  ],
+  "sections": [
+    {
+      "heading": "Why artists draw so many boxes",
+      "body": [
+        "A box is the simplest shape that shows all three directions of space: width, height and depth. If you can draw a box turned any way, you can draw almost anything turned any way, because most objects and body parts fit inside a box.",
+        "In anime drawing, the box is everywhere under the surface: the pelvis is a box, the rib cage is a rounded one, a hand starts as a box and a head can be turned with a box inside it. That is why week 2 of the SketchAI program is entirely about the box method and perspective."
+      ]
+    },
+    {
+      "heading": "Perspective in two minutes",
+      "body": [
+        "Things look smaller as they get farther away, so lines that are parallel in reality seem to come closer and closer until they meet at a **vanishing point**. All the vanishing points of a scene sit on the **horizon line**, at the height of your eyes.",
+        "A box seen with one face toward you uses one vanishing point; a box seen by a corner uses two; a box seen from very high or very low adds a third. A box above the horizon shows its bottom face, and a box below it shows its top face. That is all the theory you need to start."
+      ],
+      "image": "w2d3",
+      "caption": "Edges extended into construction lines: on each box, they head toward shared vanishing points."
+    },
+    {
+      "heading": "How to draw a box step by step",
+      "body": [
+        "Draw boxes about the size of your palm, lightly, and in confident strokes. A wobbly but confident line teaches you more than a slow, careful one."
+      ],
+      "steps": [
+        {
+          "title": "Start with one face",
+          "text": "Draw a square or a rectangle for the face closest to you. It does not need to be perfect, and it can already be slightly tilted if the box is turned.",
+          "image": "box-1",
+          "caption": "One face of the box, a square slightly turned in space."
+        },
+        {
+          "title": "Add the depth",
+          "text": "From the corners of that face, draw edges going back into space, all in the same general direction. Their orientation shows how the box turns: make them get slightly closer to each other as they go back.",
+          "image": "box-2",
+          "caption": "Depth edges going back from the corners, converging slightly toward a vanishing point."
+        },
+        {
+          "title": "Close the volume",
+          "text": "Connect the ends of the depth edges to draw the back face. Then draw the hidden edges with light strokes, as if the box were made of glass, to understand the whole structure.",
+          "image": "box-3",
+          "caption": "The closed box, with its hidden edges drawn lightly."
+        },
+        {
+          "title": "Check with construction lines",
+          "text": "Extend the edges of each direction with long, light lines. Edges of the same direction should head toward the same point; if one goes its own way, correct it on top rather than erasing everything."
+        },
+        {
+          "title": "Darken the visible edges",
+          "text": "Go over the edges you can actually see with a darker line, and press a little harder on the edges closest to you. The box pops off the page."
+        },
+        {
+          "title": "Turn the box",
+          "text": "Draw the same box again, turned a little more each time. Watch how one face grows while another shrinks: that is the skill you are building, more than any exact perspective rule.",
+          "image": "box-rotation",
+          "caption": "The same box drawn five times, turning a little more each time."
+        }
+      ]
+    },
+    {
+      "heading": "Boxes from every side",
+      "body": [
+        "Once your boxes stand on the ground, draw them from above, from below and from the side. Seen from above, the top face takes more room; seen from below, the bottom face appears and the vertical edges converge upward.",
+        "Mix flat views and dramatic views on the same page. Manga uses high and low angles constantly, and boxes are the cheapest way to get used to them."
+      ],
+      "image": "w2d2",
+      "caption": "Boxes seen from above, from below and from the side."
+    },
+    {
+      "heading": "Stretched and stacked boxes",
+      "body": [
+        "Real objects are rarely cubes. Draw long boxes, flat boxes and wide boxes: a book, a plank, a phone, a bench. Stretching a box tests your perspective much more than a cube, because errors grow with the length.",
+        "Then stack boxes like building blocks, each one resting on the one below. It trains you to keep several volumes in the same perspective, the skill you need to connect a rib cage, a pelvis and limbs."
+      ],
+      "image": "w2d4",
+      "caption": "Stretched boxes: longer, flatter and wider, like planks, books and slabs."
+    },
+    {
+      "heading": "From boxes to anime characters",
+      "body": [
+        "Boxes come back in every part of character drawing. The pelvis is a box you can tilt, the palm of the hand is a flat box, and a small box inside the skull makes heads easy to turn. See the [anime body](/tutorials/how-to-draw-an-anime-body), [hands](/tutorials/how-to-draw-anime-hands) and [head from any angle](/tutorials/how-to-draw-an-anime-head-from-any-angle) tutorials to use them."
+      ],
+      "image": "head-rotation",
+      "caption": "A box inside the skull, used to turn a head and place its features."
+    },
+    {
+      "heading": "Common mistakes when drawing boxes",
+      "list": [
+        "**Edges that change direction for no reason**: edges of the same direction should all head the same way.",
+        "**Faces that do not meet**: close every corner, or the volume falls apart.",
+        "**Boxes that look flat**: draw the hidden edges and imagine the full volume, not just the visible outline.",
+        "**Edges that spread apart**: going back into space, parallel edges get closer, never farther apart.",
+        "**Chasing perfect perspective**: complicated vanishing points can wait; understand how the faces change first."
+      ],
+      "listStyle": "avoid",
+      "exercise": "Draw 10 to 20 boxes in one session, each with a different orientation, then extend the edges of five of them to check them. It is the big exercise of week 2 in the SketchAI program."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do you draw a box in perspective for beginners?",
+      "a": "Draw one face, add the depth edges going back in a consistent direction and getting slightly closer, then close the volume with the back face and draw the hidden edges lightly."
+    },
+    {
+      "q": "What is the box method in drawing?",
+      "a": "It is the habit of building objects and body parts from boxes before drawing their outline. A box shows width, height and depth, so it helps you turn anything in space."
+    },
+    {
+      "q": "How do you draw a cube?",
+      "a": "Draw a square for the front face, three edges going back from its corners in the same direction, then the back face. For a cube seen from a corner, start with the closest vertical edge instead."
+    },
+    {
+      "q": "Why do my boxes look wrong?",
+      "a": "Usually because edges that should be parallel spread apart or change direction. Extend them with light lines to see where they head, and correct the ones that go their own way."
+    },
+    {
+      "q": "How many boxes should I draw?",
+      "a": "10 to 20 per session, each turned a different way. A few minutes of boxes in every drawing session keeps your sense of volume sharp."
+    }
+  ],
+  "related": ["tutorials/how-to-draw-an-anime-body", "tutorials/how-to-draw-an-anime-head-from-any-angle", "guides/drawing-exercises-for-beginners"],
+  "programWeek": 2,
+  "cta": {
+    "headline": "A new box exercise every day",
+    "text": "Week 2 of the SketchAI program turns the box method into five short sessions with a timer: simple boxes, boxes from every side, construction lines, stretched boxes and a stack of boxes.",
+    "visual": "session"
+  },
+  "createdAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "source": "claude-code"
+}

@@ -1,0 +1,129 @@
+{
+  "type": "guide",
+  "slug": "is-tracing-bad",
+  "topic": "practice",
+  "keyword": "is tracing bad",
+  "secondaryKeywords": ["does tracing help you learn to draw", "is tracing cheating", "tracing to learn drawing", "how to trace drawings", "is it okay to trace art"],
+  "title": "Is Tracing Bad? How to Trace to Actually Learn to Draw",
+  "metaDescription": "Is tracing bad for learning to draw? What tracing teaches, what it cannot, when it becomes cheating, and a simple method to trace that improves your drawing.",
+  "h1": "Is tracing bad? How to trace and still learn to draw",
+  "navLabel": "Is tracing bad?",
+  "cardText": "What tracing teaches, what it can't, when it's cheating, and a method that makes it count.",
+  "summary": "Tracing is not bad: it is a learning tool, as long as you use it actively and never present traced art as your own original work. Trace to feel the lines and proportions of a drawing you admire, then rebuild it with its construction and draw it again freehand. What holds artists back is tracing only, not tracing itself.",
+  "level": "",
+  "minutes": 0,
+  "materials": [],
+  "heroImage": "w3d5",
+  "heroCaption": "A character from a reference, and the same pose rebuilt as simple volumes: the step that turns tracing into learning.",
+  "keyTakeaways": [
+    "Tracing for **practice** is fine; presenting traced art as your **original work** is not.",
+    "Tracing teaches **line confidence, proportions and how artists simplify**.",
+    "It does not teach **construction or drawing from imagination**: you need exercises for that.",
+    "Trace, **rebuild the construction**, then **draw it again freehand** and compare."
+  ],
+  "sections": [
+    {
+      "heading": "Is tracing cheating?",
+      "body": [
+        "It depends on what you do with the result. Tracing a drawing in your sketchbook to study it is practice, like a musician playing someone else's song. Posting a traced drawing as if you had drawn it yourself, entering it in a contest or selling it is where it becomes dishonest, and it can also break the artist's copyright.",
+        "If you share a traced study, say so and credit the original artist. In private, trace as much as you like: the question is not whether tracing is allowed, but whether it makes you better."
+      ]
+    },
+    {
+      "heading": "What tracing teaches you",
+      "body": [
+        "Tracing lets you feel how a confident line moves. Following the curve of a jaw or a lock of hair drawn by a skilled artist trains your hand to draw long, smooth strokes instead of short, hesitant ones.",
+        "It also shows you choices you would not notice by looking: how big the eyes are compared with the face, where the lines stop, which details the artist left out. For anime, where the style is mostly about simplifying, that is valuable."
+      ],
+      "list": [
+        "**Line confidence**: smooth, continuous strokes.",
+        "**Proportions**: where the features and the joints really sit.",
+        "**Simplification**: which lines a style keeps and which it drops.",
+        "**Line weight**: where artists press harder and where they lighten."
+      ],
+      "listStyle": "bullets"
+    },
+    {
+      "heading": "What tracing cannot teach you",
+      "body": [
+        "Tracing follows lines that already exist, so it skips the hardest part of drawing: deciding where the lines go. It does not teach you to build a head as a volume, to turn a body in space or to invent a pose. Artists who only trace often find they cannot draw anything without a model underneath.",
+        "That is why tracing works best next to construction exercises, like the [box in perspective](/tutorials/how-to-draw-a-box-in-perspective), the [mannequin](/tutorials/how-to-draw-an-anime-body) and the [head built in five shapes](/tutorials/how-to-draw-an-anime-face)."
+      ]
+    },
+    {
+      "heading": "How to trace so you actually learn",
+      "body": [
+        "Turn every tracing into a short study. It takes a little longer than tracing alone, and it is what makes the skill stay when the model is gone."
+      ],
+      "list": [
+        "**Pick a drawing you admire**, ideally a clean line drawing in the style you want.",
+        "**Trace it slowly but in long strokes**, paying attention to where each line starts and ends.",
+        "**Find the construction on your tracing**: the circle of the skull, the axis of the face, the line of action, the boxes of the torso and pelvis.",
+        "**Draw it again freehand** next to the tracing, starting from that construction.",
+        "**Compare the two** and note what drifted: the eyes too high, the arm too short, a stiffer curve.",
+        "**Draw it a third time from memory**, the next day if you can."
+      ],
+      "listStyle": "steps",
+      "tip": "Put the original and your freehand drawing side by side, or one on top of the other against a window, to see the differences at a glance."
+    },
+    {
+      "heading": "Tracing, copying and drawing from reference",
+      "body": [
+        "**Tracing** means drawing over the lines of an existing image. **Copying** means reproducing it freehand while looking at it. **Drawing from reference** means using an image to understand something, a pose, a fold or a light, and drawing your own version from that understanding.",
+        "All three are useful at different moments. Tracing builds line confidence, copying trains your eye to measure, and drawing from reference is how professionals work every day. A healthy routine uses all three, and more and more of the last one over time."
+      ],
+      "image": "block-reference",
+      "caption": "Drawing from reference: a character on the left, and the same pose rebuilt as volumes on the right."
+    },
+    {
+      "heading": "How SketchAI uses tracing",
+      "body": [
+        "SketchAI is built around this idea. You draw guided anime sketches with your own pencil on real paper: keep the sketch on screen as your model, or set your phone on a stand above your sheet and trace in AR mode while looking at the screen, with the opacity, size and position of the sketch under your control.",
+        "When you are done, you take a photo of your drawing and compare it with the model to see what drifted. The 9-week program then trains what tracing cannot: lines, boxes, mannequins, heads from every angle and dynamic poses, in short daily sessions."
+      ]
+    },
+    {
+      "heading": "Common tracing mistakes",
+      "list": [
+        "**Tracing without looking**: following lines mechanically while thinking of something else. Ask yourself why each line is there.",
+        "**Only tracing**: never drawing freehand afterwards, so nothing carries over to your own drawings.",
+        "**Short, scratchy strokes**: tracing in tiny pieces trains hesitation. Follow each curve in one movement.",
+        "**Skipping the construction**: tracing the outline but never the volumes that hold it together.",
+        "**Sharing traced art without credit**: always say it is a traced study and name the original artist."
+      ],
+      "listStyle": "avoid"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is tracing cheating?",
+      "a": "Not when it is practice in your sketchbook. It becomes cheating when you present traced art as your own original work, enter it in a contest or sell it."
+    },
+    {
+      "q": "Does tracing help you learn to draw?",
+      "a": "Yes, for line confidence, proportions and understanding how a style simplifies, as long as you follow it with construction and freehand drawing. Tracing alone does not teach you to draw from imagination."
+    },
+    {
+      "q": "Is it okay to post traced art?",
+      "a": "Only if you clearly say it is traced and credit the original artist. Never present it as your own original work."
+    },
+    {
+      "q": "How do I stop relying on tracing?",
+      "a": "After each tracing, find the construction and draw the same image again freehand, then from memory. Add daily exercises like boxes, mannequins and simplified heads."
+    },
+    {
+      "q": "Is using a lightbox or a tracing app bad?",
+      "a": "No. They are tools to make tracing easier. What matters is what you do around them: studying the construction and drawing again without the model."
+    }
+  ],
+  "related": ["guides/how-to-learn-to-draw-anime", "guides/drawing-exercises-for-beginners", "tutorials/how-to-draw-an-anime-face"],
+  "programWeek": 0,
+  "cta": {
+    "headline": "Trace on paper, then draw it yourself",
+    "text": "In SketchAI, you trace guided anime sketches on real paper in AR mode, compare your drawing with the model, and follow a 9-week program that builds the skills tracing alone cannot.",
+    "visual": "paper"
+  },
+  "createdAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "source": "claude-code"
+}
