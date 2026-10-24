@@ -12,6 +12,7 @@ Site statique : HTML, CSS et JavaScript sans dépendance, en français et en ang
 
 L'app ouvre `https://manga-sketch-ar.vercel.app/privacy.html` et `/tos.html` depuis son profil : en déployant ce dossier sur ce domaine, ces liens continuent de fonctionner.
 
+
 ## Lancer en local
 
 ```bash
