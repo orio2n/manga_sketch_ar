@@ -45,17 +45,19 @@ shutil.copy(nodpi / "premium_hero.webp", IMG / "premium-hero.webp")
 webp(RES / "drawable/tutorial.png", IMG / "tutorial.webp", width=760)
 
 # Store screenshots, without their caption, for the feature rows of the home page and the app cards of the
-# tutorials: the set of the 5-week program (generate_coach_variant.py, 2026-11-09). "lessons" (the Learn tab)
-# and "daily" (streak and leaderboard) are not in it: their files come from the previous set and are kept.
+# tutorials: the set of generate_coach_variant.py (output_coach), in the order of the listing, plus the two
+# screens it makes for the website only (web/).
 coach = {
-    "program": "screenshot_1_drawing_program.png",
-    "session": "screenshot_2_daily_coach.png",
-    "methods": "screenshot_3_step_by_step_methods.png",
-    "expressions": "screenshot_4_expressions.png",
-    "body": "screenshot_5_full_body.png",
-    "coach-lessons": "screenshot_6_drawing_lessons.png",
-    "characters": "screenshot_7_characters.png",
-    "progress": "screenshot_8_see_your_progress.png",
+    "characters": "screenshot_1_characters.png",
+    "lessons": "screenshot_2_learn_drawings.png",
+    "program": "screenshot_3_drawing_program.png",
+    "methods": "screenshot_4_step_by_step_methods.png",
+    "coach-lessons": "screenshot_5_drawing_lessons.png",
+    "progress": "screenshot_6_see_your_progress.png",
+    "daily": "screenshot_7_draw_every_day.png",
+    "session": "web/session.png",
+    "body": "web/body.png",
+    "expressions": "web/expressions.png",
 }
 for lang in ("fr", "en"):
     out = IMG / "screens" / lang

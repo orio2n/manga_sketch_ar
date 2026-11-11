@@ -60,7 +60,8 @@ export const TOPICS = {
 export const LEVELS = { beginner: 'Beginner', intermediate: 'Intermediate', advanced: 'Advanced' };
 
 // App screenshots an app card can show: assets/img/screens/en/<name>.webp (cropped Play Store screenshots,
-// made by tools/build_assets.py).
+// made by tools/build_assets.py). characters, progress (Gojo) and daily (the poll) show licensed characters:
+// the home page uses them, the tutorials and guides do not (seo/WRITING.md, "No franchises").
 export const SCREENS = {
     program: 'The 5-week program of SketchAI: the head, expressions, the body, poses, hands and clothes.',
     session: 'A daily session of the SketchAI program, step by step with its timer.',

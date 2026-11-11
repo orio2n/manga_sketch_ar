@@ -153,6 +153,6 @@ Dates are `YYYY-MM-DD`.
 | `related` | 0-3 page ids from the brief's list, e.g. `"tutorials/how-to-draw-an-anime-face"`. |
 | `programWeek` | The week of the SketchAI program that teaches the topic (1-5), shown on the app card; `0` if none. |
 | `appLesson` | Optional: the id of the lesson of the Exercises tab on the topic (`eyes`, `hands`...), shown on the app card. |
-| `cta` | `{ "headline" (<= 8 words), "text" (1-2 sentences: what to practice in SketchAI for this topic), "visual" }`. `visual` is the app screenshot shown: `program`, `session`, `methods`, `expressions`, `body`, `coach-lessons` (the lessons of the Exercises tab), `lessons` (the Learn tab), `characters`, `progress` or `daily`. |
+| `cta` | `{ "headline" (<= 8 words), "text" (1-2 sentences: what to practice in SketchAI for this topic), "visual" }`. `visual` is the app screenshot shown: `program`, `session`, `methods`, `expressions`, `body`, `coach-lessons` (the lessons of the Exercises tab), `lessons` (the Learn tab), `characters`, `progress` or `daily`; the last three show licensed characters, so pages use the others. |
 | `createdAt`, `updatedAt` | Creation date and last real update. |
 | `source` | `"claude-code"`. |
