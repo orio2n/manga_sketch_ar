@@ -28,7 +28,8 @@ that teaches the topic, and the pages you may link to.
 - A long-tail brief that an existing page already answers (say "how fast can you learn to draw" once the
   "how long does it take" guide exists): add its searches to that page (an `improve`) instead of writing a
   near-duplicate, then skip the brief.
-- Look at the illustrations before choosing them: open `assets/img/coach/<id>-640.webp` with the Read tool.
+- Look at the illustrations before choosing them: open `seo/.cache/coach/<id>-640.webp` with the Read tool
+  (run `python tools/extract_coach.py` first if `seo/.cache/` is empty).
   Every step, caption and alt text must match what the drawing shows. `npm run seo:brief -- --images` lists
   them all.
 - For the app card and any mention of the program, check the week with `npm run seo:brief -- --program`.
@@ -46,7 +47,8 @@ that teaches the topic, and the pages you may link to.
 
 ## 4. Build and fix
 
-Run `npm run seo:build`. Fix every ❌ error and ⚠️ warning it prints for the pages you wrote, then build
+Run `python tools/extract_coach.py` (it copies the illustrations the pages use to `assets/img/coach/`),
+then `npm run seo:build`. Fix every ❌ error and ⚠️ warning it prints for the pages you wrote, then build
 again until it is clean. ℹ️ lines list links to pages not written yet: fine when those pages are in the
 backlog, as they become links once written. Then preview a page (`python -m http.server 8417`, or the
 `site` launch configuration) and check that the steps, illustrations and captions read well, on a phone

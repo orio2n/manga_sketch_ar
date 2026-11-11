@@ -3,7 +3,10 @@
 Each step adds one part of the eye in violet over the parts already drawn, in ink, like the coach's
 illustrations. The eye is built from the same shapes in every file. Run: `python tools/eye_steps.py`.
 """
+import sys
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 OUT = Path(__file__).resolve().parent.parent / "assets/img/tutorials"
 W, H = 960, 540
@@ -15,8 +18,11 @@ OPENING = ("M300 306 C352 232 440 198 540 204 C596 206 640 222 672 246 C668 300 
 
 
 def guides(color, dash="10 9"):
-    return (f'<g fill="none" stroke="{color}" stroke-width="3" stroke-dasharray="{dash}" stroke-linecap="round">'
-            f'<path d="M170 300 H790"/><path d="M488 130 V440"/></g>')
+    """The eye line, the center of the iris and the lying almond that sets the size of the eye (the app's
+    first stage: a lying almond, a little pointier on the outer side)."""
+    return (f'<g fill="none" stroke="{color}" stroke-width="3" stroke-linecap="round">'
+            f'<g stroke-dasharray="{dash}"><path d="M170 300 H790"/><path d="M488 130 V440"/></g>'
+            f'<path d="{OPENING}"/></g>')
 
 
 def upper_lid(c):

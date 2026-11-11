@@ -13,8 +13,8 @@
   "level": "",
   "minutes": 0,
   "materials": [],
-  "heroImage": "w3d5",
-  "heroCaption": "A character from a reference, and the same pose rebuilt as simple volumes: the step that turns tracing into learning.",
+  "heroImage": "w0d1",
+  "heroCaption": "A character from a model, and the same pose rebuilt with its volumes: the step that turns tracing into learning.",
   "keyTakeaways": [
     "Tracing for **practice** is fine; presenting traced art as your **original work** is not.",
     "Tracing teaches **line confidence, proportions and how artists simplify**.",
@@ -47,7 +47,7 @@
       "heading": "What tracing cannot teach you",
       "body": [
         "Tracing follows lines that already exist, so it skips the hardest part of drawing: deciding where the lines go. It does not teach you to build a head as a volume, to turn a body in space or to invent a pose. Artists who only trace often find they cannot draw anything without a model underneath.",
-        "That is why tracing works best next to construction exercises, like the [box in perspective](/tutorials/how-to-draw-a-box-in-perspective), the [mannequin](/tutorials/how-to-draw-an-anime-body) and the [head built in five shapes](/tutorials/how-to-draw-an-anime-face)."
+        "That is why tracing works best next to construction exercises, like the [box in perspective](/tutorials/how-to-draw-a-box-in-perspective), the [mannequin](/tutorials/how-to-draw-an-anime-body) and the [head built as a volume](/tutorials/how-to-draw-an-anime-face)."
       ]
     },
     {
@@ -58,7 +58,7 @@
       "list": [
         "**Pick a drawing you admire**, ideally a clean line drawing in the style you want.",
         "**Trace it slowly but in long strokes**, paying attention to where each line starts and ends.",
-        "**Find the construction on your tracing**: the circle of the skull, the axis of the face, the line of action, the boxes of the torso and pelvis.",
+        "**Find the construction on your tracing**: the sphere of the skull, the axis of the face, the line of action, the rib cage and the pelvis.",
         "**Draw it again freehand** next to the tracing, starting from that construction.",
         "**Compare the two** and note what drifted: the eyes too high, the arm too short, a stiffer curve.",
         "**Draw it a third time from memory**, the next day if you can."
@@ -72,14 +72,14 @@
         "**Tracing** means drawing over the lines of an existing image. **Copying** means reproducing it freehand while looking at it. **Drawing from reference** means using an image to understand something, a pose, a fold or a light, and drawing your own version from that understanding.",
         "All three are useful at different moments. Tracing builds line confidence, copying trains your eye to measure, and drawing from reference is how professionals work every day. A healthy routine uses all three, and more and more of the last one over time."
       ],
-      "image": "block-reference",
-      "caption": "Drawing from reference: a character on the left, and the same pose rebuilt as volumes on the right."
+      "image": "w0d3-3",
+      "caption": "Drawing from reference: a character on the left, and the same pose rebuilt as a jointed mannequin on the right."
     },
     {
       "heading": "How SketchAI uses tracing",
       "body": [
-        "SketchAI is built around this idea. You draw guided anime sketches with your own pencil on real paper: keep the sketch on screen as your model, or set your phone on a stand above your sheet and trace in AR mode while looking at the screen, with the opacity, size and position of the sketch under your control.",
-        "When you are done, you take a photo of your drawing and compare it with the model to see what drifted. The 9-week program then trains what tracing cannot: lines, boxes, mannequins, heads from every angle and dynamic poses, in short daily sessions."
+        "SketchAI is built around this idea. Pick a character from the catalog, at your level, and draw it with the sketch on screen as your model, or trace it in AR mode.",
+        "When you are done, you take a photo of your drawing and compare it with the model to see what drifted. The 5-week program then trains what tracing cannot: the head from every angle, expressions, the body, poses, hands and clothes, in short daily sessions."
       ]
     },
     {
@@ -119,11 +119,11 @@
   "related": ["guides/how-to-learn-to-draw-anime", "guides/drawing-exercises-for-beginners", "tutorials/how-to-draw-an-anime-face"],
   "programWeek": 0,
   "cta": {
-    "headline": "Trace on paper, then draw it yourself",
-    "text": "In SketchAI, you trace guided anime sketches on real paper in AR mode, compare your drawing with the model, and follow a 9-week program that builds the skills tracing alone cannot.",
-    "visual": "paper"
+    "headline": "Trace it, then draw it yourself",
+    "text": "In SketchAI, you draw characters from the catalog with the sketch as your model, compare your drawing with it, and follow a 5-week program that builds the skills tracing alone cannot.",
+    "visual": "progress"
   },
   "createdAt": "2026-10-24",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-11-11",
   "source": "claude-code"
 }

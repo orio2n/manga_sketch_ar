@@ -1,8 +1,8 @@
 // Content JSON files (content/<type dir>/<slug>.json): loading and validation.
 import fs from 'fs';
 import path from 'path';
-import { CONTENT_DIR, LEVELS, SCREENS, TOPICS, TYPES } from '../config.mjs';
-import { image, weeks } from './images.mjs';
+import { CONTENT_DIR, LEVELS, ROOT, SCREENS, TOPICS, TYPES } from '../config.mjs';
+import { image, isCoachImage, topic, topics, weeks } from './images.mjs';
 
 export function pageId(type, slug) {
     return `${TYPES[type].dir}/${slug}`;
@@ -69,11 +69,13 @@ export function validate(page, knownIds) {
     if (page.type === 'tutorial' && !(page.sections || []).some((s) => s.steps?.length >= 3)) errors.push('a tutorial needs a section with at least 3 steps');
     if (page.level && !LEVELS[page.level]) errors.push(`unknown level "${page.level}" (one of: ${Object.keys(LEVELS).join(', ')})`);
     if (page.programWeek && !weeks().some((w) => w.number === page.programWeek)) errors.push(`no week ${page.programWeek} in the program`);
+    if (page.appLesson && !topic(page.appLesson)) errors.push(`no lesson "${page.appLesson}" in the app (one of: ${topics().map((t) => t.id).join(', ')})`);
     if (!page.cta?.headline || !page.cta?.text) errors.push('missing cta.headline or cta.text');
     if (page.cta?.visual && !SCREENS[page.cta.visual]) errors.push(`unknown cta.visual "${page.cta.visual}" (one of: ${Object.keys(SCREENS).join(', ')})`);
     const used = imageIds(page);
     for (const id of used) {
         if (!image(id)) errors.push(`unknown image "${id}" (npm run seo:brief -- --images lists them)`);
+        else if (isCoachImage(id) && !fs.existsSync(path.join(ROOT, image(id).src))) errors.push(`image "${id}" is not in assets/img/coach yet: run python tools/extract_coach.py`);
     }
     for (const id of new Set(used.filter((id, i) => used.indexOf(id) !== i))) warnings.push(`image "${id}" is used twice`);
     if (page.type === 'tutorial' && !page.heroImage) warnings.push('no heroImage: tutorials look much better with one');

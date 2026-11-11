@@ -3,8 +3,8 @@
 Brings search traffic to the site with drawing lessons that answer real searches and lead to Google Play:
 `/tutorials/*` (how to draw eyes, faces, hair, hands, bodies, poses...) and `/guides/*` (how to learn to
 draw anime, daily practice, tracing, tools, making manga). The pages look like a drawing-tutorial site, not
-like an app's landing page: the lesson comes first, illustrated with the line drawings of the app's 9-week
-program, and the app comes in once, after the steps.
+like an app's landing page: the lesson comes first, illustrated with the line drawings of the app's
+drawing coach (its 5-week program and its lessons), and the app comes in once, after the steps.
 
 ```
 gsc-pull ──┐
@@ -51,12 +51,18 @@ No dependency to install: the scripts only need Node 20 or newer.
 
 ## Notes
 
+- `/lessons/*` are not written in `content/`: the build makes them from the app's lessons (`seo/data/coach.json`),
+  as set in `seo/lessons.json` (slug, hub group, level, keyword, related pages, sentences to drop). The free lessons
+  get a page; the PRO ones a card to Google Play on the hub, unless `fullPro` is true. They follow the app: run
+  `python tools/extract_coach.py` then the build when its lessons change.
 - `content/*.json` is the source of truth; the build wipes and regenerates `tutorials/` and `guides/`, so
   never edit the HTML there. It also rewrites `sitemap.xml` and `robots.txt`.
-- The illustrations come from the app: `python tools/extract_coach.py` reads the program
-  (`CoachProgram.kt` + `strings_coach.xml`), downloads its drawings to `assets/img/coach/` and writes
-  `seo/data/coach.json`. Re-run it when the program changes, then rebuild. Other images can be added in
-  `seo/images.json` (see `seo/WRITING.md`).
+- The illustrations come from the app: `python tools/extract_coach.py` reads the program, its practice
+  track and the lessons (`CoachProgram.kt`, `CoachTopics.kt` + `strings_coach.xml`), writes
+  `seo/data/coach.json` and keeps every drawing in `seo/.cache/coach/` (git-ignored) to look at while
+  writing. It copies to `assets/img/coach/` only the drawings that `content/` uses, so run it again after
+  writing pages, then rebuild (the build fails on a missing drawing). Re-run it when the program changes.
+  Other images can be added in `seo/images.json` (see `seo/WRITING.md`).
 - `plan` keeps brief statuses between runs and drops new-page briefs a written page already covers.
   Autocomplete searches about games, AI generators, digital apps, drawing bases, kids' crafts, explicit
   content or a named franchise are ignored (`JUNK` in `seo/plan.mjs`): the pages never show official

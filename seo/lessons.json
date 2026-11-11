@@ -1,0 +1,24 @@
+{
+  "_doc": "The lessons of the app's Exercises tab, published at /lessons/<slug>/ straight from seo/data/coach.json (no content/ file: they follow the app). fullPro: false publishes the free lessons as pages and lists the PRO ones on the hub as cards to the app; true publishes them all. For each lesson (by its id in the app): slug, hub group (TOPICS.lesson in seo/config.mjs), level, the search it targets and up to 3 related pages. skip: sentences of the app that do not hold on the site (the perspective lesson still speaks of the former week 2), dropped from the pages. Read by seo/lib/lessons.mjs and tools/extract_coach.py.",
+  "fullPro": true,
+  "skip": ["The boxes of week 2 of the program"],
+  "lessons": {
+    "basics": { "slug": "drawing-basics", "topic": "basics", "level": "beginner", "keyword": "drawing basics for beginners", "related": ["guides/drawing-exercises-for-beginners", "tutorials/how-to-draw-a-box-in-perspective"] },
+    "eyes": { "slug": "manga-eyes", "topic": "faces", "level": "beginner", "keyword": "how to draw manga eyes", "related": ["tutorials/how-to-draw-anime-eyes", "tutorials/how-to-draw-an-anime-face", "tutorials/how-to-draw-anime-expressions"] },
+    "expressions": { "slug": "manga-expressions", "topic": "faces", "level": "beginner", "keyword": "manga facial expressions", "related": ["tutorials/how-to-draw-anime-expressions", "tutorials/how-to-draw-anime-eyes"] },
+    "hands": { "slug": "drawing-hands", "topic": "bodies", "level": "beginner", "keyword": "how to draw manga hands", "related": ["tutorials/how-to-draw-anime-hands", "tutorials/how-to-draw-anime-poses"] },
+    "clothes": { "slug": "drawing-clothes-and-folds", "topic": "bodies", "level": "intermediate", "keyword": "how to draw clothes folds", "related": ["tutorials/how-to-draw-an-anime-body"] },
+    "poses": { "slug": "drawing-poses", "topic": "bodies", "level": "intermediate", "keyword": "how to draw manga poses", "related": ["tutorials/how-to-draw-anime-poses", "tutorials/how-to-draw-an-anime-body"] },
+    "hair": { "slug": "drawing-hair", "topic": "faces", "level": "beginner", "keyword": "how to draw manga hair", "related": ["tutorials/how-to-draw-anime-hair"] },
+    "chibi": { "slug": "chibi", "topic": "bodies", "level": "beginner", "keyword": "how to draw chibi", "related": ["tutorials/how-to-draw-an-anime-body"] },
+    "perspective": { "slug": "perspective", "topic": "basics", "level": "intermediate", "keyword": "perspective drawing for manga", "related": ["tutorials/how-to-draw-a-box-in-perspective"] },
+    "light": { "slug": "light-and-shadow", "topic": "basics", "level": "intermediate", "keyword": "anime shading", "related": [] },
+    "inking": { "slug": "inking", "topic": "manga", "level": "intermediate", "keyword": "how to ink manga", "related": [] },
+    "feet": { "slug": "drawing-feet", "topic": "bodies", "level": "intermediate", "keyword": "how to draw manga feet", "related": ["tutorials/how-to-draw-an-anime-body"] },
+    "page": { "slug": "manga-page", "topic": "manga", "level": "intermediate", "keyword": "how to make a manga page", "related": [] },
+    "composition": { "slug": "composition-and-framing", "topic": "manga", "level": "intermediate", "keyword": "manga panel composition", "related": [] },
+    "screentones": { "slug": "black-white-and-screentones", "topic": "manga", "level": "intermediate", "keyword": "manga screentones", "related": [] },
+    "design": { "slug": "character-design", "topic": "manga", "level": "intermediate", "keyword": "manga character design", "related": [] },
+    "action": { "slug": "action-effects", "topic": "manga", "level": "intermediate", "keyword": "manga speed lines and action effects", "related": ["tutorials/how-to-draw-anime-poses"] }
+  }
+}

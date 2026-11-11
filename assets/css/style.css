@@ -272,6 +272,7 @@ button { font: inherit; color: inherit; }
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 .nav a:hover { background: rgba(255, 255, 255, 0.14); color: #fff; }
+.nav-sep { width: 1px; margin: 8px 6px; background: rgba(255, 255, 255, 0.3); }
 
 .header-actions { display: flex; align-items: center; gap: 12px; flex: none; }
 
@@ -950,6 +951,46 @@ button { font: inherit; color: inherit; }
   font-weight: 900;
 }
 
+/* The 5 weeks of the program, each with its cover and the drawing of the user's character that ends it */
+.week-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(12px, 1.6vw, 18px); margin: 0; padding: 0; list-style: none; }
+.week-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 24px 50px -24px rgba(10, 2, 30, 0.65);
+}
+.week-card > img { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #fff; border-bottom: 1px solid var(--border); }
+.week-card > div { display: flex; flex-direction: column; flex: 1; padding: 14px 16px 16px; }
+.week-card .phase-pill { align-self: flex-start; margin: 0; font-size: 10.5px; padding: 3px 9px; }
+.week-card.body .phase-pill { background: var(--phase-2); }
+.week-card h3 { margin: 9px 0 0; font-size: 17px; font-weight: 900; line-height: 1.2; }
+.week-card p { margin: 6px 0 0; font-family: var(--font-body); font-weight: 400; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.week-card .deliverable {
+  display: flex;
+  gap: 7px;
+  align-items: flex-start;
+  margin-top: auto;
+  padding-top: 12px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--violet);
+}
+.week-card .deliverable svg { width: 16px; height: 16px; flex: none; margin-top: 1px; }
+@media (max-width: 1080px) {
+  .week-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .week-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 480px) {
+  .week-cards { grid-template-columns: 1fr; max-width: 360px; margin-inline: auto; }
+}
+
 .session {
   display: grid;
   grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
@@ -997,8 +1038,8 @@ button { font: inherit; color: inherit; }
 .marquee-track { display: flex; gap: 18px; width: max-content; animation: marquee 60s linear infinite; padding-block: 12px; }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 .marquee-track img {
-  width: 240px;
-  aspect-ratio: 4 / 3;
+  width: 300px;
+  aspect-ratio: 16 / 9;
   object-fit: contain;
   flex: none;
   padding: 10px;
@@ -1015,6 +1056,76 @@ button { font: inherit; color: inherit; }
   .session { grid-template-columns: minmax(0, 300px); justify-content: center; text-align: center; }
   .session .lead { margin-inline: auto; }
   .session .blocks { margin-inline: auto; text-align: left; }
+}
+
+/* ---------- Lessons ---------- */
+.lesson-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 0; padding: 0; list-style: none; }
+.lesson-tags li {
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 6px 16px -12px rgba(34, 12, 74, 0.4);
+}
+.lesson-tags li.free { border-color: var(--green); }
+.lesson-tags li.free::before, .free-dot {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: 1px;
+}
+.lesson-note { margin: 16px 0 0; font-family: var(--font-body); font-size: 14px; color: var(--ink-3); }
+
+.btn-violet {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 13px 22px;
+  border-radius: 999px;
+  background: var(--violet);
+  color: #fff;
+  font-weight: 800;
+  font-size: 15.5px;
+  text-decoration: none;
+  box-shadow: 0 14px 26px -14px rgba(92, 52, 236, 0.9);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.btn-violet:hover { transform: translateY(-2px); background: var(--violet-deep); }
+.btn-violet svg { width: 18px; height: 18px; }
+
+/* ---------- Call to action with the program's illustration ---------- */
+.app-cta { --focus-y: 50%; }
+.app-cta-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: clamp(32px, 6vw, 80px); align-items: center; }
+.app-cta .title { font-size: clamp(32px, 4.2vw, 50px); }
+.program-art { position: relative; height: clamp(300px, 34vw, 420px); }
+.program-art img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 46%;
+  height: auto;
+  filter: drop-shadow(0 22px 30px rgba(10, 2, 30, 0.45));
+  transition: transform 0.3s ease;
+}
+.program-art img:nth-child(1) { transform: translate(-112%, -46%) rotate(-9deg); }
+.program-art img:nth-child(2) { transform: translate(12%, -46%) rotate(8deg); }
+.program-art img:nth-child(3) { transform: translate(-50%, -54%); z-index: 1; }
+.program-art .spark { position: absolute; width: 30px; height: 30px; color: var(--yellow); }
+.program-art .spark.s1 { top: 2%; left: 14%; }
+.program-art .spark.s2 { bottom: 4%; right: 8%; width: 22px; height: 22px; color: #fff; }
+@media (max-width: 900px) {
+  .app-cta-grid { grid-template-columns: 1fr; text-align: center; }
+  .app-cta .lead { margin-inline: auto; }
+  .app-cta .cta-row { justify-content: center; }
+  .program-art { height: clamp(240px, 62vw, 380px); max-width: 520px; width: 100%; margin-inline: auto; }
 }
 
 /* ---------- PRO ---------- */

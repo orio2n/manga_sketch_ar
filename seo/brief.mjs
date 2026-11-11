@@ -5,12 +5,12 @@
 //   npm run seo:brief -- --done <brief id> [<brief id>...]
 //   npm run seo:brief -- --skip <brief id> [<brief id>...]
 //   npm run seo:brief -- --images     (every illustration a page may use)
-//   npm run seo:brief -- --program    (the app's 9-week program, week by week)
+//   npm run seo:brief -- --program    (the app's 5-week program session by session, its practice track and lessons)
 import fs from 'fs';
 import path from 'path';
 import { DATA_DIR, SCREENS, TOPICS, TYPES } from './config.mjs';
 import { contentPath, loadContent, pageId } from './lib/content.mjs';
-import { image, images, imagesFor, weeks, weeksFor } from './lib/images.mjs';
+import { image, images, imagesFor, practice, topics, topicsFor, weeks, weeksFor } from './lib/images.mjs';
 import { today } from './lib/text.mjs';
 
 const argv = process.argv.slice(2);
@@ -24,19 +24,37 @@ const listAfter = (flag) => {
 };
 const BACKLOG_FILE = path.join(DATA_DIR, 'backlog.json');
 const rel = (file) => path.relative(process.cwd(), file).replace(/\\/g, '/');
-const imageLine = (id, img) => `${id}: ${img.title}${img.text ? ` (${img.text})` : ''} [${img.src}]`;
+// Coach illustrations are looked at in seo/.cache/coach/ (assets/img/coach/ only holds the ones pages use).
+const imageLine = (id, img) => `${id}: ${img.title}${img.text ? ` (${img.text})` : ''} [${img.preview || img.src}]`;
 
 if (argv.includes('--images')) {
     for (const [id, img] of Object.entries(images())) console.log(`- ${imageLine(id, img)}`);
     process.exit(0);
 }
 if (argv.includes('--program')) {
-    for (const w of weeks()) {
-        console.log(`## Week ${w.number} (phase ${w.phase}): ${w.title}. Goal: ${w.goal}`);
-        for (const d of w.days) console.log(`- ${d.id} ${d.title}: ${d.exercise}`);
+    const method = (l) => `"${l.title}"${l.image ? ` [${l.image}]` : ''}: ${[l.intro, ...l.steps.map((s) => `${s.title}: ${s.text}${s.image ? ` [${s.image}]` : ''}`), ...l.bullets, l.callout].filter(Boolean).join(' / ')}`;
+    const printWeek = (w) => {
+        console.log(`## ${w.number ? `Week ${w.number} (phase ${w.phase})` : 'Practice track'}: ${w.title}. Goal: ${w.goal}${w.deliverable ? ` Deliverable: ${w.deliverable}` : ''}`);
+        for (const d of w.days) {
+            console.log(`### ${d.id} ${d.title} (${d.minutes} min): ${d.summary}`);
+            for (const s of d.steps) {
+                console.log(`- ${s.title}${s.dayExercise ? ' (drawing of the day)' : ''}${s.images.length ? ` [${s.images.join(', ')}]` : ''}: ${s.instructions}`);
+                for (const m of s.method) console.log(`  - ${m.title}: ${m.text}`);
+                if (s.tip) console.log(`  - Tip: ${s.tip}`);
+            }
+        }
         for (const tip of w.tips) console.log(`- Tip: ${tip}`);
-        for (const l of w.lessons) console.log(`- Method "${l.title}": ${[l.intro, ...l.steps.map((s) => `${s.title}: ${s.text}`), ...l.bullets, l.callout].filter(Boolean).join(' / ')}`);
+        for (const l of w.lessons) console.log(`- Method ${method(l)}`);
         console.log('');
+    };
+    weeks().forEach(printWeek);
+    printWeek(practice());
+    console.log('## Lessons of the Exercises tab (`appLesson`)');
+    for (const t of topics()) {
+        console.log(`### ${t.id}${t.free ? ' (free)' : ' (PRO)'}: ${t.title}. ${t.summary} ${t.intro}`);
+        for (const c of t.chapters) console.log(`- Chapter ${method(c)}`);
+        for (const tip of t.tips) console.log(`- Tip: ${tip}`);
+        console.log(`- Practice (${t.practiceMinutes} min): ${t.practice}`);
     }
     process.exit(0);
 }
@@ -106,6 +124,7 @@ for (const brief of picked) {
     suggested.forEach((img) => console.log(`  - ${imageLine(img.id, img)}`));
     const programWeeks = brief.week ? weeks().filter((w) => w.number === brief.week) : weeksFor(query);
     programWeeks.forEach((w) => console.log(`- Program week ${w.number}: ${w.title} (${w.goal}) → "programWeek": ${w.number}`));
+    topicsFor(query).forEach((t) => console.log(`- App lesson "${t.title}" (${t.summary}) → "appLesson": "${t.id}"`));
     console.log('');
 }
 

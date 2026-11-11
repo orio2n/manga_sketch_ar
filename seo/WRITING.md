@@ -9,35 +9,49 @@ are good references for format and tone.
 ## Product facts (use these and nothing beyond them)
 
 SketchAI is an Android app (Google Play, Android 7.0 or newer, 16 languages) to learn to draw anime and
-manga with a pencil, on real paper.
+manga. What sells it, in this order: **a catalog of hundreds of characters to draw**, **drawings to learn
+each detail** (the Learn tab), **a 5-week exercise program** to learn the manga style, **lessons**, and
+**seeing your progress while competing with the community** by drawing every day (the daily leaderboard).
+Never pitch it as "draw on real paper", "no tablet needed" or "your own pencil": it is not a selling point.
 
-- **Sketches**: hundreds of guided sketches of anime and manga characters: shonen heroes, shojo characters,
+- **The catalog**: hundreds of guided sketches of anime and manga characters: shonen heroes, shojo characters,
   villains and chibis. Browse by style (Shonen, Shojo, Chibi, Isekai) or filter by favorite series; every
   sketch has a level (easy, mid or hard), and the feed suggests sketches from the manga the user likes. New
   characters arrive regularly: a daily poll lets users vote for the next character to draw.
-- **Lessons** (Learn tab): guided sketches for each part of a character: Eyes, Hair, Mouth, Pose, Clothes
-  and Pets.
-- **Drawing on paper**: the user draws with their own pencil in their own sketchbook; no stylus or tablet.
-  The sketch stays on screen as the model. In **AR mode**, the phone sits on a stand (a mug, a stack of
-  books) above the sheet: the camera shows the paper with the sketch on top, and the user traces while
-  looking at the screen. Tools: size, rotation, opacity, mirror, grid and screen brightness. The camera
-  image is processed on the phone; it is neither recorded nor sent.
+- **Learn tab**: guided sketches for each part of a character: Eyes, Hair, Mouth, Pose, Clothes and Pets
+  (not to be confused with the lessons of the Exercises tab, below).
+- **How the user draws** (a fact to state when a page needs it, never an argument): with a pencil, the
+  sketch on screen as the model, or traced in **AR mode** with the phone above the sheet. Tools: size,
+  rotation, opacity, mirror, grid and screen brightness. The camera image is processed on the phone; it is
+  neither recorded nor sent.
 - **Progress**: take a photo of the finished drawing and compare it with the model (hold a button to see
   the difference), rate each drawing's difficulty, keep every finished drawing in a gallery next to its
   model, and see stats (drawings finished, time spent drawing, favorite categories).
-- **Daily habit**: a streak with gentle reminders, a leaderboard of the day and of the week, and the daily
-  poll.
-- **The 9-week program** (Exercises tab): 5 sessions a week of 10 to 20 minutes, with a timer: warm-up
-  (1 min), volumes (4 min), the technical exercise of the day (11 min) and a reference study (4 min).
-  Three phases: Construction (weeks 1-3: lines and shapes, the box method and perspective, from shapes to
-  the mannequin), Heads and faces (weeks 4-6: the head as a volume, facial features, difficult angles) and
-  Body and movement (weeks 7-9: torso and pelvis, arms, legs, hands and feet, gesture and dynamic poses).
-  Each week explains its methods step by step, like a drawing book. `npm run seo:brief -- --program`
-  prints every week, exercise and method: quote them accurately.
-- **Free and PRO**: free to download. The basic sketches, lessons and the program are free; a new week of
-  the program opens every 7 days. SketchAI PRO, an optional subscription with a free trial, unlocks every
-  sketch and lesson, opens every week of the program right away (you can start at your level) and removes
-  the ads. Subscriptions are cancelled in Google Play.
+- **Community and daily habit**: a leaderboard of the day and of the week (the number of different drawings
+  each user finished and photographed; a drawing done in a few minutes does not count), a streak with
+  gentle reminders, and the daily poll.
+- **The 5-week program** (Exercises tab), a beginner manga coaching program with a short session every day
+  (3 to 14 minutes, with timers): a warm-up of 30 seconds, a method to read step by step, a drawing to
+  follow, "your turn" and a challenge. Two phases. *The face*: week 1, the head from every angle (the head
+  as a volume, the eyes, the nose, the mouth, the hair); week 2, expressions (joy, sadness, anger, surprise
+  and fear, manga codes). *The body*: week 3, the body and its proportions (proportions, the torso, the
+  arms, legs and feet, the full body); week 4, poses (the line of action, foreshortening, action poses);
+  week 5, hands and clothes (the hand in blocks, folds, hanging fabric, the outfit). Each week ends with a
+  drawing of the user's own character: their head from three angles, an expression sheet, the full body,
+  three poses that tell a story, then the complete character dressed in their signature pose.
+- **Practice** (Exercises tab, optional): "Build a character", 6 sessions to do whenever you like: volumes,
+  the box in perspective, the jointed mannequin, measuring in heads, shapes that tell the character, from
+  sketch to clean drawing.
+- **Lessons** (Exercises tab): 17 lessons on one theme each, to read in any order, each with chapters,
+  the coach's tips and an exercise: drawing basics, manga eyes, expressions, hands, clothes, poses, hair,
+  chibi, perspective, light and shadow, inking, feet, the manga page, composition, screentones, character
+  design and action effects. `npm run seo:brief -- --program` prints every session, method and lesson:
+  quote them accurately, and name a lesson in `appLesson`.
+- **Free and PRO**: free to download. The basic sketches, the program, the practice track and four
+  lessons (drawing basics, manga eyes, expressions, hands) are free; without PRO, the program opens one
+  session a day, and each week takes 7 days. SketchAI PRO, an optional subscription with a free trial,
+  unlocks every sketch and lesson, opens the whole program right away (you can start at your level) and
+  removes the ads. Subscriptions are cancelled in Google Play.
 - **Privacy**: no account, email or password. Photos of drawings stay on the phone.
 
 SketchAI does **not** give AI feedback or grade drawings, generate images, offer video lessons, work as a
@@ -75,10 +89,16 @@ SketchAI with these.
 
 ## Illustrations
 
-- Use only the images listed by `npm run seo:brief -- --images`: the line drawings of the app's program
-  (`assets/img/coach/`) and the extra images of `seo/images.json`. **Look at every image you use** (open
-  `assets/img/coach/<id>-640.webp` with the Read tool) and write captions and steps that match what it
-  really shows.
+- Use only the images listed by `npm run seo:brief -- --images`: the line drawings of the app's program,
+  practice track and lessons, and the extra images of `seo/images.json`. **Look at every image you use**
+  (open `seo/.cache/coach/<id>-640.webp` with the Read tool) and write captions and steps that match what
+  it really shows. Ids: `w1` is a week's cover, `w1d2` a session's main drawing, `w1d2-3` (and `-3b`,
+  `-3c`) the pictures of its step 3; `head-1`, `limbs-2`... the methods at the bottom of a week's page;
+  `topic-eyes` a lesson's cover and `topic-eyes-build` one of its chapters.
+- The tutorials teach the methods of the app, which have been checked: when a page and the app disagree
+  on a construction, a proportion or a landmark, follow the app.
+- After writing, run `python tools/extract_coach.py`: it copies the illustrations the pages use to
+  `assets/img/coach/` (and removes the unused ones). The build fails on a missing one.
 - A step gets the illustration that shows it, when one exists. Never use an image that shows something else
   to fill a step; a step without an image is fine. Do not use the same image twice on a page.
 - Captions: one sentence about what to notice ("The eye line wraps around the head as it turns."). They
@@ -131,7 +151,8 @@ Dates are `YYYY-MM-DD`.
 | `sections` | 5-9 `{ "heading", "body": [paragraphs], "image", "caption", "list": [items], "listStyle": "bullets" \| "steps" \| "avoid", "steps": [{ "title", "text", "image", "caption" }], "tip", "mistake", "exercise" }`. Headings as questions when they match searches. `listStyle` `steps` numbers the items, `avoid` crosses them out (a list of mistakes). A tutorial has one section with 3-9 `steps`; `tip`, `mistake` and `exercise` are one-paragraph callouts. |
 | `faq` | 4-6 `{ "q", "a" }`: real searched questions (use the secondary keywords), 1-3 sentence answers. |
 | `related` | 0-3 page ids from the brief's list, e.g. `"tutorials/how-to-draw-an-anime-face"`. |
-| `programWeek` | The week of the SketchAI program that teaches the topic (1-9), shown on the app card; `0` if none. |
-| `cta` | `{ "headline" (<= 8 words), "text" (1-2 sentences: what to practice in SketchAI for this topic), "visual" }`. `visual` is the app screenshot shown: `lessons`, `heads`, `program`, `session`, `progress`, `paper`, `characters` or `daily`. |
+| `programWeek` | The week of the SketchAI program that teaches the topic (1-5), shown on the app card; `0` if none. |
+| `appLesson` | Optional: the id of the lesson of the Exercises tab on the topic (`eyes`, `hands`...), shown on the app card. |
+| `cta` | `{ "headline" (<= 8 words), "text" (1-2 sentences: what to practice in SketchAI for this topic), "visual" }`. `visual` is the app screenshot shown: `program`, `session`, `methods`, `expressions`, `body`, `coach-lessons` (the lessons of the Exercises tab), `lessons` (the Learn tab), `characters`, `progress` or `daily`. |
 | `createdAt`, `updatedAt` | Creation date and last real update. |
 | `source` | `"claude-code"`. |

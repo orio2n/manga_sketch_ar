@@ -1,6 +1,5 @@
 /*
- * The site's behavior: French/English, the header over the hero, the store gallery and the reveal
- * on scroll. No dependency, no tracking.
+ * The site's behavior: French/English, the header over the hero and the reveal on scroll. No dependency, no tracking.
  */
 (function () {
   "use strict";
@@ -91,18 +90,5 @@
     reveals.forEach(function (el) { revealer.observe(el); });
   } else {
     reveals.forEach(function (el) { el.classList.add("in"); });
-  }
-
-  // ---------- Store gallery ----------
-
-  var gallery = document.getElementById("gallery");
-  if (gallery) {
-    document.querySelectorAll("[data-gallery]").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var card = gallery.querySelector("img");
-        var step = card ? card.getBoundingClientRect().width + 18 : 300;
-        gallery.scrollBy({ left: Number(btn.getAttribute("data-gallery")) * step, behavior: reduceMotion ? "auto" : "smooth" });
-      });
-    });
   }
 })();

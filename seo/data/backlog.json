@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T14:23:21.284Z",
+  "generatedAt": "2026-11-11T16:38:15.239Z",
   "sources": {
     "suggestions": true,
     "gsc": false
@@ -19,12 +19,15 @@
         "how to draw anime man mouth"
       ],
       "images": [
-        "w5d2",
+        "w1d4",
+        "w1d4-2",
+        "w1d4-3b",
+        "w1d4-4",
+        "w1d4-5",
         "lesson-mouth",
-        "w5d4",
-        "w6d4"
+        "w2d1-2b"
       ],
-      "week": 5,
+      "week": 1,
       "reasons": [
         "seed topic (faces, priority 3)"
       ],
@@ -50,11 +53,14 @@
         "how to draw anime boy nose easy"
       ],
       "images": [
-        "w5d2",
-        "w4d3",
-        "w5d3"
+        "w1d3",
+        "w1d3-2",
+        "w1d3-3b",
+        "w1d3-3c",
+        "w1d3-4",
+        "w1d3-5"
       ],
-      "week": 5,
+      "week": 1,
       "reasons": [
         "seed topic (faces, priority 3)"
       ],
@@ -80,12 +86,13 @@
         "how to draw an anime side view"
       ],
       "images": [
-        "w4d3",
-        "w4d5",
-        "w5d3",
-        "w6d5"
+        "w1d1-3c",
+        "w1d2-3c",
+        "w1d3-5",
+        "w1d3",
+        "w2d4-4"
       ],
-      "week": 4,
+      "week": 1,
       "reasons": [
         "seed topic (faces, priority 3)"
       ],
@@ -111,12 +118,16 @@
         "how to draw anime character legs"
       ],
       "images": [
-        "w8d2",
+        "w3d4",
+        "w3d4-2",
+        "w3d4-3",
+        "w3d4-3b",
+        "w3d4-3c",
+        "w3d4-3d",
         "limbs-2",
-        "limbs-4",
-        "cylinder-2"
+        "topic-feet-build"
       ],
-      "week": 8,
+      "week": 3,
       "reasons": [
         "seed topic (bodies, priority 3)"
       ],
@@ -142,14 +153,17 @@
         "how to draw anime arms girl"
       ],
       "images": [
-        "w8d1",
+        "w3d3",
+        "w3d3-2",
+        "w3d3-3b",
+        "w3d3-3c",
+        "w3d3-4",
         "limbs-1",
-        "w8d3",
         "cylinder-1",
         "cylinder-2",
         "cylinder-3"
       ],
-      "week": 8,
+      "week": 3,
       "reasons": [
         "seed topic (bodies, priority 3)"
       ],
@@ -175,11 +189,17 @@
         "foreshortening drawing"
       ],
       "images": [
-        "w9d4",
+        "w4d4",
+        "w4d4-1",
+        "w4d4-2",
+        "w4d4-3",
+        "w4d4-3b",
+        "w4d4-3c",
+        "w4d4-4",
         "dynamic-3",
-        "cylinder-2"
+        "topic-hands-foreshortening"
       ],
-      "week": 9,
+      "week": 4,
       "reasons": [
         "seed topic (bodies, priority 3)"
       ],
@@ -206,7 +226,7 @@
       ],
       "images": [
         "w1",
-        "w9"
+        "w5d5-4"
       ],
       "week": 0,
       "reasons": [
@@ -234,8 +254,11 @@
         "how to draw manga style art"
       ],
       "images": [
-        "w5d5",
-        "w4d3"
+        "topic-eyes-styles",
+        "w1d2-5",
+        "w1d2-5b",
+        "w1d2-5c",
+        "topic-design"
       ],
       "week": 0,
       "reasons": [
@@ -259,15 +282,17 @@
         "rib cage and pelvis drawing"
       ],
       "images": [
+        "w3d2",
+        "w3d2-1",
+        "w3d2-2",
+        "w3d2-3",
+        "w3d2-3b",
+        "w3d2-5",
         "torso-1",
-        "torso-2",
         "torso-3",
-        "w7d1",
-        "w7d2",
-        "w7d3",
-        "w7d4"
+        "mannequin-1"
       ],
-      "week": 7,
+      "week": 3,
       "reasons": [
         "seed topic (bodies, priority 3)"
       ],
@@ -293,12 +318,18 @@
         "gesture drawing app"
       ],
       "images": [
-        "w9d1",
-        "w9d2",
-        "dynamic-1",
-        "w9"
+        "w4d1",
+        "w4d1-1",
+        "w4d1-2",
+        "w4d1-3",
+        "w4d1-3b",
+        "w4d1-3c",
+        "w4d1-3d",
+        "w4d1-4",
+        "w4d1-5",
+        "dynamic-1"
       ],
-      "week": 9,
+      "week": 4,
       "reasons": [
         "seed topic (basics, priority 2)"
       ],
@@ -324,14 +355,15 @@
         "how to draw 3d shape square"
       ],
       "images": [
-        "w1d5",
-        "w3d1",
-        "block-volumes",
-        "w1",
-        "w3",
-        "cylinder-2"
+        "topic-basics",
+        "topic-basics-circles",
+        "topic-basics-cube",
+        "practice",
+        "w3d3-1",
+        "cylinder-2",
+        "w3d2-1"
       ],
-      "week": 1,
+      "week": 0,
       "reasons": [
         "seed topic (basics, priority 2)"
       ],
@@ -357,11 +389,12 @@
         "how to draw anime and manga for beginners"
       ],
       "images": [
-        "w5d5",
-        "head-5",
-        "w5",
-        "w3d2",
-        "w9"
+        "w5d5-4",
+        "w1",
+        "w1d5-4",
+        "w2d5",
+        "w3d5-4",
+        "w4d5-4"
       ],
       "week": 0,
       "reasons": [
@@ -389,10 +422,12 @@
         "how to draw anime handsome boy"
       ],
       "images": [
-        "w5d5",
-        "w4d5",
-        "w9d5",
-        "w5d4"
+        "w1",
+        "w1d1-4b",
+        "w1d5",
+        "w3d5-4",
+        "w4d5-4",
+        "w3d2-3"
       ],
       "week": 0,
       "reasons": [
@@ -420,10 +455,12 @@
         "how to draw a girl in anime with pencil"
       ],
       "images": [
-        "w6d1",
-        "w6d3",
-        "w4d3",
-        "lesson-pose"
+        "w1d1",
+        "w1d5-4",
+        "w3d5",
+        "w5d5-4",
+        "w3d2-3b",
+        "topic-hair-styles"
       ],
       "week": 0,
       "reasons": [
@@ -451,13 +488,17 @@
         "how to draw anime clothes easy"
       ],
       "images": [
-        "lesson-clothes",
-        "w9d5",
-        "dynamic-2",
-        "dynamic-4",
-        "w7"
+        "w5",
+        "w5d3",
+        "w5d4",
+        "w5d5",
+        "w5d5-2",
+        "w5d5-3",
+        "topic-clothes",
+        "topic-clothes-folds",
+        "lesson-clothes"
       ],
-      "week": 0,
+      "week": 5,
       "reasons": [
         "seed topic (styles, priority 2)"
       ],
@@ -483,9 +524,10 @@
         "drawing from a reference photo"
       ],
       "images": [
-        "block-reference",
-        "w3d5",
-        "w9d5"
+        "w0d3-3",
+        "w0d1",
+        "w1d1-4b",
+        "w3d2-4"
       ],
       "week": 3,
       "reasons": [
@@ -513,11 +555,15 @@
         "same face syndrome in manga"
       ],
       "images": [
-        "w5d5",
-        "w5d1",
-        "w4d3"
+        "w1d2-5",
+        "w1d2-5b",
+        "w1d2-5c",
+        "w1d3-4",
+        "w1d3-4b",
+        "w1d3-4c",
+        "topic-eyes-styles"
       ],
-      "week": 5,
+      "week": 1,
       "reasons": [
         "seed topic (practice, priority 2)"
       ],
@@ -542,8 +588,8 @@
         "drawing supplies for manga"
       ],
       "images": [
-        "w1",
-        "block-exercise"
+        "topic-basics",
+        "w0d1-1"
       ],
       "week": 0,
       "reasons": [
@@ -568,9 +614,9 @@
         "common mistakes drawing faces"
       ],
       "images": [
-        "w2d3",
-        "head-5",
-        "w3d5"
+        "head-3",
+        "w3d5-2",
+        "w0d3"
       ],
       "week": 0,
       "reasons": [
@@ -594,10 +640,11 @@
         "20 minute drawing practice"
       ],
       "images": [
-        "block-warmup",
-        "block-volumes",
-        "block-exercise",
-        "block-reference"
+        "w0d1-1",
+        "topic-basics",
+        "w1d1-1",
+        "w4d1-5",
+        "w3d3-1"
       ],
       "week": 0,
       "reasons": [
@@ -624,7 +671,9 @@
         "how to make an anime character in blender",
         "can anyone make a manga"
       ],
-      "images": [],
+      "images": [
+        "topic-page"
+      ],
       "week": 0,
       "reasons": [
         "seed topic (manga, priority 1)"
@@ -650,7 +699,9 @@
         "how to ink a manga panel",
         "how to ink like a manga artist"
       ],
-      "images": [],
+      "images": [
+        "topic-inking"
+      ],
       "week": 0,
       "reasons": [
         "seed topic (manga, priority 1)"
@@ -700,7 +751,7 @@
         "shonen vs shoujo art style"
       ],
       "images": [
-        "w5d5"
+        "topic-eyes-styles"
       ],
       "week": 0,
       "reasons": [

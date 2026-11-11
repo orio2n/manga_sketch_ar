@@ -10,11 +10,11 @@ from fontTools.ttLib import TTFont
 
 RES = Path(r"C:/Users/romai/AndroidStudioProjects/SketchAI/app/src/main/res")
 GEN = Path(r"C:/Users/romai/Documents/SCRIPTS/sketchai/generate_playstore")
-SITE = Path(r"C:/Users/romai/Documents/PROJETS/sketchai")
+SITE = Path(__file__).resolve().parent.parent
 IMG = SITE / "assets/img"
 FONTS = SITE / "assets/fonts"
 
-for d in (IMG / "onboarding", IMG / "program", IMG / "screens", IMG / "store", FONTS):
+for d in (IMG / "onboarding", IMG / "screens", FONTS):
     d.mkdir(parents=True, exist_ok=True)
 
 
@@ -39,28 +39,29 @@ logo.save(SITE / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
 nodpi = RES / "drawable-nodpi"
 for f in nodpi.glob("onboarding_*.webp"):
     shutil.copy(f, IMG / "onboarding" / f.name.replace("onboarding_", "").replace("_", "-"))
-for f in nodpi.glob("coach_upsell_*.webp"):
-    shutil.copy(f, IMG / "program" / f.name.replace("coach_upsell_", ""))
+# program-1..3 (the head, the body, a pose) illustrate the program on the home page. Its "What you'll
+# draw" strip is made by tools/extract_coach.py from the program's own drawings.
 shutil.copy(nodpi / "premium_hero.webp", IMG / "premium-hero.webp")
 webp(RES / "drawable/tutorial.png", IMG / "tutorial.webp", width=760)
 
-# Store screenshots: full for the gallery, without their caption for the feature rows
+# Store screenshots, without their caption, for the feature rows of the home page and the app cards of the
+# tutorials: the set of the 5-week program (generate_coach_variant.py, 2026-11-09). "lessons" (the Learn tab)
+# and "daily" (streak and leaderboard) are not in it: their files come from the previous set and are kept.
 coach = {
-    "program": "screenshot_1_coach_program.png",
-    "session": "screenshot_2_daily_session.png",
-    "heads": "screenshot_3_heads_and_bodies.png",
-    "lessons": "screenshot_4_drawing_lessons.png",
-    "characters": "screenshot_5_characters.png",
-    "progress": "screenshot_6_see_your_progress.png",
-    "daily": "screenshot_7_draw_every_day.png",
+    "program": "screenshot_1_drawing_program.png",
+    "session": "screenshot_2_daily_coach.png",
+    "methods": "screenshot_3_step_by_step_methods.png",
+    "expressions": "screenshot_4_expressions.png",
+    "body": "screenshot_5_full_body.png",
+    "coach-lessons": "screenshot_6_drawing_lessons.png",
+    "characters": "screenshot_7_characters.png",
+    "progress": "screenshot_8_see_your_progress.png",
 }
 for lang in ("fr", "en"):
     out = IMG / "screens" / lang
     out.mkdir(exist_ok=True)
     shots = {k: GEN / "output_coach" / lang / v for k, v in coach.items()}
-    shots["paper"] = GEN / "output" / lang / "screenshot_3_draw_on_paper.png"
     for name, src in shots.items():
-        webp(src, IMG / "store" / f"{name}-{lang}.webp", width=540, quality=80)
         webp(src, out / f"{name}.webp", width=720, quality=82, crop=(0, 372, 1080, 1920))
     Image.open(GEN / "output_coach" / lang / "feature_graphic_1024x500.png").convert("RGB").save(
         IMG / f"og-{lang}.jpg", quality=86, optimize=True, progressive=True

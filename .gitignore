@@ -4,3 +4,4 @@ node_modules
 # SEO pipeline
 seo/.secrets
 seo/data/autocomplete-cache.json
+seo/.cache

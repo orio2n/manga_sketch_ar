@@ -1,15 +1,18 @@
-// Renders content/ into static pages: /tutorials/<slug>/ and /guides/<slug>/ (index.html files), the two
-// hubs, sitemap.xml and robots.txt. Run after writing pages: `npm run seo:build`.
+// Renders content/ into static pages: /tutorials/<slug>/ and /guides/<slug>/ (index.html files), the app's
+// lessons into /lessons/<slug>/ (seo/lib/lessons.mjs), the hubs, sitemap.xml and robots.txt. Run after
+// writing pages: `npm run seo:build`.
 import fs from 'fs';
 import path from 'path';
 import { ROOT, SITE_URL, TOPICS, TYPES } from './config.mjs';
 import { loadContent, validate } from './lib/content.mjs';
+import { loadLessons } from './lib/lessons.mjs';
 import { renderArticle, renderHub } from './lib/render.mjs';
 import { today } from './lib/text.mjs';
 
 // --- Load and check content ---
+const lessons = loadLessons();
 const written = loadContent();
-const knownIds = new Set(written.map((p) => p.id));
+const knownIds = new Set([...written, ...lessons.pages].map((p) => p.id));
 let failed = 0;
 const pages = written.filter((page) => {
     const { errors, warnings, pending } = validate(page, knownIds);
@@ -23,6 +26,15 @@ const pages = written.filter((page) => {
     }
     return true;
 });
+// The lessons follow the app: only a missing illustration stops one (run tools/extract_coach.py).
+for (const page of lessons.pages) {
+    const errors = validate(page, knownIds).errors.filter((e) => e.includes('image'));
+    for (const e of errors) console.error(`❌ ${page.id}: ${e} (page skipped)`);
+    if (errors.length) {
+        failed += 1;
+        knownIds.delete(page.id);
+    } else pages.push(page);
+}
 
 // Pages of a type in hub order: by topic (the order of TOPICS), then oldest first.
 const topicRank = (p) => Object.keys(TOPICS[p.type]).indexOf(p.topic);
@@ -31,6 +43,7 @@ const byId = new Map(pages.map((p) => [p.id, p]));
 
 const ctx = {
     knownIds,
+    lessonsInApp: lessons.inApp,
     byId,
     footerLinks: Object.fromEntries(Object.keys(TYPES).map((type) => [type, ofType(type).slice(0, 6)])),
     // Same topic first, then same type, then the other type.

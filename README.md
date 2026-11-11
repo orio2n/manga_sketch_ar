@@ -6,10 +6,11 @@ Site statique : HTML, CSS et JavaScript sans dépendance, en français et en ang
 
 ## Pages
 
-- `index.html` : page d'accueil (hero animé, fonctionnalités, programme de 9 semaines, captures Google Play, FAQ)
+- `index.html` : page d'accueil (hero animé, le catalogue de persos, les dessins pour apprendre, le programme de 5 semaines, les 17 leçons, progrès et classement, captures Google Play, FAQ)
 - `privacy.html` : politique de confidentialité (FR + EN)
 - `tos.html` : conditions d'utilisation (FR + EN)
 - `tutorials/` et `guides/` : tutoriels et guides de dessin anime/manga en anglais, générés pour le SEO (voir plus bas)
+- `lessons/` : les 17 leçons de l'onglet Exercices de l'app, en anglais, générées directement depuis l'app (`"fullPro": false` dans `seo/lessons.json` pour ne publier que les 4 gratuites et montrer les PRO en cartes vers Google Play)
 
 L'app ouvre `https://manga-sketch-ar.vercel.app/privacy.html` et `/tos.html` depuis son profil : ce domaine redirige vers `https://sketchai.space`, où ces liens continuent de fonctionner.
 
@@ -19,7 +20,7 @@ Des pages de cours (« how to draw anime eyes », « how to learn to draw anime 
 
 - `content/` : le texte de chaque page, en JSON (la source à relire et à modifier)
 - `seo/` : le pipeline, sans dépendance (Node 20+) : mots-clés (Google Autocomplete, Search Console), backlog des pages à écrire, génération des pages, du `sitemap.xml` et du `robots.txt`. Tout est expliqué dans `seo/README.md`, et les règles d'écriture dans `seo/WRITING.md`
-- `tools/extract_coach.py` : récupère les illustrations du programme de l'app (`CoachProgram.kt`) dans `assets/img/coach/` et le programme dans `seo/data/coach.json`
+- `tools/extract_coach.py` : récupère le programme de 5 semaines et les leçons de l'app (`CoachProgram.kt`, `CoachTopics.kt`) dans `seo/data/coach.json`, leurs illustrations dans `seo/.cache/coach/` (non versionné), et copie dans `assets/img/coach/` celles qu'utilisent les pages, et les couvertures des semaines dans `assets/img/weeks/` (accueil)
 - `tools/eye_steps.py` : dessine les étapes du tutoriel sur les yeux (`assets/img/tutorials/`)
 
 Écrire de nouvelles pages : dans Claude Code, « écris les 5 prochaines pages SEO » ou `/seo-content`, puis relire `git diff content/`, et commit + push pour déployer. `npm run seo:build` régénère les pages après une modification d'un fichier de `content/`.
@@ -40,6 +41,6 @@ puis ouvrir http://localhost:8417.
 - `assets/js/lang.js` : choisit la langue avant l'affichage
 - `assets/js/i18n.js` : les textes anglais (les textes français sont ceux des pages)
 - `assets/js/main.js` : changement de langue, démo de l'onboarding, galerie, animations
-- `tools/build_assets.py` : regénère `assets/img` et `assets/fonts` depuis le projet Android et les visuels Google Play (`SCRIPTS/sketchai/generate_playstore`)
+- `tools/build_assets.py` : regénère `assets/img` et `assets/fonts` depuis le projet Android et les visuels Google Play (`SCRIPTS/sketchai/generate_playstore`) ; les captures du programme viennent de `output_coach` (visuels du programme de 5 semaines)
 
 Pour ajouter un texte traduit : ajouter `data-i18n="cle"` sur l'élément (texte français dans la page) et la traduction anglaise sous `"cle"` dans `assets/js/i18n.js`.

@@ -3,7 +3,7 @@
 // card after the steps, in the sidebar and in the footer; the rest of the page is the tutorial.
 import { LEVELS, SCREENS, SITE_NAME, SITE_URL, TOPICS, TYPES, playLink } from '../config.mjs';
 import { escapeHtml as esc, inline, plain, slugify } from './text.mjs';
-import { image, week } from './images.mjs';
+import { image, topic, week } from './images.mjs';
 
 const OG_IMAGE = `${SITE_URL}/assets/img/og-en.jpg`;
 const LOGO = `${SITE_URL}/apple-touch-icon.png`;
@@ -79,6 +79,7 @@ function footer(page, ctx) {
     </div>
     ${column('tutorial')}
     ${column('guide')}
+    ${column('lesson')}
     <div class="footer-col"><h2>${SITE_NAME}</h2><ul><li><a href="/">The app</a></li><li><a href="/privacy.html">Privacy</a></li><li><a href="/tos.html">Terms of use</a></li><li><a href="mailto:orion.extensions@gmail.com">Contact</a></li></ul></div>
   </div>
   <div class="wrap footer-bottom"><span>&copy; ${new Date().getFullYear()} ${SITE_NAME}. All rights reserved.</span><span>Google Play and the Google Play logo are trademarks of Google LLC.</span></div>
@@ -176,12 +177,14 @@ const GROUP_FROM = 12;
 function appCard(page, md) {
     const visual = page.cta.visual || 'lessons';
     const w = page.programWeek ? week(page.programWeek) : null;
+    const lesson = page.appLesson ? topic(page.appLesson) : null;
     return `<aside class="app-card" aria-label="Practice with ${SITE_NAME}">
       <div class="app-card-copy">
         <p class="app-card-kicker"><img src="/assets/img/logo.webp" alt="" width="26" height="26" loading="lazy">Practice with ${SITE_NAME}</p>
         <p class="app-card-title">${esc(page.cta.headline)}</p>
         <p>${md(page.cta.text)}</p>
         ${w ? `<p class="app-card-week"><span>Week ${w.number} of the program</span> ${esc(w.title)}: ${esc(w.goal.charAt(0).toLowerCase() + w.goal.slice(1))}</p>` : ''}
+        ${lesson ? `<p class="app-card-week"><span>${lesson.free ? 'Free lesson' : 'Lesson'}</span> ${esc(lesson.title)}: ${esc(lesson.summary.charAt(0).toLowerCase() + lesson.summary.slice(1))}</p>` : ''}
         ${playBadge(page.id, 'card')}
         <p class="fine">Free to download on Android · No account needed</p>
       </div>
@@ -193,7 +196,7 @@ function sideApp(page) {
     return `<div class="side-app">
       <img src="/assets/img/logo.webp" alt="" width="44" height="44" loading="lazy">
       <p class="side-app-title">Learn to draw with ${SITE_NAME}</p>
-      <p>Hundreds of guided anime sketches and a 9-week program, with your own pencil on real paper.</p>
+      <p>Hundreds of manga and anime characters to draw, 17 lessons, a 5-week program and a leaderboard every day.</p>
       <a class="btn" href="${playLink(page.id, 'sidebar')}" target="_blank" rel="noopener">Get the app${icon('arrow')}</a>
     </div>`;
 }
@@ -347,6 +350,21 @@ export function renderArticle(page, ctx) {
     return htmlDocument({ id: page.id, current: type.dir, title: page.title, description: page.metaDescription, canonical: SITE_URL + url, jsonLd, body, ctx, preload: hero });
 }
 
+/** The lessons left to the app (the PRO ones, unless seo/lessons.json publishes them): cards to Google Play. */
+function inAppLessons(list) {
+    const cards = list.map((l) => {
+        const im = image(l.image);
+        const thumb = im
+            ? `<img src="${im.small || im.src}" alt="" width="640" height="${Math.round((im.height * 640) / im.width)}" loading="lazy" decoding="async">`
+            : icon('pencil', 'card-mark');
+        return `<a class="card" href="${playLink('lessons', `lesson-${l.id}`)}" target="_blank" rel="noopener">
+      <div class="card-thumb">${thumb}<span class="card-level">PRO</span></div>
+      <div class="card-body"><p class="card-meta">In the app</p><h3>${esc(l.title)}</h3><p>${esc(l.summary)}</p></div>
+    </a>`;
+    }).join('');
+    return `<section class="hub-group" id="in-the-app"><h2>${list.length} more lessons in the app</h2><p class="hub-note">Read them in the Exercises tab of ${SITE_NAME}, with SketchAI PRO.</p><div class="card-grid">${cards}</div></section>`;
+}
+
 /** Index page of a section: its pages grouped by topic. `groups` = [{ topic, heading, pages }]. */
 export function renderHub(type, groups, ctx) {
     const t = TYPES[type];
@@ -363,9 +381,9 @@ export function renderHub(type, groups, ctx) {
         id: t.dir,
         programWeek: 0,
         cta: {
-            headline: 'Practice every lesson on paper',
-            text: `${SITE_NAME} gives you hundreds of guided anime sketches and a 9-week program of 10 to 20 minute sessions. Draw with your own pencil, then compare your drawing with the model.`,
-            visual: type === 'tutorial' ? 'lessons' : 'program',
+            headline: 'Practice every day in the app',
+            text: `${SITE_NAME} gives you hundreds of manga and anime characters to draw, 17 lessons and a 5-week program of short daily sessions. Compare each drawing with its model and climb the daily leaderboard.`,
+            visual: type === 'tutorial' ? 'coach-lessons' : 'program',
         },
     };
     const body = `<section class="hub-head">
@@ -381,6 +399,7 @@ export function renderHub(type, groups, ctx) {
   ${shown.length
       ? shown.map((g) => `<section class="hub-group" id="${g.topic}">${g.heading ? `<h2>${esc(g.heading)}</h2>` : ''}<div class="card-grid">${g.pages.map(card).join('')}</div></section>`).join('\n  ')
       : `<p class="hub-empty">New ${esc(t.label.toLowerCase())} are on their way. In the meantime, see the <a href="/${other.dir}/">${esc(other.label.toLowerCase())}</a>.</p>`}
+  ${type === 'lesson' && ctx.lessonsInApp?.length ? inAppLessons(ctx.lessonsInApp) : ''}
   ${appCard(hubCard, esc)}
 </div>`;
     const jsonLd = [

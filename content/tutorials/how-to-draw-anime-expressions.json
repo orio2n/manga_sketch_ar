@@ -3,160 +3,189 @@
   "slug": "how-to-draw-anime-expressions",
   "topic": "expressions",
   "keyword": "how to draw anime expressions",
-  "secondaryKeywords": ["anime facial expressions", "anime emotions drawing", "angry anime face", "crying anime face", "surprised anime face", "anime face expressions drawing"],
+  "secondaryKeywords": ["anime facial expressions", "anime emotions drawing", "angry anime face", "crying anime face", "surprised anime face", "scared anime face", "manga expressions sheet"],
   "title": "How to Draw Anime Expressions (Emotions Step by Step)",
-  "metaDescription": "Draw anime expressions step by step: the eyebrows, eyelids, pupils and mouth behind happy, angry, sad, surprised, embarrassed and determined faces.",
-  "h1": "How to draw anime expressions and emotions",
+  "metaDescription": "Draw anime expressions step by step: the eyebrows, eyelids and mouth behind joy, sadness, anger, surprise and fear, their levels, and the manga codes.",
+  "h1": "How to draw anime expressions, step by step",
   "navLabel": "Anime expressions",
-  "cardText": "Happy, angry, sad, surprised: the brows, eyes and mouth behind every anime emotion.",
-  "summary": "To draw anime expressions, keep the same head and change four things together: the eyebrows, the eyelids, the pupils and the mouth. Raised brows and wide eyes read as surprise, brows pulled down toward the nose read as anger, and raised inner brows with a wobbly mouth read as sadness. Manga then adds symbols like blush lines, sweat drops and tears.",
+  "cardText": "Build every emotion with the eyebrows, the eyelids and the mouth, then push it the manga way.",
+  "summary": "To draw an anime expression, keep the same head and build the emotion in the same order every time: the eyebrows, then the eyelids, then the mouth. Joy lifts all three, sadness drops them except the middle of the eyebrows, anger pulls them toward the middle of the face, and surprise and fear open everything. Manga then adds codes like sweat drops, veins and blushes, one or two per face.",
   "level": "beginner",
   "minutes": 30,
-  "materials": ["HB pencil", "2B pencil", "Eraser", "Printer paper or a sketchbook", "A mirror"],
-  "heroImage": "w5d4",
-  "heroCaption": "The same face with six expressions: happy, angry, sad, surprised, embarrassed and determined.",
+  "materials": ["HB pencil", "2B pencil for the final lines", "Eraser", "A mirror or your phone's camera"],
+  "heroImage": "w2",
+  "heroCaption": "The same character three ways: a laugh, an annoyed frown and a surprised little round mouth.",
   "keyTakeaways": [
-    "Change the **eyebrows, eyelids, pupils and mouth together**: the mouth alone is never enough.",
-    "Keep the **construction of the head**: an expression moves the features, not the skull.",
-    "The **eyebrows** read first, so their angle carries most of the emotion.",
-    "Manga symbols such as **blush lines, sweat drops, tears and veins** push an emotion further."
+    "Build every emotion in the same order: **the eyebrows, the eyelids, then the mouth**. The mouth alone is never enough.",
+    "An emotion is clear when **all three tell the same thing**: a smile under frowning eyebrows becomes a threatening smile.",
+    "Each emotion has **levels**: a soft smile, a big smile, a laugh. Pick the one that fits the character.",
+    "Manga codes like **sweat drops, veins and blushes** add to an expression: one or two per face is plenty."
   ],
   "sections": [
     {
       "heading": "How anime expressions work",
       "body": [
-        "An expression is a handful of features moving at the same time. Beginners often change only the mouth and wonder why the face still looks neutral: in real faces and in manga, the eyebrows and the eyelids move first and say the most.",
-        "Week 5 of the SketchAI program puts it in one tip: for expressions, work the eyebrows, eyelids, cheeks and mouth together, instead of only changing the mouth. Think of them as five levers you can push in different directions."
+        "An expression is a handful of features moving at the same time. Beginners often change only the mouth and wonder why the face still looks neutral: in real faces and in manga, the eyebrows move first and say the most, then the eyelids, then the mouth confirms the emotion.",
+        "Think of them as three levers you push in the same direction. Joy is all three going up. Sadness drops everything except the middle of the eyebrows. Anger pulls everything toward the middle of the face. Surprise and fear open everything. On top come the cheeks, the tilt of the head and the manga codes."
       ],
+      "image": "topic-expressions-trio",
+      "caption": "Anger, with all three levers in the same direction: eyebrows in a V, narrowed eyes and clenched teeth.",
       "list": [
-        "**Eyebrows**: raised, lowered, pulled together, or raised at the inner ends.",
-        "**Eyelids**: wide open, relaxed, narrowed, or closed into arcs.",
-        "**Pupils**: normal, tiny with white all around, or hidden by the lids.",
-        "**Mouth**: a line, a smile, an open shape, teeth, a wobbly curve.",
-        "**Cheeks and symbols**: blush lines, sweat drops, tears, a vein on the forehead."
+        "**The eyebrows**: the strongest element. Lowered toward the nose for anger or focus, raised in the middle for sadness or worry, very high for surprise.",
+        "**The eyelids**: wide open for surprise and fear, narrowed for anger or suspicion, closed into an arc for a big smile.",
+        "**The mouth**: corners up for joy, down for sadness, clenched teeth for anger, a round opening for surprise."
       ],
       "listStyle": "bullets"
     },
     {
       "heading": "How to draw an anime expression step by step",
       "body": [
-        "Choose one emotion before you start and look at your own face in a mirror while you make it. Then build the expression in this order, from the parts that read first to the details."
+        "Choose one emotion before you start and make it yourself in a mirror or a selfie: you will see what your eyebrows really do. Then build the expression on a head you have already constructed, so the character stays recognizable whatever they feel."
       ],
       "steps": [
         {
-          "title": "Build the head",
-          "text": "Draw the head with its vertical axis and its eye line, exactly as for a neutral face. The construction keeps the features in place, so the character stays recognizable whatever the emotion.",
-          "image": "head-4",
-          "caption": "The head built first, with its vertical axis and the eye line wrapping around it."
+          "title": "Set the eyebrows first",
+          "text": "Draw the eyebrows before the eyes. For anger, drop the inner ends toward the nose in a V, with two small creases between the brows. For sadness, lift the inner ends and drop the outer ones, like a tent. For joy, keep them relaxed and slightly arched. For surprise, raise them high and round.",
+          "image": "w2d3-1",
+          "caption": "Anger starts with the eyebrows: the inner ends drop toward the nose in a V."
         },
         {
-          "title": "Set the eyebrows",
-          "text": "Draw the eyebrows before the eyes. Lowered and pulled toward the nose for anger, raised high for surprise, raised at the inner ends for sadness or worry, relaxed and curved for happiness."
-        },
-        {
-          "title": "Shape the eyelids and the pupils",
-          "text": "Open the eyes wide for surprise or fear, narrow them for anger or suspicion, close them into upward arcs for laughter. Shrink the pupils for shock, and let the upper lid cover part of the iris for sadness, boredom or menace.",
-          "image": "w5d1",
-          "caption": "Eye shapes for different moods: round and open, sharp and angry, droopy and worried, half-closed and calm."
+          "title": "Shape the eyelids",
+          "text": "Match the eyelids to the eyebrows. In joy, the rising cheeks push the lower lid up and the eye squints, then closes into an arc in a big smile. In sadness, the upper lid drops over the iris. In anger, it comes down and straightens, and the pupils get smaller. In surprise and fear, the eyes open wide with white all around the iris.",
+          "image": "w2d1-1",
+          "caption": "Joy getting stronger: the eyes squint, then close into arcs as the smile opens."
         },
         {
           "title": "Draw the mouth",
-          "text": "Match the mouth to the eyes: a wide open smile with laughing eyes, gritted teeth with angry brows, a wobbly downturned line with sad eyes, a small round opening with a surprised look. Keep it on the center line, closer to the nose than to the chin.",
-          "image": "w5d2",
-          "caption": "Noses and mouths in many shapes: closed lines, smiles, open mouths with teeth and views from the side."
+          "text": "The mouth confirms the emotion. Its corners go up for joy, opening into a D with the flat side on top as the joy grows. They go down for sadness, in a small wobbling wave, or square when the mouth opens. Anger tightens it into a straight line or clenched teeth, and a shout opens it into a trapezoid. Surprise makes a relaxed round opening.",
+          "image": "w2d1-2b",
+          "caption": "A big smile: the mouth opens into a D showing the upper teeth, and the eyes close into arcs."
         },
         {
-          "title": "Add the cheeks and the manga symbols",
-          "text": "Add short diagonal lines on the cheeks for a blush, a drop of sweat at the temple for nerves, tears along the lower lids for sadness. Use one or two symbols, not all of them."
+          "title": "Add the cheeks and tilt the head",
+          "text": "The cheeks lift with a smile: add a small curve under the eye or a few blush lines. Then let the whole head act. A sad head drops, an angry one pushes forward, a laughing one goes back, and in fear the head sinks into the shoulders and pulls back.",
+          "image": "w2d4-3b",
+          "caption": "Fear: eyebrows lifted in the middle, a stretched mouth, a drop of sweat and the head pulling back."
+        },
+        {
+          "title": "Add one manga code",
+          "text": "Add a symbol only if it strengthens the emotion: a sweat drop for unease, a cross-shaped vein for annoyance, blush lines for embarrassment. One or two codes per face is plenty: beyond that, the emotion stops reading.",
+          "image": "w2d5-1b",
+          "caption": "An anger vein on the temple: annoyance building up, on top of a frown that already says it."
         },
         {
           "title": "Check the expression from a distance",
-          "text": "Step back or look at the drawing in a mirror. If the emotion does not read at a glance, push the eyebrows and the eyelids further before adding any detail."
+          "text": "Step back from your drawing, then cover the lower half of the face with your hand. If the emotion still reads from the eyebrows and the eyes alone, they are doing their job. If not, push them further before adding any detail."
         }
       ]
     },
     {
       "heading": "Six basic anime expressions",
       "body": [
-        "Learn these six first. Almost every other expression is a mix of two of them, like a nervous smile (happy and embarrassed) or a cold glare (angry and determined)."
+        "Learn these six first. Almost every other expression is a mix of two of them, like a nervous smile (joy and embarrassment) or a cold glare (anger held back)."
       ],
-      "image": "w6d4",
-      "caption": "Four emotions on the same character in three-quarter view: joy, anger, sadness and shock.",
+      "image": "topic-expressions-basics",
+      "caption": "Six basic emotions on six characters: joy, anger, sadness, surprise, fear and embarrassment.",
       "list": [
-        "**Happy**: eyes closed into arcs or wide and bright, relaxed raised brows, an open smile, a light blush.",
-        "**Angry**: brows pulled down toward the nose with a few wrinkles between them, narrowed eyes, gritted teeth or a tight mouth.",
-        "**Sad**: inner ends of the brows raised, drooping lids, tears along the lower lids, a wobbly downturned mouth.",
-        "**Surprised**: brows raised high, wide eyes with tiny pupils, a small round open mouth.",
-        "**Embarrassed**: eyes glancing aside, blush lines on the cheeks, a drop of sweat, a small frown.",
-        "**Determined**: low and straight brows, slightly narrowed eyes, a firm closed mouth."
+        "**Joy**: eyes closed in an arc or narrowed, cheeks raised, the mouth open wide.",
+        "**Sadness**: eyebrows raised in the middle, eyes looking down, mouth corners down, tears at the edge of the eyes.",
+        "**Anger**: low eyebrows pulled together, creases between the eyes, teeth showing.",
+        "**Surprise**: eyebrows high and rounded, eyes wide open with white all around the iris, a round open mouth.",
+        "**Fear**: like surprise, but the eyebrows lift in the middle, the pupils become tiny, the mouth stretches sideways and the head pulls back.",
+        "**Embarrassment**: eyes looking away, a blush on the cheeks, a small wavy mouth."
       ],
       "listStyle": "bullets"
     },
     {
-      "heading": "Manga symbols for emotions",
+      "heading": "How to make an emotion softer or stronger",
       "body": [
-        "Manga has a visual vocabulary that readers understand instantly. Add these symbols on top of a clear expression; they reinforce it but cannot replace it."
+        "Every emotion has levels: the same levers, pushed more or less. Pick the level that fits the personality: a reserved character rarely grins with all their teeth, and a calm one stays annoyed where a hothead shouts. In a small panel, a subtle emotion goes unnoticed, so always push a little further than you think."
       ],
+      "image": "w2d3-2d",
+      "caption": "Anger at its strongest: eyebrows very low, eyes wide and the mouth open in a shout.",
       "list": [
-        "**Blush lines**: short diagonal hatching on the cheeks, for embarrassment, affection or effort.",
-        "**Sweat drop**: a single big drop at the temple or the back of the head, for nervousness or awkwardness.",
-        "**Cross-shaped vein**: a small cross of curved lines on the forehead, for irritation.",
-        "**Tears**: drops along the lower lid, or streams down the cheeks for comic crying.",
-        "**Shadow over the eyes**: hatching across the top of the face, for gloom or menace.",
-        "**Simplified eyes**: dots, spirals or crosses, for comedy, dizziness or shock."
+        "**Joy**: a soft smile with the mouth closed, a big smile showing the upper teeth, a laugh with the eyes closed in arcs and the head thrown back, or an awkward smile with the eyebrows lifted in the middle.",
+        "**Sadness**: a pout with the lower lip pushed out, teary eyes with a line of water on the lower lid, tears running along the cheek, then sobbing with the eyes squeezed shut and the mouth square.",
+        "**Anger**: annoyed with half-closed eyes and a twisted mouth, sulking with puffed cheeks, furious with clenched teeth, then shouting with the mouth wide open.",
+        "**Surprise and fear**: astonished with a small round mouth, shocked with small pupils, worried with the eyes darting to the side, then terrified with tiny pupils, a trembling mouth and sweat on the forehead."
+      ],
+      "listStyle": "bullets",
+      "tip": "A tear follows the curve of the cheek: draw it like a drop sliding over a ball."
+    },
+    {
+      "heading": "Manga codes and comic reactions",
+      "body": [
+        "Manga has a visual language that every reader knows. These codes add to an expression; they do not replace it. In funny scenes, manga goes further: the face gets simpler and stretches. A comic reaction works best right after a serious expression."
+      ],
+      "image": "topic-expressions-codes",
+      "caption": "Four manga codes: a sweat drop, an anger vein, a blush and blank white eyes.",
+      "list": [
+        "**The sweat drop**: a big drop on the temple or behind the head, for awkwardness or unease.",
+        "**The anger vein**: a cross with curved branches on the forehead or the temple, for annoyance building up.",
+        "**The blush**: small slanted lines across the cheeks and the nose, for embarrassment, love or fever.",
+        "**Distorted eyes**: spirals for dizziness, hearts for love, stars for wonder.",
+        "**Blank eyes**: two empty ovals with no iris, for a character in shock.",
+        "**Waterfall tears**: two streams gushing from closed eyes, grief blown up for laughs.",
+        "**The simplified face**: no nose, dots or lines for eyes, a triangle mouth: the character almost turns chibi."
       ],
       "listStyle": "bullets"
     },
     {
       "heading": "Keep the character recognizable",
       "body": [
-        "An expression should change the face, not the character. Keep the shape of the skull, the jaw, the hairstyle and the eye shape, and only move the eyebrows, lids, pupils and mouth. Drawing the same character with four emotions side by side is the best test.",
-        "Exaggeration depends on the tone of your story. A comedy can squash the whole face into a scream; a quiet drama may only lower the eyelids a little. Decide how far to push before you draw. The [anime face tutorial](/tutorials/how-to-draw-an-anime-face) explains the construction that keeps everything consistent."
-      ]
+        "An expression should change the face, not the character. Keep the shape of the skull, the hairstyle and the shape of the eyes identical, and only move the eyebrows, the eyelids and the mouth. Keep their habits too: a shy character does not laugh like an arrogant one, and some characters always have slightly frowning eyebrows.",
+        "Mangaka draw an expression sheet for every main character: the same head several times, small, from the front or in three-quarter view, with a different emotion on each one. The [anime face tutorial](/tutorials/how-to-draw-an-anime-face) explains the construction that keeps everything in place, and the [anime eyes tutorial](/tutorials/how-to-draw-anime-eyes) the eyes that do most of the acting."
+      ],
+      "image": "w2d5",
+      "caption": "One character, three emotions: the same head and hairstyle, only the eyebrows, the eyes and the mouth change."
     },
     {
       "heading": "Common mistakes when drawing anime expressions",
+      "body": [
+        "When an expression does not read, the problem is almost always one of these."
+      ],
       "list": [
-        "**Only the mouth changes**: the eyes and brows stay neutral, so the face reads as blank. Move the brows first.",
-        "**Mixed signals**: angry brows with a happy mouth read as confusing unless you want a sly grin. Make every feature agree.",
-        "**Features that drift**: the eyes and mouth leave their guidelines and the character looks different. Keep the construction.",
-        "**Too many symbols**: blush, sweat, tears and veins all at once. One or two are enough.",
-        "**Timid expressions**: a slight change that nobody notices. Push it, then pull back if it is too much."
+        "**Only the mouth changes**: the eyes and brows stay neutral, so the face reads as blank. Start with the eyebrows.",
+        "**Mixed signals**: angry brows with a happy mouth read as confusing, unless you want a threatening smile. Make every feature agree.",
+        "**A smile with neutral eyes**: real joy shows in the eyes. If only the mouth smiles, the smile looks forced.",
+        "**Too many codes**: blush, sweat, tears and veins all at once. One or two are enough.",
+        "**Timid expressions**: a slight change nobody notices. Push it, then pull back if it is too much."
       ],
       "listStyle": "avoid",
-      "exercise": "Draw the same head six times in 25 minutes, one for each basic expression, starting every time with the eyebrows. It is day 4 of week 5 in the SketchAI program; on day 4 of week 6, you draw one character with four emotions while keeping the shape of the skull."
+      "exercise": "Draw 6 emotions of the same character on one page in 15 minutes, in 2 rows of 3: joy, sadness, anger, surprise, fear and a comic reaction. Keep the same head and hairstyle on all of them, start each one with the eyebrows, and use at most one manga code per face. It is the drawing that ends week 2 of the SketchAI program."
     }
   ],
   "faq": [
     {
       "q": "How do you draw anime expressions for beginners?",
-      "a": "Build the head first, then change the eyebrows, the eyelids, the pupils and the mouth together for the emotion you want, and add a manga symbol like a blush or a sweat drop if it helps."
+      "a": "Build the head first, then draw the eyebrows, the eyelids and the mouth in that order, all telling the same emotion. Add a manga code like a blush or a sweat drop only if it helps."
     },
     {
       "q": "How do you draw an angry anime face?",
-      "a": "Pull the eyebrows down toward the nose with a few wrinkles between them, narrow the eyes, shrink the pupils a little and draw gritted teeth or a tight mouth."
+      "a": "Drop the inner ends of the eyebrows toward the nose in a V with two small creases, lower and straighten the upper eyelids, shrink the pupils and draw a tight straight mouth or clenched teeth."
     },
     {
       "q": "How do you draw a crying anime face?",
-      "a": "Raise the inner ends of the eyebrows, let the eyelids droop, add tears along the lower lids or down the cheeks, and draw a wobbly, downturned mouth."
+      "a": "Lift the inner ends of the eyebrows, drop the upper lids over the irises, add a line of water on the lower lids and tears that follow the curve of the cheeks, and turn the mouth down. For sobbing, squeeze the eyes shut and open the mouth into a square."
     },
     {
-      "q": "How do you draw a surprised anime face?",
-      "a": "Raise the eyebrows high, open the eyes wide with tiny pupils and white all around, and draw a small round open mouth."
+      "q": "What is the difference between surprise and fear in anime?",
+      "a": "Both open the eyes wide. In surprise, the eyebrows go up and stay rounded and the mouth is a relaxed circle. In fear, the eyebrows lift in the middle, the pupils become tiny, the mouth stretches sideways and the head pulls back."
     },
     {
       "q": "What does the sweat drop mean in anime?",
-      "a": "A single big drop at the temple or the back of the head shows nervousness, embarrassment or awkwardness, often in a comic moment."
+      "a": "A big drop on the temple or behind the head shows awkwardness or unease, often in a comic moment."
     }
   ],
   "related": ["tutorials/how-to-draw-anime-eyes", "tutorials/how-to-draw-an-anime-face", "tutorials/how-to-draw-anime-mouths"],
-  "programWeek": 5,
+  "programWeek": 2,
+  "appLesson": "expressions",
   "cta": {
-    "headline": "Practice expressions on paper",
-    "text": "In SketchAI, week 5 of the program covers the features of the face, from pairs of eyes to noses and mouths and six expressions, and the Eyes and Mouth lessons add guided sketches to draw with your own pencil.",
-    "visual": "lessons"
+    "headline": "Practice one emotion a day",
+    "text": "Week 2 of the SketchAI program gives one emotion a day, with its four levels, then the manga codes and your character's expression sheet. The free Expressions lesson sums it all up.",
+    "visual": "expressions"
   },
   "createdAt": "2026-10-24",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-11-11",
   "source": "claude-code"
 }

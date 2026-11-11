@@ -1,6 +1,6 @@
 # SEO backlog
 
-Generated 2026-10-24 from seeds + Google Autocomplete. 438 briefs to write, 0 done or skipped.
+Generated 2026-11-11 from seeds + Google Autocomplete. 438 briefs to write, 0 done or skipped.
 
 | Score | Action | Page | Target keyword | Why |
 | ---: | --- | --- | --- | --- |

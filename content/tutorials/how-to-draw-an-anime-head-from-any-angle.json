@@ -3,144 +3,157 @@
   "slug": "how-to-draw-an-anime-head-from-any-angle",
   "topic": "heads",
   "keyword": "how to draw an anime head from any angle",
-  "secondaryKeywords": ["anime head angles", "three quarter view anime face", "anime head looking up", "anime head looking down", "loomis method anime", "head construction drawing", "how to draw anime head in different angles"],
-  "title": "How to Draw an Anime Head from Any Angle (Step by Step)",
-  "metaDescription": "Draw an anime head from any angle with a sphere and a box: curved guidelines, three-quarter views, profiles, and heads looking up or down.",
+  "secondaryKeywords": ["anime head angles", "three quarter view anime face", "anime head looking up", "anime head looking down", "loomis method anime", "head construction drawing"],
+  "title": "How to Draw an Anime Head From Any Angle (Step by Step)",
+  "metaDescription": "Draw an anime head from any angle: build it as a ball you carve, turn its axis, use a box inside the skull, then place the face from the front to the profile.",
   "h1": "How to draw an anime head from any angle",
   "navLabel": "Head angles",
-  "cardText": "Turn a sphere and a box to draw three-quarter views, profiles and heads looking up or down.",
-  "summary": "To draw an anime head from any angle, start with a sphere and turn its guidelines: the vertical axis shows where the face points and the eye line shows its tilt. Then imagine a small box inside the skull, turned the same way, and place the eyes, nose, mouth and ears on its faces. The features follow the box, so they stay consistent from view to view.",
+  "cardText": "Turn the head as a volume, then let the eyes, nose and mouth follow it, from the front to the profile.",
+  "summary": "To draw an anime head from any angle, build it as a ball you carve, always in the same 4 steps: a sphere for the skull, a slice cut off its side, a curved axis down the middle of the face, then the jaw down to the chin. Draw the axis first when the head turns: it decides where the eyes, the nose and the mouth go. For difficult angles, imagine a small box inside the skull, turned the same way, and place the features on its faces.",
   "level": "intermediate",
-  "minutes": 45,
-  "materials": ["HB pencil", "2B pencil", "Eraser", "Printer paper or a sketchbook"],
-  "heroImage": "w4",
-  "heroCaption": "Heads built as volumes and turned in every direction, some of them already with their hair.",
+  "minutes": 40,
+  "materials": ["HB pencil", "2B pencil for the final lines", "Eraser", "Printer paper or a sketchbook"],
+  "heroImage": "w1d1-2",
+  "heroCaption": "The same construction turned three ways: the skull, the side plane with the ear, the axis of the face and the jaw.",
   "keyTakeaways": [
-    "Draw a **sphere** first and turn its **guidelines**: the vertical axis shows the direction, the eye line shows the tilt.",
-    "Imagine a **box inside the skull**, turned the same way, and place the features on its faces.",
-    "When the head turns, the far side of the face gets **narrower**; when it tilts, the guidelines **curve**.",
-    "Looking up shows the **underside of the jaw**; looking down shows the **top of the skull**."
+    "Build the head in **4 steps, always the same**: the skull, the side plane, the axis of the face, the jaw and chin.",
+    "When the head turns, draw **the axis first**: it decides where the eyes, the nose and the mouth go.",
+    "The guidelines **wrap around the ball**: on a turned or tilted head, the axis and the eye line curve.",
+    "A **small box inside the skull** makes difficult angles easy: the features sit on its faces."
   ],
   "sections": [
     {
       "heading": "Why turning a head is hard",
       "body": [
         "Most people learn faces from the front and try to rotate that flat picture in their head. It works for a slight turn, then the eyes slide, the nose floats and the jaw breaks. The problem is not the features: it is the missing volume underneath.",
-        "The fix is to draw the head as a 3D object you can turn, then let the features ride on it. In the SketchAI program, the rotation exercise of week 6 exists for exactly that reason: it helps you understand difficult angles instead of memorizing a single recipe for the eyes or the jaw."
+        "The fix is to draw the head as a 3D object you can turn, then let the features ride on it. A manga head is not a flat circle: it is a ball you carve, in four steps that never change, whichever way it turns. Once you trust those four steps, an angle is just the same construction turned a little more."
       ]
     },
     {
       "heading": "How to draw a head from any angle step by step",
       "body": [
-        "Start with a slight three-quarter view, then push the angle further each time. Keep every guideline light: you will draw over them several times."
+        "Start with a slight three-quarter view, then push the angle further each time. Keep every guideline light: you will draw over them several times, and you will erase them at the end."
       ],
       "steps": [
         {
-          "title": "Draw a sphere and turn its axes",
-          "text": "Draw a circle, then a vertical line and a horizontal line that wrap around it like the lines on a ball. Where they cross is the center of the face. Move that crossing to the side to turn the head, and up or down to tilt it.",
-          "image": "w4d1",
-          "caption": "Spheres with a vertical axis and an eye line, each one turned or tilted a different way."
+          "title": "Draw the skull",
+          "text": "Draw a sphere, or a slightly egg-shaped circle, for the skull. It is the main volume: everything else hangs on it. Decide now which way the head turns and tilts, before any other line.",
+          "image": "head-1",
+          "caption": "The skull: a sphere or an egg shape, drawn in one or two light strokes."
         },
         {
-          "title": "Add the side plane and the jaw",
-          "text": "Flatten an oval on the side of the sphere for the side plane: on a turned head, it is the side you can see, and the ear will sit on it. Then hang the jaw below the sphere, from the side plane down to the chin, on the extension of the vertical axis.",
-          "image": "w4d2",
-          "caption": "From the sphere to the head: axes, then the side plane, then the jaw and the chin."
+          "title": "Cut the side plane and draw the axis",
+          "text": "Cut a slice off the side of the sphere that faces you: that flat oval is the temple, where the ear will go. Then draw the axis of the face, a curved vertical line through the middle of the face. On a turned head, it moves toward the far side and wraps around the ball.",
+          "image": "head-2",
+          "caption": "The side plane on the side of the skull, and the axis of the face curving around the ball."
+        },
+        {
+          "title": "Draw the eye line and the jaw",
+          "text": "Cross the axis with the eye line, halfway down the head: it follows the surface of the face and turns with it. Then come down from each side of the skull to the chin, on the extension of the axis. Keep the chin thin and slightly pointed.",
+          "image": "head-3",
+          "caption": "The eye line turning with the head, and the jaw from the sides of the skull to the chin."
         },
         {
           "title": "Turn a box inside the skull",
-          "text": "Imagine a small box inside the head, its front face where the eyes and nose go. Draw it turned exactly like your guidelines. It is much easier to see how a box turns than a sphere, and the box keeps the features square to each other.",
+          "text": "For a difficult angle, imagine a small box inside the head, its front face where the eyes, the nose and the mouth go. Turn it exactly like your guidelines. It is much easier to see how a box turns than a sphere, and the box keeps the features square to each other.",
           "image": "head-rotation",
-          "caption": "A box inside the skull, from the front, at three-quarters and in profile: the features sit on its faces."
+          "caption": "A box inside the skull, from three angles: the features sit on its front face and turn with it."
         },
         {
           "title": "Place the features on the turned guides",
-          "text": "Put the eyes on the eye line, the nose and the mouth on the vertical axis, and the ear on the side plane. On a three-quarter view, the far eye is narrower than the near one and partly hidden by the bridge of the nose.",
-          "image": "w4d4",
-          "caption": "Heads in three-quarter view, then seen from above or below: the features follow the turned guidelines."
-        },
-        {
-          "title": "Check the far side of the face",
-          "text": "The cheek on the far side passes in front of the far eye, and the outline of the face shows the brow, the cheekbone and the chin. Draw that outline over the sphere and the jaw instead of keeping the round shape of the skull."
+          "text": "Put the eyes on the eye line, the nose and the mouth on the axis, and the ear on the side plane. In three-quarter view, the far eye gets narrower and moves closer to the nose, the tip of the nose sticks out past the axis, and the far side of the mouth gets shorter.",
+          "image": "w1d2-3b",
+          "caption": "A head in three-quarter view: the far eye is narrower and the features follow the curved axis."
         },
         {
           "title": "Add the hair and the final lines",
-          "text": "Draw the hair around the turned skull, starting from the hairline, then go over the final lines and erase the construction. Draw the same character again from another angle to check that it stays recognizable.",
-          "image": "w6d5",
-          "caption": "One character drawn in six orientations, from the front to the back of the head."
+          "text": "Draw the hair as a mass a little bigger than the skull, then the big locks starting from the parting, wrapping around the head like the construction lines. Go over the final lines and erase the construction. Draw the same character again from another angle to check that they stay recognizable.",
+          "image": "w1d5",
+          "caption": "One character from the front, in three-quarter view and in profile, with the same hair and features."
         }
-      ]
+      ],
+      "tip": "When the head turns, draw the axis of the face before anything else: it decides where the eyes, the nose and the mouth go."
     },
     {
       "heading": "How to draw a three-quarter view",
       "body": [
-        "The three-quarter view is the most common angle in manga because it shows both the shape of the face and its features. Move the vertical axis about a quarter of the way toward the far side and curve it around the sphere.",
-        "The near eye keeps its full width, the far eye gets narrower, and the nose overlaps the far cheek. The ear moves toward the middle of the head on the near side. Keep the mouth on the curved axis, not in the middle of the face shape."
+        "The three-quarter view is the most common angle in manga because it shows both the shape of the face and its features. Move the axis about a quarter of the way toward the far side and curve it around the sphere. The side plane you see grows, and the ear moves toward the middle of the head.",
+        "The near eye keeps its shape, the far eye gets narrower and closer to the nose, and the tip of the nose overlaps the far cheek. On the far side, the outline of the face shows the brow, the cheekbone and the chin instead of the round shape of the skull."
       ],
-      "image": "w6d1",
-      "caption": "Six characters in three-quarter view, each built with the same turned guidelines."
+      "image": "w1d1-3b",
+      "caption": "A three-quarter head in three stages: the sphere, then the side plane and the curved axis, then the jaw and the chin."
+    },
+    {
+      "heading": "How to draw a head in profile",
+      "body": [
+        "In profile, the side plane faces you and the axis becomes the outline of the face: the brow, the nose, the mouth and the chin all sit on it. The jaw goes back from the chin toward the ear, which sits on the side plane, behind the middle of the head.",
+        "The eye becomes an arrowhead pointing toward the nose, with a thin oval iris, set back from the bridge of the nose. The nose comes out of the face outline as a small triangle, and the mouth leaves only a small notch under it, set back a little."
+      ],
+      "image": "w1d1-3c",
+      "caption": "A profile in three stages: the skull, the side plane with the ear, then the face outline on the axis."
     },
     {
       "heading": "How to draw a head looking up or down",
       "body": [
-        "When the head tilts back, the eye line curves upward like a smile seen from below, the underside of the jaw and the neck appear, and the nose overlaps the eyes less. The ears move down compared with the eyes.",
-        "When the head tilts down, the eye line curves the other way, the top of the skull takes more room, and the face gets shorter, with the chin tucked in. The ears move up compared with the eyes."
+        "When the head tilts down, the top of the skull takes more room, the face gets shorter and the chin tucks in. The eye line curves downward in the middle, like a U, and the ears move up compared with the eyes. A head that drops also tells an emotion: sadness, shyness, a heavy thought.",
+        "When the head tilts back, the eye line arches upward in the middle, the underside of the jaw and the neck appear, and the ears move down compared with the eyes. The nostrils and the underside of the nose show more, and the eyes look closer to the top of the face."
       ],
-      "image": "w6d2",
-      "caption": "Heads looking up, at the top, and looking down, at the bottom: the eye line and the ears move with the tilt."
+      "image": "w2d2-3",
+      "caption": "A head tilted down: the top of the skull shows more and the gaze drops."
     },
     {
       "heading": "High and low angles",
       "body": [
-        "A head can also be seen from above or below while it stays straight: that is the camera moving, not the character. A high angle makes the top of the head bigger and the chin smaller, which often reads as vulnerable or small.",
-        "A low angle shows the jaw from underneath and the nostrils, and makes the character look strong or threatening. In both cases, curve the guidelines the same way as for a head looking down or up."
-      ],
-      "image": "w6d3",
-      "caption": "The same kinds of faces from a slightly high angle, at the top, and from a low angle, at the bottom."
+        "A head can also be seen from above or below while it stays straight: that is the camera moving, not the character. Seen from above, the top of the skull and the forehead get bigger and the chin smaller, which often reads as small or vulnerable.",
+        "Seen from below, the chin and the underside of the nose are visible, the jaw looks heavier and the character looks strong or threatening. In both cases, curve the guidelines the same way as for a head tilting down or up, and keep these angles for the big moments of a story."
+      ]
     },
     {
       "heading": "Common mistakes when drawing heads at an angle",
+      "body": [
+        "Before you draw the eyes, the hair and the final outline, check that the head is correctly oriented. Most heads that look wrong at an angle were drawn as a front view and pushed sideways."
+      ],
       "list": [
         "**Straight guidelines on a turned head**: the face looks pasted on. Curve the axis and the eye line around the volume.",
-        "**Both eyes the same width**: in a three-quarter view, the far eye is always narrower.",
+        "**Both eyes the same width**: in three-quarter view, the far eye is always narrower.",
         "**Ears that never move**: they sit on the side plane and move with the turn and the tilt.",
         "**Keeping the round skull as the face outline**: on a turned head, the outline shows the brow, the cheekbone and the chin.",
         "**Memorizing one angle**: practice many small turns instead of one favorite pose."
       ],
       "listStyle": "avoid",
-      "exercise": "Invent a character, then draw their head in six orientations in 30 minutes: front, three-quarters, profile, looking up, looking down and from behind. It is the last session of week 6 in the SketchAI program."
+      "exercise": "Pick 2 finished faces from a manga or a guided sketch, find the sphere, the side plane, the axis and the jaw under each one, then draw them. Then draw one head in 1 minute, construction included, twice. It is how the SketchAI program starts, and the fastest way to stop depending on the front view."
     }
   ],
   "faq": [
     {
       "q": "How do you draw an anime head from different angles?",
-      "a": "Draw a sphere, turn its vertical axis and eye line, add the side plane and the jaw, then imagine a box inside the skull turned the same way and place the features on it."
+      "a": "Build the head in 4 steps: a sphere for the skull, the side plane, the axis of the face and the jaw. Turn the axis first, then place the eyes on the eye line, the nose and the mouth on the axis and the ear on the side plane. For difficult angles, turn a small box inside the skull."
     },
     {
       "q": "How do you draw a three-quarter view anime face?",
-      "a": "Move the vertical axis about a quarter of the way to the far side, curve it around the head, keep the near eye full width and make the far eye narrower, partly hidden by the nose."
+      "a": "Move the axis about a quarter of the way to the far side and curve it around the head. Keep the near eye full width and make the far eye narrower and closer to the nose, with the tip of the nose sticking out past the axis."
     },
     {
       "q": "How do you draw an anime head looking up?",
-      "a": "Curve the eye line upward, show the underside of the jaw and the neck, and move the ears down compared with the eyes."
+      "a": "Arch the eye line upward, show the underside of the jaw, the neck and the nostrils, and move the ears down compared with the eyes."
+    },
+    {
+      "q": "How do you draw an anime head looking down?",
+      "a": "Curve the eye line downward in the middle, give more room to the top of the skull, shorten the face, tuck the chin in and move the ears up compared with the eyes."
     },
     {
       "q": "Is the Loomis method good for anime heads?",
-      "a": "Yes. Building the head from a sphere with a side plane and a jaw, as in this tutorial, is the same idea, and it works for any style once you adapt the features."
-    },
-    {
-      "q": "Why does my face look flat when I turn the head?",
-      "a": "Usually because the guidelines stay straight. Let the axis and the eye line wrap around the sphere, and the features will turn with them."
+      "a": "Yes. Building the head from a sphere with a side plane, an axis and a jaw, as in this tutorial, is the same idea, and it works for any style once you adapt the features."
     }
   ],
-  "related": ["tutorials/how-to-draw-an-anime-face", "tutorials/how-to-draw-an-anime-side-profile", "tutorials/how-to-draw-anime-expressions"],
-  "programWeek": 6,
+  "related": ["tutorials/how-to-draw-an-anime-face", "tutorials/how-to-draw-anime-eyes", "tutorials/how-to-draw-a-box-in-perspective"],
+  "programWeek": 1,
   "cta": {
     "headline": "Turn heads with confidence",
-    "text": "Week 6 of the SketchAI program is all about difficult angles: three-quarter heads, looking up and down, high and low angles, four emotions on one character and a head in six orientations.",
-    "visual": "heads"
+    "text": "In SketchAI, week 1 of the program builds the head in four steps from three angles and ends with your own character's head from the front, in three-quarter view and in profile. Then draw finished heads from the catalog of characters.",
+    "visual": "session"
   },
   "createdAt": "2026-10-24",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-11-11",
   "source": "claude-code"
 }

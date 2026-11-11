@@ -22,6 +22,11 @@ export const TYPES = {
         dir: 'guides', label: 'Guides', eyebrow: 'Guide', hubTitle: 'Learn to draw anime & manga',
         hubIntro: 'Where to start, what to practice every day, which tools you need and how to keep improving. Practical guides for anyone learning to draw anime and manga.',
     },
+    // Not written in content/: generated from the lessons of the app (seo/lib/lessons.mjs, seo/lessons.json).
+    lesson: {
+        dir: 'lessons', label: 'Lessons', eyebrow: 'Lesson', hubTitle: 'Manga drawing lessons',
+        hubIntro: "The lessons of the SketchAI coach: one topic each, from manga eyes to hands and expressions, with illustrated chapters, the coach's tips and an exercise to do right after reading.",
+    },
 };
 
 // Topics group the pages of each type on its hub, in this order (the `topic` field of a page).
@@ -44,19 +49,28 @@ export const TOPICS = {
         tools: 'Tools & materials',
         manga: 'Making manga',
     },
+    lesson: {
+        basics: 'Basics',
+        faces: 'Faces & expressions',
+        bodies: 'Bodies, hands & poses',
+        manga: 'Making manga',
+    },
 };
 
 export const LEVELS = { beginner: 'Beginner', intermediate: 'Intermediate', advanced: 'Advanced' };
 
-// App screenshots an app card can show: assets/img/screens/en/<name>.webp (cropped Play Store screenshots).
+// App screenshots an app card can show: assets/img/screens/en/<name>.webp (cropped Play Store screenshots,
+// made by tools/build_assets.py).
 export const SCREENS = {
-    lessons: 'The Learn tab of SketchAI: lessons for poses, hair, mouths and eyes.',
-    heads: 'A method of the SketchAI program: building the head in five steps.',
-    program: 'The 9-week drawing program in SketchAI, from lines and boxes to dynamic poses.',
-    session: 'A daily session of the SketchAI program, with its timer.',
+    program: 'The 5-week program of SketchAI: the head, expressions, the body, poses, hands and clothes.',
+    session: 'A daily session of the SketchAI program, step by step with its timer.',
+    methods: 'A method of the SketchAI program: the manga eye built in four stages.',
+    expressions: 'Week 2 of the SketchAI program: expressions, one emotion a day.',
+    body: 'A session of the SketchAI program on action poses.',
+    'coach-lessons': 'The lessons of SketchAI: manga eyes, expressions, hands, clothes and poses.',
+    lessons: 'The Learn tab of SketchAI: drawings for poses, hair, mouths and eyes.',
+    characters: 'The catalog of SketchAI: shonen, shojo, chibi and isekai characters to draw.',
     progress: 'SketchAI compares the photo of your drawing with the model.',
-    paper: 'SketchAI in AR mode: the sketch over your sheet of paper, with opacity and brightness controls.',
-    characters: 'The sketch collection of SketchAI: shonen, shojo, chibi and isekai characters.',
     daily: 'Your gallery, stats, streak and the daily leaderboard in SketchAI.',
 };
 

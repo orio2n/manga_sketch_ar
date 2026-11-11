@@ -5,145 +5,189 @@
   "keyword": "how to draw anime poses",
   "secondaryKeywords": ["dynamic anime poses", "anime action poses", "how to draw manga poses", "anime fighting poses", "anime pose ideas", "line of action drawing"],
   "title": "How to Draw Anime Poses: Dynamic Poses Step by Step",
-  "metaDescription": "Learn to draw dynamic anime poses: start with a line of action, tilt the shoulders and hips, build the body with volumes and keep it balanced.",
-  "h1": "How to draw dynamic anime poses",
+  "metaDescription": "Learn to draw dynamic anime poses: a line of action first, tilted shoulders and hips, a mannequin on the curve, balance, foreshortening and action poses.",
+  "h1": "How to draw anime poses, step by step",
   "navLabel": "Anime poses",
-  "cardText": "Line of action, opposing axes, foreshortening and balance: four tools for poses that move.",
-  "summary": "To draw a dynamic anime pose, start with a curved line of action that sums up the movement, then build the body along it: tilt the shoulders and the hips in opposite directions, use simple volumes for the torso and the limbs, and check that the weight sits over the foot on the ground. Add the details only once the gesture reads from far away.",
+  "cardText": "Start with a line of action, build the mannequin on it, then add balance, depth and action.",
+  "summary": "To draw a dynamic anime pose, start with a single curve, the line of action, from the head to the foot that carries the weight. Build the mannequin on it: the spine follows the curve, the shoulders and the hips tilt against each other, the limbs carry it to the end. Then check the balance and the silhouette, and push the pose further than feels possible.",
   "level": "intermediate",
-  "minutes": 45,
-  "materials": ["HB pencil", "2B pencil", "Eraser", "Printer paper or a sketchbook", "Photos of poses for reference"],
-  "heroImage": "w9",
-  "heroCaption": "A jump drawn along one big line of action: the whole body follows the curve, from the raised hand to the feet.",
+  "minutes": 40,
+  "materials": ["HB pencil", "2B pencil for the final lines", "Eraser", "A timer and photos of people moving"],
+  "heroImage": "w4",
+  "heroCaption": "A jump that reads at a glance: the whole body follows one curve, from the raised arm to the legs.",
   "keyTakeaways": [
-    "Start every pose with a **line of action**: one curve that sums up the movement.",
-    "Tilt the **shoulders and the hips** in different directions: they are rarely both horizontal.",
-    "Build the body as a **mannequin** along the curve, then check the **balance** over the supporting foot.",
-    "Draw the gesture fast: a loose 30-second pose has more life than a careful, stiff one."
+    "Start every pose with a **line of action**, even before the head: one curve from the head to the foot carrying the weight.",
+    "The shape of the line sets the energy: **C** to push or lean, **S** for a walk or a relaxed pose, a **big arc** for action.",
+    "Tilt the **shoulders and the hips** differently, and check that the weight sits over the foot on the ground.",
+    "Fill the pose in black: if the **silhouette** still reads, the pose works."
   ],
   "sections": [
     {
       "heading": "Why poses look stiff",
       "body": [
-        "A stiff pose usually has the same problems: a straight spine, shoulders and hips perfectly level, the weight spread evenly on both legs and the arms mirroring each other. Real bodies are almost never symmetrical, and manga exaggerates that even more.",
-        "Dynamic poses come from a few tools you can apply to any character. Week 9 of the SketchAI program gathers them as four: the line of action, opposing axes, foreshortening and balance. The steps below use all four."
+        "A well-built mannequin can still look stiff. The usual causes are always the same: a straight spine, shoulders and hips perfectly level, the weight spread evenly on both legs and the arms mirroring each other. Real bodies are almost never symmetrical, and manga exaggerates that even more.",
+        "A good pose reads at a glance, even without the face or the details. The secret is not perfect anatomy: it is a clear idea, a simple movement and a believable weight. Sum up the pose in one sentence first, like \"he leaps forward\" or \"she hesitates to leave\": if you cannot say it simply, the drawing will stay vague."
       ]
     },
     {
       "heading": "How to draw an anime pose step by step",
       "body": [
-        "Have a reference at hand, a photo or yourself in a mirror, and draw lightly. Each step should take seconds, not minutes: you can always correct a construction, but you cannot add life to a stiff drawing."
+        "Have a reference at hand, a photo or yourself in a mirror, and draw lightly. Each step should take seconds, not minutes: thirty seconds are enough to know whether a pose works, and if it fails as a sketch, details will not save it."
       ],
       "steps": [
         {
-          "title": "Find the movement",
-          "text": "Decide what the character is doing and where the energy goes: a jump goes up and forward, a punch goes toward the target, a slouch sinks down. Do a few quick sketches of 30 to 60 seconds to try the idea before committing.",
-          "image": "w9d1",
-          "caption": "Quick gestures of 30 to 60 seconds: catching the movement before any detail."
+          "title": "Catch the movement",
+          "text": "Decide what the character is doing and where the energy goes: a jump goes up and forward, a punch goes toward the target, a slouch sinks down. Try the idea in a few quick sketches of a few seconds each, before committing.",
+          "image": "w4d5-1",
+          "caption": "Three actions caught in a few seconds each: a run, a jump and a punch."
         },
         {
           "title": "Draw the line of action",
-          "text": "Draw one long curve that sums up the movement, from the head down to the supporting foot. A C-curve or an S-curve works for most poses; avoid a straight vertical line, which freezes the body.",
-          "image": "dynamic-1",
-          "caption": "The line of action: one curve that runs through the whole body and carries the movement."
+          "text": "Draw a single curve from the head to the foot that carries the weight. It is the movement of the whole pose. Even a calm standing character leans a little: avoid the perfectly straight line.",
+          "image": "w4d1-2",
+          "caption": "The line of action first, then a stick figure on it, then the character: the curve runs from the head to the supporting foot."
         },
         {
-          "title": "Place the big volumes along the curve",
-          "text": "Draw the head, the rib cage and the pelvis along the line of action, following its curve. Keep them simple: an oval, an egg shape and a box are enough to see whether the pose works.",
-          "image": "w9d2",
-          "caption": "The same poses as quick gestures on the left, then rebuilt as mannequins on the right."
+          "title": "Place the big volumes on the curve",
+          "text": "Draw the spine along the line, then place the head, the rib cage and the pelvis on the curve. Keep them simple: a sphere, an egg and a box are enough to see whether the pose works.",
+          "image": "topic-poses-build",
+          "caption": "A walking character built on a curved line of action, with the volumes and the joints under the clothes."
         },
         {
           "title": "Tilt the shoulders and the hips",
-          "text": "Draw a line through the shoulders and another through the hips, and tilt them in opposite directions. When the weight rests on one leg, that hip rises and the shoulder above it drops: the pose relaxes at once.",
+          "text": "Draw a line through the shoulders and another through the hips, crossing the line of action, and tilt them differently. When the weight moves onto one leg, the hip rises on that side and the shoulders tilt the other way: that shift is enough to wake up a standing pose.",
           "image": "dynamic-2",
           "caption": "Opposing axes: the shoulder line and the hip line tilt in different directions, with the weight on one leg."
         },
         {
-          "title": "Add the limbs with cylinders",
-          "text": "Place spheres at the joints and connect them with cylinders. Bend the elbows and knees in the direction of the movement, and keep the arms and legs asymmetrical: one forward, one back.",
-          "image": "w9d3",
-          "caption": "Poses built with cylinders and simple joints: running, crouching and throwing."
+          "title": "Add the legs, then the arms",
+          "text": "Start with the leg that carries the weight: the rest of the body organizes itself around it. Then add the arms, which balance the pose. Don't let both arms or both legs do the same thing: shift the heights and change the angles.",
+          "image": "w4d5-2",
+          "caption": "The same pose as a line, then as a jointed mannequin, then as a finished character."
         },
         {
           "title": "Check the balance",
-          "text": "Find the point where the body touches the ground and check that the weight sits above it. A standing pose needs the head roughly above the supporting foot; a pose that is off balance should clearly show that the character is jumping, falling or running.",
+          "text": "Imagine a plumb line dropping from the hollow of the neck. If it lands between the feet, or over the supporting foot, the character stands. If it lands outside, the character must be walking, running or falling, and the pose must show it.",
           "image": "dynamic-4",
-          "caption": "Balance on one leg: the body's weight sits above the foot on the ground, marked with a cross."
+          "caption": "Balance on one leg: the weight of the body sits above the foot on the ground."
         },
         {
           "title": "Foreshorten what comes toward you",
-          "text": "An arm or a leg pointing at the viewer looks shorter and its end looks bigger. Build it with overlapping cylinders and ellipses instead of drawing it at its full length.",
+          "text": "An arm pointing at the viewer looks shorter because it goes into depth. Build it with its axis and short, overlapping cylinders rather than trusting its apparent length, and draw the hand bigger.",
           "image": "dynamic-3",
-          "caption": "Foreshortening: the arm pointing at the viewer is built with short, overlapping cylinders, and the hand gets bigger."
+          "caption": "Foreshortening: the arm pointing at the viewer is short, and the hand looks bigger."
         },
         {
-          "title": "Draw the character over the construction",
-          "text": "Draw the body, the clothes and the face over the mannequin, keeping the line of action visible in the final lines. Erase the construction, then darken the outline on the side of the body that carries the weight.",
-          "image": "w9d5",
-          "caption": "A fighting stance drawn over its construction: the joints are still faintly visible under the final lines."
+          "title": "Draw the character and check the silhouette",
+          "text": "Draw the body, the clothes and the face over the mannequin, keeping the line of action visible in the final lines: the back and the supporting leg follow it. Fill the pose in black in your head: if the action no longer reads, move the arms and legs away from the body.",
+          "image": "w4d5-4",
+          "caption": "One character in three poses that tell a little story: getting ready, jumping, landing."
         }
-      ]
+      ],
+      "tip": "Hair and clothes carry the movement on: make them follow the line of action, flying the opposite way to the character."
     },
     {
-      "heading": "Anime poses to practice",
+      "heading": "The four lines of action",
       "body": [
-        "Pick one family of poses per session and draw it ten times with small variations. Each one trains a different part of the body."
+        "The shape of the line sets the energy of the pose. The more curved the line, the more energy the pose has. Pick the line before anything else, then build the mannequin on it."
       ],
+      "image": "w4d1-3d",
+      "caption": "A big arc: the whole body winds up along one very curved line before the punch.",
       "list": [
-        "**The relaxed standing pose**: weight on one leg, opposing shoulders and hips, one hand in a pocket.",
-        "**Walking and running**: the arm opposite the forward leg swings forward, and the torso leans into the movement.",
-        "**Jumping**: one long curve from the hand to the feet, the knees tucked or the legs stretched.",
-        "**The fighting stance**: feet wide apart, knees bent, torso turned, one fist forward.",
-        "**Sitting and crouching**: the pelvis box tilted and the legs folded, a great test for foreshortening.",
-        "**Looking back**: the head and the shoulders turned one way, the hips the other."
+        "**The C**: one curve. The character pushes, pulls or leans.",
+        "**The S**: two curves. A walk, an elegant pose, a relaxed body.",
+        "**The I**: almost straight. A calm character, or one stretched with their whole body, as in a jump straight up.",
+        "**The big arc**: a very arched C. Action, a strike, momentum."
+      ],
+      "listStyle": "bullets"
+    },
+    {
+      "heading": "How to draw foreshortening in a pose",
+      "body": [
+        "Foreshortening is what makes a limb come at the reader. A limb coming toward you is built in four stages, with cylinders: its axis, very short since it points at you; ellipses at the ends of the cylinders, rounder as they face you; what is near drawn big, so a hand reaching at you can be as big as the head; and the front cylinder drawn first, hiding the start of the one behind.",
+        "Don't be afraid to exaggerate: a timid foreshortening just looks wrong, a pushed one looks powerful. The [foreshortening tutorial](/tutorials/how-to-draw-foreshortening) goes further with legs and views from above and below."
+      ],
+      "image": "w4d4-4",
+      "caption": "A punch thrown straight at the reader: the fist is bigger than the head and hides most of the arm.",
+      "list": [
+        "**An arm reaching at you**: a huge hand, the arm almost hidden behind it.",
+        "**A leg coming forward**: a kick at you, the sole bigger than the torso.",
+        "**Seen from above**: a big head and shoulders, tiny feet at the bottom.",
+        "**Seen from below**: huge feet and legs, a tiny head at the top."
       ],
       "listStyle": "bullets"
     },
     {
       "heading": "How to draw action and fighting poses",
       "body": [
-        "Action poses push every tool further. Use diagonal lines of action, stretch the body along them, and exaggerate the distance between the front fist or foot and the back one. A punch or a kick toward the viewer is the perfect place for foreshortening: the fist can be as big as the head.",
-        "Keep the silhouette readable: if you filled the pose with black, you should still understand the action. When limbs overlap the torso and the shape becomes a blob, turn the character or move an arm away from the body. The [foreshortening tutorial](/tutorials/how-to-draw-foreshortening) covers punches and kicks in depth."
+        "An action pose pushes everything to the max. Pick the key moment: not the middle of the move, but the instant just before, with the arm pulled back, or just after, with the punch flying. Push the line of action further than is possible, and lean the whole pose on a diagonal: it looks in motion, where a vertical pose looks still.",
+        "In every action, something goes back to balance what goes forward. Keep the silhouette readable: if you filled the pose with black, you should still understand the action."
       ],
-      "tip": "Act the pose out yourself in front of a mirror, or take a photo of a friend. Feeling where your weight goes is the fastest way to understand a pose."
+      "image": "w4d5-3",
+      "caption": "A run: the body leans forward, one arm and the opposite leg in front, one foot in the air.",
+      "list": [
+        "**Running**: the body leaning forward, one arm and the opposite leg in front, one foot in the air.",
+        "**Jumping**: the body stretched like a bow, the legs tucked or stretched behind.",
+        "**The punch**: the striking arm and its shoulder go forward, the other arm pulls back for balance.",
+        "**The kick**: the supporting leg bends, the chest leans away from the kicking leg.",
+        "**The guard**: legs apart and bent, weight low, shoulders forward: the dropped pelvis gives the feeling of stability."
+      ],
+      "listStyle": "bullets"
+    },
+    {
+      "heading": "Everyday poses to practice",
+      "body": [
+        "Pick one family of poses per session and draw it ten times with small variations. A stiff pose can often be fixed in seconds: tilt the head, shift the shoulders and bend a knee."
+      ],
+      "image": "topic-poses-keys",
+      "caption": "A relaxed standing pose: the weight on one leg, the hip raised on that side and the shoulders tilting the other way.",
+      "list": [
+        "**The relaxed standing pose**: weight on one leg, opposing shoulders and hips, one hand in a pocket.",
+        "**Walking**: one leg in front, one behind, the back knee bent and the heel lifted, the arms swinging opposite the legs.",
+        "**Sitting, relaxed**: the weight rests on the pelvis, the back rounds, the head tilts and one leg does something different from the other.",
+        "**Looking back**: the head and the shoulders turned one way, the hips the other."
+      ],
+      "listStyle": "bullets"
     },
     {
       "heading": "How to use references for poses",
       "body": [
-        "References are not cheating: they show you how a body really bends. Look at the reference for a minute, find its line of action, its shoulder and hip lines and the supporting foot, then draw only those. Copying every outline would teach you less.",
-        "Alternate timed gestures from photos with poses from imagination. After a few weeks, the poses you invent start to borrow the life of the ones you studied. Our guide on [drawing from reference](/guides/how-to-draw-from-reference) gives a full routine."
+        "References are not cheating: they show you how a body really bends. Look at the reference for a minute, find its line of action, its shoulder and hip lines and the supporting foot, then draw only those. Copying every outline would teach you less. Strike the pose yourself in a mirror or a selfie, too: you will feel where your weight goes.",
+        "Alternate quick sketches from photos with poses from imagination. After a few weeks, the poses you invent start to borrow the life of the ones you studied. Our guide on [drawing from reference](/guides/how-to-draw-from-reference) gives a full routine, and the [anime body tutorial](/tutorials/how-to-draw-an-anime-body) the mannequin under every pose."
       ]
     },
     {
       "heading": "Common mistakes when drawing anime poses",
+      "body": [
+        "Check these before you add the face and the clothes: they are much easier to fix on the line of action and the mannequin."
+      ],
       "list": [
-        "**A straight spine**: the line of action is missing, so the body looks frozen. Start with the curve.",
+        "**No line of action**: the spine is straight, so the body looks frozen. Start with the curve.",
         "**Level shoulders and hips**: tilt them in opposite directions when the weight is on one leg.",
         "**Symmetrical arms and legs**: vary the angles and the depth of each limb.",
         "**A character that tips over**: the weight is not above the supporting foot. Check the balance before adding details.",
-        "**Details too early**: drawing the face and clothes on a pose that does not work. Fix the construction first."
+        "**A timid action**: the middle of the move, on a vertical. Pick the moment before or after, and lean the pose on a diagonal."
       ],
       "listStyle": "avoid",
-      "exercise": "Set a timer and do 10 quick gestures of 30 to 60 seconds each from photos, then turn five of them into mannequins with the torso and pelvis as volumes. It is how week 9 of the SketchAI program starts."
+      "exercise": "Set a timer and draw 4 poses in 30 seconds each from photos or people around you, only the line of action. Then draw one character in 3 poses that tell a little story, before, during and after a jump, starting with the 3 lines of action side by side. It is how week 4 of the SketchAI program starts and ends."
     }
   ],
   "faq": [
     {
       "q": "How do you draw anime poses for beginners?",
-      "a": "Start with a line of action, place the head, rib cage and pelvis along it, tilt the shoulders and hips in opposite directions, add the limbs as cylinders and check the balance. Draw the details last."
+      "a": "Start with a line of action from the head to the supporting foot, place the head, the rib cage and the pelvis on it, tilt the shoulders and hips differently, add the legs then the arms, and check the balance. Draw the details last."
     },
     {
       "q": "What is a line of action in drawing?",
-      "a": "It is one curve that sums up the movement of the whole body, usually from the head to the supporting foot. Building the body along it keeps the pose from being straight and stiff."
+      "a": "It is a single curve that sums up the movement of the whole body, from the head to the foot carrying the weight. A C pushes or leans, an S walks or relaxes, an almost straight I stretches, and a big arc strikes."
     },
     {
       "q": "How do you make a pose look dynamic?",
-      "a": "Curve the line of action, tilt the shoulders and hips differently, make the limbs asymmetrical and use foreshortening for anything that comes toward the viewer."
+      "a": "Curve the line of action more, tilt the shoulders and hips differently, make the limbs asymmetrical, lean the pose on a diagonal and use foreshortening for anything that comes toward the viewer."
     },
     {
       "q": "How do you draw anime fighting poses?",
-      "a": "Use a wide stance with bent knees, a torso turned away from the front fist, a diagonal line of action and foreshortening on the punch or kick. Keep the silhouette readable."
+      "a": "Pick the moment just before or just after the blow, push the line of action, send the striking arm and its shoulder forward while the other arm pulls back, and keep the silhouette readable."
     },
     {
       "q": "Should I use references to draw poses?",
@@ -151,13 +195,14 @@
     }
   ],
   "related": ["tutorials/how-to-draw-an-anime-body", "tutorials/how-to-draw-foreshortening", "tutorials/how-to-draw-anime-hands"],
-  "programWeek": 9,
+  "programWeek": 4,
+  "appLesson": "poses",
   "cta": {
     "headline": "Train your poses every day",
-    "text": "Week 9 of the SketchAI program turns these four tools into five short sessions: quick gestures, gestures rebuilt as mannequins, cylinders and joints, foreshortening, then three full poses from references.",
-    "visual": "session"
+    "text": "Week 4 of the SketchAI program gives the line of action, foreshortening and action poses a session each, and ends with your character in three poses that tell a story. The Poses lesson adds the four keys to a living pose.",
+    "visual": "body"
   },
   "createdAt": "2026-10-24",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-11-11",
   "source": "claude-code"
 }
